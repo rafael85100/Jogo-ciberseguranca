@@ -13254,6 +13254,16 @@
       "name": "m4",
       "type": "number",
       "value": 150
+    },
+    {
+      "name": "mult_hp",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "name": "mult_dano",
+      "type": "number",
+      "value": 1
     }
   ],
   "layouts": [
@@ -99359,7 +99369,7 @@
               "parameters": [
                 "bar_vida_play",
                 "-",
-                "15",
+                "15 * mult_dano",
                 ""
               ]
             },
@@ -99445,7 +99455,7 @@
               "parameters": [
                 "bar_vida_play",
                 "-",
-                "15",
+                "15 * mult_dano",
                 ""
               ]
             },
@@ -99531,7 +99541,7 @@
               "parameters": [
                 "bar_vida_play",
                 "-",
-                "15",
+                "15 * mult_dano",
                 ""
               ]
             },
@@ -99617,7 +99627,7 @@
               "parameters": [
                 "bar_vida_play",
                 "-",
-                "15",
+                "15 * mult_dano",
                 ""
               ]
             },
@@ -119331,7 +119341,7 @@
               },
               "parameters": [
                 "",
-                "\"cena1\"",
+                "\"dificuldade\"",
                 ""
               ]
             }
@@ -119408,6 +119418,1024 @@
               "parameters": [
                 "",
                 "\"equipe\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "HorizontalTiledSpriteParallax",
+          "type": "Parallax::HorizontalTiledSpriteParallax"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 0,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "dificuldade",
+      "name": "dificuldade",
+      "r": 0,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": false,
+      "title": "",
+      "v": 0,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.8433965451449679,
+        "windowMask": false,
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 720,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "75ebb252-82af-4937-b9b7-e8d6726b6c17",
+          "width": 544,
+          "x": 2,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 64,
+          "height": 97,
+          "keepRatio": true,
+          "layer": "",
+          "name": "bt_normal",
+          "persistentUuid": "6fbee47f-35bc-4167-8946-5482de2f1d0b",
+          "width": 315,
+          "x": 705,
+          "y": 46,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 60.32183908045975,
+          "height": 97,
+          "layer": "",
+          "name": "bt_dificil",
+          "persistentUuid": "afbda31a-db6a-4cda-8aa3-d16a4536cc51",
+          "width": 315,
+          "x": 705,
+          "y": 196,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 64,
+          "height": 97,
+          "layer": "",
+          "name": "bt_insano",
+          "persistentUuid": "4ad1d2f3-6746-4537-b071-77ad14e0df60",
+          "width": 325,
+          "x": 705,
+          "y": 356,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 127,
+          "keepRatio": true,
+          "layer": "",
+          "name": "arme",
+          "persistentUuid": "46ec4aeb-1861-4207-aeed-fc3b89ab47b9",
+          "width": 330,
+          "x": 698,
+          "y": 26,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 60.32183908045977,
+          "height": 97,
+          "layer": "",
+          "name": "bt_voltar",
+          "persistentUuid": "edfcef44-212f-47ba-b019-e6efa2bc4a6c",
+          "width": 315,
+          "x": 705,
+          "y": 516,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 127,
+          "layer": "",
+          "name": "arme2",
+          "persistentUuid": "28d2a43f-efcb-4d65-82ac-5e265de62101",
+          "width": 330,
+          "x": 697,
+          "y": 175,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 127,
+          "layer": "",
+          "name": "arme2",
+          "persistentUuid": "0b7eda23-b78b-4439-a93a-4e148aef9262",
+          "width": 330,
+          "x": 697,
+          "y": 337,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 127,
+          "layer": "",
+          "name": "arme2",
+          "persistentUuid": "a8fe38d0-9d1c-425c-a5e6-900dcab24a73",
+          "width": 330,
+          "x": 697,
+          "y": 495,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "txt_normal",
+          "persistentUuid": "13e7cab1-5b21-4c74-ae93-b4bc4fe638a9",
+          "width": 0,
+          "x": 796,
+          "y": 79,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "txt_dificil",
+          "persistentUuid": "060b89a1-ef74-4cda-84e3-8c0020a08b7b",
+          "width": 0,
+          "x": 810,
+          "y": 227,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "txt_insano",
+          "persistentUuid": "4e39bb9b-91f5-4659-a4bb-3a509d8041c9",
+          "width": 0,
+          "x": 802,
+          "y": 388,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "txt_voltar",
+          "persistentUuid": "e9298295-bb4a-4142-9679-21e2ea57d334",
+          "width": 0,
+          "x": 805,
+          "y": 547,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "persistentUuid": "83f1d66c-90cd-404b-b0d9-f5837e2cd5d7",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "WhatsApp Image 2026-06-30 at 12.10.37.jpeg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1054,
+                            "y": 0
+                          },
+                          {
+                            "x": 1054,
+                            "y": 1492
+                          },
+                          {
+                            "x": 0,
+                            "y": 1492
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "b6e192c68f93de7846e94964878d4edf7b8071a1e295788658c044e70aff7543",
+          "name": "bt_normal",
+          "persistentUuid": "b1542a3f-0703-4a6f-ab35-dca6e49da34c",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Red Button With Stone Frame",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 2,
+            "BottomPadding": 0,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0.2,
+            "LabelText": ""
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "arme",
+          "persistentUuid": "ce324d1a-2c54-4ee6-abda-e35ea6709536",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ChatGPT Image 6 de jul. de 2026, 21_40_48.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 14,
+                            "y": 27
+                          },
+                          {
+                            "x": 1548,
+                            "y": 27
+                          },
+                          {
+                            "x": 1548,
+                            "y": 454
+                          },
+                          {
+                            "x": 14,
+                            "y": 454
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "b6e192c68f93de7846e94964878d4edf7b8071a1e295788658c044e70aff7543",
+          "name": "bt_insano",
+          "persistentUuid": "ffdd2a90-7aa4-4e6b-a99d-3c5f3f4d3f7a",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Red Button With Stone Frame",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 2,
+            "BottomPadding": 0,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0.2,
+            "LabelText": ""
+          }
+        },
+        {
+          "assetStoreId": "b6e192c68f93de7846e94964878d4edf7b8071a1e295788658c044e70aff7543",
+          "name": "bt_voltar",
+          "persistentUuid": "19dcca4b-a867-44c1-9b6e-a2b3093a59b0",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Red Button With Stone Frame",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 2,
+            "BottomPadding": 0,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0.2,
+            "LabelText": ""
+          }
+        },
+        {
+          "assetStoreId": "b6e192c68f93de7846e94964878d4edf7b8071a1e295788658c044e70aff7543",
+          "name": "bt_dificil",
+          "persistentUuid": "2f82b669-2dfe-4cea-962d-209c3d41f52b",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Red Button With Stone Frame",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 2,
+            "BottomPadding": 0,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0.2,
+            "LabelText": ""
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "arme2",
+          "persistentUuid": "3a214cb8-104a-41c0-8188-bb37d1194317",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ChatGPT Image 6 de jul. de 2026, 21_40_48.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 14,
+                            "y": 27
+                          },
+                          {
+                            "x": 1548,
+                            "y": 27
+                          },
+                          {
+                            "x": 1548,
+                            "y": 454
+                          },
+                          {
+                            "x": 14,
+                            "y": 454
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "txt_normal",
+          "persistentUuid": "c19953c0-d98e-4b30-b537-e29daa134e72",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Normal",
+          "font": "STAR7.ttf",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Normal",
+            "font": "STAR7.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 30,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "txt_dificil",
+          "persistentUuid": "6c52d1dd-ee7b-43c2-9d2e-f909eccc6247",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Difícil",
+          "font": "STAR7.ttf",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Difícil",
+            "font": "STAR7.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 30,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "txt_insano",
+          "persistentUuid": "2342b578-3f53-491a-b169-57e55ebed583",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Insano",
+          "font": "STAR7.ttf",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Insano",
+            "font": "STAR7.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 30,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "txt_voltar",
+          "persistentUuid": "d93a499b-2498-468d-80c3-5e1a5fd21208",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Voltar",
+          "font": "STAR7.ttf",
+          "textAlignment": "left",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Voltar",
+            "font": "STAR7.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 30,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "NewSprite"
+          },
+          {
+            "objectName": "bt_normal"
+          },
+          {
+            "objectName": "arme"
+          },
+          {
+            "objectName": "bt_insano"
+          },
+          {
+            "objectName": "bt_voltar"
+          },
+          {
+            "objectName": "bt_dificil"
+          },
+          {
+            "objectName": "arme2"
+          },
+          {
+            "objectName": "txt_normal"
+          },
+          {
+            "objectName": "txt_dificil"
+          },
+          {
+            "objectName": "txt_insano"
+          },
+          {
+            "objectName": "txt_voltar"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetFullScreen"
+              },
+              "parameters": [
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "bt_normal",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "mult_hp",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "mult_dano",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"cena1\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "bt_dificil",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "mult_hp",
+                "=",
+                "1.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "mult_dano",
+                "=",
+                "1.25"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"cena1\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "bt_insano",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "mult_hp",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "mult_dano",
+                "=",
+                "1.75"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"cena1\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "bt_voltar",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"menu\"",
                 ""
               ]
             }
@@ -129867,7 +130895,7 @@
               "parameters": [
                 "bar_vida_play",
                 "-",
-                "10",
+                "10 * mult_dano",
                 ""
               ]
             }
@@ -129941,7 +130969,7 @@
               "parameters": [
                 "bar_vida_play",
                 "-",
-                "10",
+                "10 * mult_dano",
                 ""
               ]
             }
@@ -130015,7 +131043,7 @@
               "parameters": [
                 "bar_vida_play",
                 "-",
-                "10",
+                "10 * mult_dano",
                 ""
               ]
             }
@@ -130237,7 +131265,7 @@
               "parameters": [
                 "GreenFlatBar2",
                 "-",
-                "10",
+                "10 / mult_hp",
                 ""
               ]
             },
@@ -130323,7 +131351,7 @@
               "parameters": [
                 "GreenFlatBar3",
                 "-",
-                "10",
+                "10 / mult_hp",
                 ""
               ]
             },
@@ -130397,7 +131425,7 @@
               "parameters": [
                 "GreenFlatBar4",
                 "-",
-                "10",
+                "10 / mult_hp",
                 ""
               ]
             },
@@ -130471,7 +131499,7 @@
               "parameters": [
                 "GreenFlatBar2",
                 "-",
-                "10",
+                "10 / mult_hp",
                 ""
               ]
             },
@@ -130545,7 +131573,7 @@
               "parameters": [
                 "GreenFlatBar3",
                 "-",
-                "10",
+                "10 / mult_hp",
                 ""
               ]
             },
@@ -130619,7 +131647,7 @@
               "parameters": [
                 "GreenFlatBar4",
                 "-",
-                "10",
+                "10 / mult_hp",
                 ""
               ]
             },
@@ -131625,7 +132653,7 @@
               "parameters": [
                 "bar_vida_play",
                 "-",
-                "30",
+                "30 * mult_dano",
                 ""
               ]
             },
@@ -131673,7 +132701,7 @@
               "parameters": [
                 "bar_vida_play",
                 "-",
-                "30",
+                "30 * mult_dano",
                 ""
               ]
             },
@@ -131721,7 +132749,7 @@
               "parameters": [
                 "bar_vida_play",
                 "-",
-                "30",
+                "30 * mult_dano",
                 ""
               ]
             },
@@ -131769,7 +132797,7 @@
               "parameters": [
                 "bar_vida_play",
                 "-",
-                "30",
+                "30 * mult_dano",
                 ""
               ]
             },
@@ -131817,7 +132845,7 @@
               "parameters": [
                 "bar_vida_play",
                 "-",
-                "30",
+                "30 * mult_dano",
                 ""
               ]
             },
@@ -131865,7 +132893,7 @@
               "parameters": [
                 "bar_vida_play",
                 "-",
-                "30",
+                "30 * mult_dano",
                 ""
               ]
             },
@@ -131913,7 +132941,7 @@
               "parameters": [
                 "bar_vida_play",
                 "-",
-                "30",
+                "30 * mult_dano",
                 ""
               ]
             },
@@ -132104,7 +133132,7 @@
               "parameters": [
                 "barZ",
                 "-",
-                "10",
+                "10 / mult_hp",
                 ""
               ]
             },
@@ -132161,7 +133189,7 @@
               "parameters": [
                 "barZ",
                 "-",
-                "10",
+                "10 / mult_hp",
                 ""
               ]
             },
@@ -132262,7 +133290,7 @@
               "parameters": [
                 "barZ2",
                 "-",
-                "10",
+                "10 / mult_hp",
                 ""
               ]
             },
@@ -132319,7 +133347,7 @@
               "parameters": [
                 "barZ2",
                 "-",
-                "10",
+                "10 / mult_hp",
                 ""
               ]
             },
@@ -132420,7 +133448,7 @@
               "parameters": [
                 "barZ3",
                 "-",
-                "10",
+                "10 / mult_hp",
                 ""
               ]
             },
@@ -132477,7 +133505,7 @@
               "parameters": [
                 "barZ3",
                 "-",
-                "10",
+                "10 / mult_hp",
                 ""
               ]
             },
@@ -132578,7 +133606,7 @@
               "parameters": [
                 "barZ4",
                 "-",
-                "10",
+                "10 / mult_hp",
                 ""
               ]
             },
@@ -132635,7 +133663,7 @@
               "parameters": [
                 "barZ4",
                 "-",
-                "10",
+                "10 / mult_hp",
                 ""
               ]
             },
@@ -132741,7 +133769,7 @@
               "parameters": [
                 "barZ5",
                 "-",
-                "10",
+                "10 / mult_hp",
                 ""
               ]
             },
@@ -132798,7 +133826,7 @@
               "parameters": [
                 "barZ5",
                 "-",
-                "10",
+                "10 / mult_hp",
                 ""
               ]
             },
@@ -132899,7 +133927,7 @@
               "parameters": [
                 "barZ6",
                 "-",
-                "10",
+                "10 / mult_hp",
                 ""
               ]
             },
@@ -132956,7 +133984,7 @@
               "parameters": [
                 "barZ6",
                 "-",
-                "10",
+                "10 / mult_hp",
                 ""
               ]
             },
@@ -133057,7 +134085,7 @@
               "parameters": [
                 "barZ7",
                 "-",
-                "10",
+                "10 / mult_hp",
                 ""
               ]
             },
@@ -133114,7 +134142,7 @@
               "parameters": [
                 "barZ7",
                 "-",
-                "10",
+                "10 / mult_hp",
                 ""
               ]
             },
@@ -134276,7 +135304,7 @@
               "parameters": [
                 "barv1",
                 "-",
-                "12",
+                "12 / mult_hp",
                 ""
               ]
             },
@@ -134350,7 +135378,7 @@
               "parameters": [
                 "barv1",
                 "-",
-                "12",
+                "12 / mult_hp",
                 ""
               ]
             },
@@ -134424,7 +135452,7 @@
               "parameters": [
                 "barv2",
                 "-",
-                "12",
+                "12 / mult_hp",
                 ""
               ]
             },
@@ -134486,7 +135514,7 @@
               "parameters": [
                 "barv2",
                 "-",
-                "12",
+                "12 / mult_hp",
                 ""
               ]
             },
@@ -134560,7 +135588,7 @@
               "parameters": [
                 "barv3",
                 "-",
-                "12",
+                "12 / mult_hp",
                 ""
               ]
             },
@@ -134634,7 +135662,7 @@
               "parameters": [
                 "barv3",
                 "-",
-                "12",
+                "12 / mult_hp",
                 ""
               ]
             },
@@ -134955,7 +135983,7 @@
               "parameters": [
                 "bar_vida_play",
                 "-",
-                "15",
+                "15 * mult_dano",
                 ""
               ]
             },
@@ -135029,7 +136057,7 @@
               "parameters": [
                 "bar_vida_play",
                 "-",
-                "15",
+                "15 * mult_dano",
                 ""
               ]
             },
@@ -135103,7 +136131,7 @@
               "parameters": [
                 "bar_vida_play",
                 "-",
-                "15",
+                "15 * mult_dano",
                 ""
               ]
             },
@@ -135177,7 +136205,7 @@
               "parameters": [
                 "bar_vida_play",
                 "-",
-                "15",
+                "15 * mult_dano",
                 ""
               ]
             },
@@ -135243,7 +136271,7 @@
               "parameters": [
                 "bar_vida_play",
                 "-",
-                "15",
+                "15 * mult_dano",
                 ""
               ]
             },
@@ -135317,7 +136345,7 @@
               "parameters": [
                 "bar_vida_play",
                 "-",
-                "15",
+                "15 * mult_dano",
                 ""
               ]
             },
@@ -136223,7 +137251,7 @@
               "parameters": [
                 "bar_vida_play",
                 "-",
-                "8",
+                "8 * mult_dano",
                 ""
               ]
             },
@@ -136274,7 +137302,7 @@
               "parameters": [
                 "bar_vida_play",
                 "-",
-                "8",
+                "8 * mult_dano",
                 ""
               ]
             },
@@ -136319,7 +137347,7 @@
               "parameters": [
                 "MetalRedBar",
                 "-",
-                "10",
+                "10 / mult_hp",
                 ""
               ]
             },
@@ -136393,7 +137421,7 @@
               "parameters": [
                 "MetalRedBar",
                 "-",
-                "10",
+                "10 / mult_hp",
                 ""
               ]
             },
@@ -137012,7 +138040,7 @@
               "parameters": [
                 "bar_vida_play",
                 "-",
-                "10",
+                "10 * mult_dano",
                 ""
               ]
             },
@@ -137057,7 +138085,7 @@
               "parameters": [
                 "bar_vida_play",
                 "-",
-                "10",
+                "10 * mult_dano",
                 ""
               ]
             },
@@ -137175,7 +138203,7 @@
               "parameters": [
                 "w_bar",
                 "-",
-                "12",
+                "12 / mult_hp",
                 ""
               ]
             },
@@ -137249,7 +138277,7 @@
               "parameters": [
                 "w_bar",
                 "-",
-                "12",
+                "12 / mult_hp",
                 ""
               ]
             },
@@ -137485,7 +138513,7 @@
               "parameters": [
                 "bar_vida_play",
                 "-",
-                "10",
+                "10 * mult_dano",
                 ""
               ]
             },
@@ -137530,7 +138558,7 @@
               "parameters": [
                 "bar_vida_play",
                 "-",
-                "10",
+                "10 * mult_dano",
                 ""
               ]
             },
@@ -137698,7 +138726,7 @@
               "parameters": [
                 "w_bar2",
                 "-",
-                "12",
+                "12 / mult_hp",
                 ""
               ]
             },
@@ -137772,7 +138800,7 @@
               "parameters": [
                 "w_bar2",
                 "-",
-                "12",
+                "12 / mult_hp",
                 ""
               ]
             },
@@ -137972,7 +139000,7 @@
               },
               "parameters": [
                 "MetalRedBar",
-                "=",
+                "<=",
                 "100",
                 ""
               ]
@@ -138689,7 +139717,7 @@
               "parameters": [
                 "bar_vida_play",
                 "-",
-                "20",
+                "20 * mult_dano",
                 ""
               ]
             },
@@ -138763,7 +139791,7 @@
               "parameters": [
                 "bar_vida_play",
                 "-",
-                "20",
+                "20 * mult_dano",
                 ""
               ]
             },
@@ -138951,7 +139979,7 @@
               "parameters": [
                 "bar_v1",
                 "-",
-                "10",
+                "10 / mult_hp",
                 ""
               ]
             },
@@ -139025,7 +140053,7 @@
               "parameters": [
                 "bar_v1",
                 "-",
-                "10",
+                "10 / mult_hp",
                 ""
               ]
             },
@@ -139099,7 +140127,7 @@
               "parameters": [
                 "bar_v2",
                 "-",
-                "10",
+                "10 / mult_hp",
                 ""
               ]
             },
@@ -139173,7 +140201,7 @@
               "parameters": [
                 "bar_v2",
                 "-",
-                "10",
+                "10 / mult_hp",
                 ""
               ]
             },
@@ -139303,7 +140331,7 @@
               "parameters": [
                 "bar_vida_play",
                 "-",
-                "25",
+                "25 * mult_dano",
                 ""
               ]
             }
@@ -139339,7 +140367,7 @@
               "parameters": [
                 "bar_vida_play",
                 "-",
-                "25",
+                "25 * mult_dano",
                 ""
               ]
             }
