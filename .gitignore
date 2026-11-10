@@ -1,0 +1,4 @@
+# Chave de assinatura do APK: nunca versionar
+*.pem
+*.jks
+*.keystore

@@ -50,6 +50,13 @@ Mas o maior ataque cibernético da história escondia um segredo: o vírus era s
 3. No GDevelop, vá em **Abrir projeto** e escolha o arquivo `game.json`.
 4. Clique em **Preview** para jogar. O jogo começa pela cena `menu`.
 
+## Versão para celular (Android)
+
+O jogo também tem um port para Android: o arquivo
+[`mobile/CyberSentinel-v7.apk`](mobile/CyberSentinel-v7.apk), com controles de toque, pausa e
+suporte ao botão voltar. Instalação, controles e a lista de correções da v7 estão em
+[`mobile/LEIAME.md`](mobile/LEIAME.md).
+
 ## Estrutura
 
 | Caminho | Conteúdo |
@@ -60,6 +67,7 @@ Mas o maior ataque cibernético da história escondia um segredo: o vírus era s
 | `*.png`, `*.jpeg` (na raiz) | Cenários, chefes, telas e painéis |
 | `*.mp3`, `*.wav` | Músicas e efeitos sonoros |
 | `ferramentas/` | Scripts em Python que converteram o visual para pixel art (veja o `LEIAME.md` da pasta) |
+| `mobile/` | APK do port para Android, scripts alterados e ferramentas de build e assinatura |
 
 O visual do jogo foi convertido de um estilo realista para **pixel art**, com uma grade de
 3 px de tela por pixel de arte. As interfaces (menu, painéis e diálogos) mantiveram o estilo original.
