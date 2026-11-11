@@ -53,8 +53,8 @@ Mas o maior ataque cibernético da história escondia um segredo: o vírus era s
 ## Versão para celular (Android)
 
 O jogo também tem um port para Android: o arquivo
-[`mobile/CyberSentinel-v7.apk`](mobile/CyberSentinel-v7.apk), com controles de toque, pausa e
-suporte ao botão voltar. Instalação, controles e a lista de correções da v7 estão em
+[`mobile/CyberSentinel-v8.apk`](mobile/CyberSentinel-v8.apk), com controles de toque, pausa e
+suporte ao botão voltar. Instalação, controles e a lista de correções da v7 e da v8 estão em
 [`mobile/LEIAME.md`](mobile/LEIAME.md).
 
 ## Estrutura
