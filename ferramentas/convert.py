@@ -38,15 +38,26 @@ groups = [
     ('drone2',    ['34.png'], dict(colors=20, outline=OUT, gamma=0.85)),
     ('upvida',    obj_files({'upvida'}), dict(colors=16, outline=OUT, gamma=0.85)),
 ] + [(f'arvore_{f}', [f], dict(colors=16, outline=OUT, gamma=0.85, scale='max')) for f in ['01.png', '05.png', '17.png', '19.png']] + [
-    ('predio_p5', ['p5.png'], dict(colors=32, outline=OUT, gamma=0.78, scale='max')),
-    ('predio_p6', ['p6.png'], dict(colors=32, outline=OUT, gamma=0.78, scale='max')),
+    # p5/p6 (cena2): remaster de 11/11/2026, alinhado ao contorno antigo; ja e claro, entao gamma 1.0
+    ('predio_p5', ['p5.png'], dict(colors=32, outline=OUT, gamma=1.0, scale='max')),
+    ('predio_p6', ['p6.png'], dict(colors=32, outline=OUT, gamma=1.0, scale='max')),
     ('piso',      ['tilenovo.png'], dict(colors=20, outline=None, gamma=0.78)),
     ('barra',     ['assets/image/metade barra.png'], dict(colors=20, outline=None, gamma=0.78)),
+    # caixas (11/11/2026): imagem unica de 500x500 exibida a ~193x192 em todas as cenas
+    ('caixas',    obj_files({'bloco', 'bloco2', 'bloco3', 'bloco4'}),
+                  dict(colors=32, outline=OUT, gamma=1.0, sat=1.1, con=1.3, resample=Image.Resampling.BOX)),
 ] + [(f'bg_{f}', [f], BG) for f in ['bg_ad_game.png', 'bg_1.png', 'lab_exeterno.png', 'finalbg.png',
                                      'assets/image/ChatGPT Image 17 de jun. de 2026, 11_31_27.png']]
+# originais que nao vem do backup (caminho relativo a pasta acima do projeto, como SRC)
+SRC_OVERRIDE = {
+    'p5.png': os.path.join(os.path.dirname(os.path.abspath(SRC)), 'originais_remaster_2026-11-11', 'p5.png'),
+    'p6.png': os.path.join(os.path.dirname(os.path.abspath(SRC)), 'originais_remaster_2026-11-11', 'p6.png'),
+}
+def src_of(f):
+    return SRC_OVERRIDE.get(f, os.path.join(SRC, f))
 done = set(); log = []
 for name, files, kw in groups:
-    files = [f for f in files if f not in done and os.path.exists(os.path.join(SRC, f))]
+    files = [f for f in files if f not in done and os.path.exists(src_of(f))]
     if not files: print('VAZIO', name); continue
     agg = max if kw.pop('scale', 'median') == 'max' else statistics.median
     sx = agg([s[0] for f in files for s in scales.get(f, [])] or [1.0])
@@ -54,7 +65,7 @@ for name, files, kw in groups:
     bx, by = max(1.0, P / sx), max(1.0, P / sy)
     bx = round(bx) if abs(bx - round(bx)) < 0.15 else round(bx, 2)
     by = round(by) if abs(by - round(by)) < 0.15 else round(by, 2)
-    process_group([(os.path.join(SRC, f), os.path.join(DST, f)) for f in files], bx, by, **kw)
+    process_group([(src_of(f), os.path.join(DST, f)) for f in files], bx, by, **kw)
     done.update(files)
     print(f'{name:14s} {len(files):3d} arquivos  bloco {bx}x{by}')
 json.dump(sorted(done), open(OUTLIST, 'w'), ensure_ascii=False, indent=0)
