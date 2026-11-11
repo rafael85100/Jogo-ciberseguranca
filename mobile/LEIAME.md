@@ -1,13 +1,13 @@
 # Cyber Sentinel — versão Android
 
-`CyberSentinel-v8.apk` é o port do jogo para celular. Ele roda no **Godot 4.7.2**, com um
+`CyberSentinel-v9.apk` é o port do jogo para celular. Ele roda no **Godot 4.7.2**, com um
 runtime próprio que reproduz os eventos do projeto GDevelop (`game.json`). O APK tem os mesmos
 eventos, objetos, instâncias e recursos do projeto original e traz controles de toque na tela.
 
 ## Instalação
 
-1. Copie `CyberSentinel-v8.apk` para o celular (Android 7.0 ou mais recente).
-2. A v8 instala por cima da v7, porque usa a mesma assinatura. **Se a v6 estiver instalada,
+1. Copie `CyberSentinel-v9.apk` para o celular (Android 7.0 ou mais recente).
+2. A v9 instala por cima da v7 e da v8, porque usa a mesma assinatura. **Se a v6 estiver instalada,
    desinstale antes.** A v6 tem outra chave, então o Android não deixa instalar uma por cima da
    outra. O jogo não tem save, então nada se perde.
 3. Abra o APK e permita a instalação de fontes desconhecidas, se o Android pedir.
@@ -26,6 +26,16 @@ eventos, objetos, instâncias e recursos do projeto original e traz controles de
 
 O botão **voltar** do Android pausa durante as fases, volta ao menu nas outras telas e só fecha
 o jogo a partir do menu principal. O jogo também pausa sozinho quando vai para segundo plano.
+
+## O que mudou na v9 (em relação à v8)
+
+- **Robô preso nas caixas.** A hitbox do robô muda de tamanho entre as animações (parado,
+  correndo, atirando). Se ele parava ou atirava encostado numa caixa, a hitbox nova começava
+  dentro dela. A partir daí qualquer movimento contava como batida, e ele travava. Agora, como no
+  GDevelop (`_separateFromPlatforms`), a cada quadro o robô é empurrado para fora de objetos
+  sólidos pelo lado mais curto. Vale para todas as plataformas das quatro fases.
+- O pulo foi conferido com o teste oficial do comportamento Plataforma do GDevelop e é igual ao
+  do PC: 140 px segurando o botão e ~95 px num toque rápido.
 
 ## O que mudou na v8 (em relação à v7)
 
@@ -71,9 +81,10 @@ do jogador.
 
 | Caminho | Conteúdo |
 |---|---|
-| `CyberSentinel-v8.apk` | Jogo pronto para instalar (a v7 está no histórico do git) |
+| `CyberSentinel-v9.apk` | Jogo pronto para instalar (v7 e v8 estão no histórico do git) |
 | `scripts_v7/` | Os 12 scripts GDScript que a v7 alterou, em texto |
 | `scripts_v8/` | Os 3 scripts que a v8 alterou (`gd_sprite`, `platformer_object`, `tween`) |
+| `scripts_v9/` | O script que a v9 alterou (`platformer_object`, versão final) |
 | `ferramentas/gdc.py` | Decompilador de scripts `.gdc` (GDScript compilado, Godot 4.7) |
 | `ferramentas/gdtok.py` | Tokenizador que confirma que o texto gera exatamente o mesmo bytecode |
 | `ferramentas/build.py` | Troca scripts no APK, refaz o índice `assets.sparsepck` e a versão do manifest |
@@ -81,14 +92,14 @@ do jogador.
 | `ferramentas/certificado.der` | Certificado público da assinatura da v7 |
 
 A chave privada da assinatura **não** está no repositório. Ela fica guardada fora dele e é
-necessária para que versões futuras instalem por cima da v8 sem desinstalar.
+necessária para que versões futuras instalem por cima da v9 sem desinstalar.
 
 ### Gerar uma nova versão
 
 ```bash
-python3 ferramentas/build.py CyberSentinel-v8.apk pasta_raiz/ sem_assinatura.apk 9
-python3 ferramentas/apkv2.py sign sem_assinatura.apk CyberSentinel-v9.apk chave.pem ferramentas/certificado.der
-python3 ferramentas/apkv2.py verify CyberSentinel-v9.apk
+python3 ferramentas/build.py CyberSentinel-v9.apk pasta_raiz/ sem_assinatura.apk 10
+python3 ferramentas/apkv2.py sign sem_assinatura.apk CyberSentinel-v10.apk chave.pem ferramentas/certificado.der
+python3 ferramentas/apkv2.py verify CyberSentinel-v10.apk
 ```
 
 `pasta_raiz/` deve conter uma pasta `scripts/` com a mesma estrutura de `scripts_v7/`
