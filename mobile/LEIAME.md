@@ -1,13 +1,13 @@
 # Cyber Sentinel — versão Android
 
-`CyberSentinel-v9.apk` é o port do jogo para celular. Ele roda no **Godot 4.7.2**, com um
+`CyberSentinel-v10.apk` é o port do jogo para celular. Ele roda no **Godot 4.7.2**, com um
 runtime próprio que reproduz os eventos do projeto GDevelop (`game.json`). O APK tem os mesmos
 eventos, objetos, instâncias e recursos do projeto original e traz controles de toque na tela.
 
 ## Instalação
 
-1. Copie `CyberSentinel-v9.apk` para o celular (Android 7.0 ou mais recente).
-2. A v9 instala por cima da v7 e da v8, porque usa a mesma assinatura. **Se a v6 estiver instalada,
+1. Copie `CyberSentinel-v10.apk` para o celular (Android 7.0 ou mais recente).
+2. A v10 instala por cima da v7, v8 e v9, porque usa a mesma assinatura. **Se a v6 estiver instalada,
    desinstale antes.** A v6 tem outra chave, então o Android não deixa instalar uma por cima da
    outra. O jogo não tem save, então nada se perde.
 3. Abra o APK e permita a instalação de fontes desconhecidas, se o Android pedir.
@@ -26,6 +26,20 @@ eventos, objetos, instâncias e recursos do projeto original e traz controles de
 
 O botão **voltar** do Android pausa durante as fases, volta ao menu nas outras telas e só fecha
 o jogo a partir do menu principal. O jogo também pausa sozinho quando vai para segundo plano.
+
+## O que mudou na v10 (em relação à v9)
+
+Leva para o celular as mudanças visuais feitas no jogo de PC em 11/11/2026. Nenhum script mudou.
+
+- **Fundo novo nas fases 1 e 2:** cidade neon com OVNI (`bg_neon_cena1.png` no PC), na mesma
+  posição do PC (y -225, 1935x1080). No APK, a imagem ocupa o lugar da textura `bg_ad_game`,
+  que só era usada nessas duas fases. A posição e o tamanho do fundo foram ajustados dentro de
+  `cena1.scn` e `cena2.scn`.
+- **Caixas pixeladas** (`bloco` a `bloco4`) na mesma grade de pixels do robô.
+- **Prédios remasterizados da fase 2:** `p5` (Nexus Robotics, Nova Academy) e `p6` (Thread 9,
+  Elevate Motors), na posição e no recorte exatos dos antigos.
+
+As texturas do APK são idênticas, pixel a pixel, às imagens do projeto de PC.
 
 ## O que mudou na v9 (em relação à v8)
 
@@ -81,27 +95,44 @@ do jogador.
 
 | Caminho | Conteúdo |
 |---|---|
-| `CyberSentinel-v9.apk` | Jogo pronto para instalar (v7 e v8 estão no histórico do git) |
+| `CyberSentinel-v10.apk` | Jogo pronto para instalar (as versões anteriores estão no histórico do git) |
 | `scripts_v7/` | Os 12 scripts GDScript que a v7 alterou, em texto |
 | `scripts_v8/` | Os 3 scripts que a v8 alterou (`gd_sprite`, `platformer_object`, `tween`) |
 | `scripts_v9/` | O script que a v9 alterou (`platformer_object`, versão final) |
 | `ferramentas/gdc.py` | Decompilador de scripts `.gdc` (GDScript compilado, Godot 4.7) |
 | `ferramentas/gdtok.py` | Tokenizador que confirma que o texto gera exatamente o mesmo bytecode |
 | `ferramentas/build.py` | Troca scripts no APK, refaz o índice `assets.sparsepck` e a versão do manifest |
+| `ferramentas/build_assets.py` | Troca outros arquivos do APK (texturas, cenas, dados), atualiza o índice e a versão do manifest |
+| `ferramentas/ctex.py` | Gera texturas `.ctex` do Godot (WebP sem perda) a partir de PNG, usando um `.ctex` existente como modelo |
 | `ferramentas/apkv2.py` | Assina e verifica o APK (esquema v2) usando o `openssl` |
 | `ferramentas/certificado.der` | Certificado público da assinatura da v7 |
 
 A chave privada da assinatura **não** está no repositório. Ela fica guardada fora dele e é
-necessária para que versões futuras instalem por cima da v9 sem desinstalar.
+necessária para que versões futuras instalem por cima da v10 sem desinstalar.
 
 ### Gerar uma nova versão
 
 ```bash
-python3 ferramentas/build.py CyberSentinel-v9.apk pasta_raiz/ sem_assinatura.apk 10
-python3 ferramentas/apkv2.py sign sem_assinatura.apk CyberSentinel-v10.apk chave.pem ferramentas/certificado.der
-python3 ferramentas/apkv2.py verify CyberSentinel-v10.apk
+python3 ferramentas/build.py CyberSentinel-v10.apk pasta_raiz/ sem_assinatura.apk 11
+python3 ferramentas/apkv2.py sign sem_assinatura.apk CyberSentinel-v11.apk chave.pem ferramentas/certificado.der
+python3 ferramentas/apkv2.py verify CyberSentinel-v11.apk
 ```
 
 `pasta_raiz/` deve conter uma pasta `scripts/` com a mesma estrutura de `scripts_v7/`
 (ex.: `pasta_raiz/scripts/objects/gd_sprite.gd`). Cada `.gd` substitui o `.gdc`
 correspondente dentro do APK (ou o `.gd` que uma versão anterior já tinha trocado).
+
+### Trocar imagens ou cenas
+
+As imagens ficam no APK como `assets/.godot/imported/<nome>.png-<hash>.ctex`. Para trocar uma
+imagem, gere o `.ctex` novo a partir do PNG do projeto de PC e passe uma pasta que espelhe os
+caminhos do APK:
+
+```bash
+python3 ferramentas/ctex.py modelo.ctex imagem.png patch/assets/.godot/imported/<nome>.png-<hash>.ctex
+python3 ferramentas/build_assets.py CyberSentinel-v10.apk patch/ sem_assinatura.apk 11
+```
+
+O `build_assets.py` só troca arquivos que já existem no APK. Para mudar a posição ou o tamanho
+de uma instância, edite os valores float32 no `.scn` da cena correspondente
+(`assets/.godot/exported/.../export-<hash>-<cena>.scn`).
