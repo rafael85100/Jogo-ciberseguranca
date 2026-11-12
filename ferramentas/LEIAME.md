@@ -40,3 +40,15 @@ Para converter um sprite novo, adicione uma linha à lista `groups` do `convert.
 - **Imagens esticadas nas cenas** (prédios, árvores): usam `scale='max'`.
 - **Pixel art de origem** (robôs): usa `src_palette=True` e redução `NEAREST`.
 - **Efeitos criados nos eventos:** posicione no centro do alvo com `Alvo.BoundingBoxCenterX()` e `Alvo.BoundingBoxCenterY()`, porque os sprites têm origem no canto superior esquerdo.
+
+## Mudanças de 11/11/2026
+
+- **Caixas** (`bloco` a `bloco4`): convertidas com o grupo `caixas` do `convert.py` (32 cores,
+  contorno, gamma 1.0, redução BOX). Antes, era a única imagem de cenário fora da grade.
+- **Prédios da cena2** (`p5.png`, `p6.png`): trocados por uma versão remasterizada, alinhada
+  prédio a prédio à posição e ao recorte dos antigos. As fontes alinhadas, ainda sem pixelar,
+  ficam em `../originais_remaster_2026-11-11/`, ao lado dos backups. O `convert.py` lê essas
+  fontes no lugar do backup (`SRC_OVERRIDE`) e usa gamma 1.0, porque o remaster já é claro.
+- **Fundo das cenas 1 e 2:** `bg_neon_cena1.png` (1935x1080, ampliado com NEAREST a partir de
+  1679x937), no objeto `bj_2` com y -225 e altura 1080, para cobrir tudo o que a câmera mostra
+  na vertical. A imagem já é pixel art, então não passa pelo `convert.py`.
