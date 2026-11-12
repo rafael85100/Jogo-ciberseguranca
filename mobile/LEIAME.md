@@ -1,13 +1,13 @@
 # Cyber Sentinel — versão Android
 
-`CyberSentinel-v10.apk` é o port do jogo para celular. Ele roda no **Godot 4.7.2**, com um
+`CyberSentinel-v11.apk` é o port do jogo para celular. Ele roda no **Godot 4.7.2**, com um
 runtime próprio que reproduz os eventos do projeto GDevelop (`game.json`). O APK tem os mesmos
 eventos, objetos, instâncias e recursos do projeto original e traz controles de toque na tela.
 
 ## Instalação
 
-1. Copie `CyberSentinel-v10.apk` para o celular (Android 7.0 ou mais recente).
-2. A v10 instala por cima da v7, v8 e v9, porque usa a mesma assinatura. **Se a v6 estiver instalada,
+1. Copie `CyberSentinel-v11.apk` para o celular (Android 7.0 ou mais recente).
+2. A v11 instala por cima da v7 até a v10, porque usa a mesma assinatura. **Se a v6 estiver instalada,
    desinstale antes.** A v6 tem outra chave, então o Android não deixa instalar uma por cima da
    outra. O jogo não tem save, então nada se perde.
 3. Abra o APK e permita a instalação de fontes desconhecidas, se o Android pedir.
@@ -21,11 +21,27 @@ eventos, objetos, instâncias e recursos do projeto original e traz controles de
 | TIRO | Atirar |
 | ESCUDO | Ativar o escudo (fase 3) |
 | X | Começar a luta com o chefe (fase 3) |
-| E / Q | Avançar / sair do diálogo final |
+| Q | Passar as falas da conversa com o chefe final; na última, começa a luta |
 | II | Pausar (Continuar ou Menu principal) |
 
 O botão **voltar** do Android pausa durante as fases, volta ao menu nas outras telas e só fecha
 o jogo a partir do menu principal. O jogo também pausa sozinho quando vai para segundo plano.
+
+## O que mudou na v11 (em relação à v10)
+
+Leva para o celular as mudanças feitas no jogo de PC em 11/11/2026.
+
+- **Chefe final novo, o Mysterious.** O `boss_x` saiu da fase final. O Mysterious fica parado
+  enquanto conversa com o robô (9 falas). O **Q** completa a fala que está aparecendo ou passa para
+  a próxima. Depois da última fala, a luta começa: de longe ele atira, com as mesmas balas dos
+  robôs atiradores da fase 2, e colado ele soca. Quando a barra de vida dele zera, ele explode e
+  aparece o portal para o final do jogo. A fase final agora também tem tela de morte. Ele é criado
+  pelo script da cena (`scripts_v11/layouts/final.gd`), porque não existe no `final.scn`.
+- **Fundos novos:** a fase 3 ganhou o beco industrial "Laboratory X7" e a fase final, a arena hacker.
+- **Tiro do robô:** com o mesmo tom do robô parado e sem o contorno cortado.
+
+São 49 imagens novas (47 quadros do Mysterious e os 2 fundos) e as 2 do tiro trocadas, todas
+idênticas, pixel a pixel, às do projeto de PC.
 
 ## O que mudou na v10 (em relação à v9)
 
@@ -95,27 +111,28 @@ do jogador.
 
 | Caminho | Conteúdo |
 |---|---|
-| `CyberSentinel-v10.apk` | Jogo pronto para instalar (as versões anteriores estão no histórico do git) |
+| `CyberSentinel-v11.apk` | Jogo pronto para instalar (as versões anteriores estão no histórico do git) |
 | `scripts_v7/` | Os 12 scripts GDScript que a v7 alterou, em texto |
 | `scripts_v8/` | Os 3 scripts que a v8 alterou (`gd_sprite`, `platformer_object`, `tween`) |
 | `scripts_v9/` | O script que a v9 alterou (`platformer_object`, versão final) |
+| `scripts_v11/` | A cena final da v11 (`layouts/final.gd`: conversa e luta com o Mysterious) |
 | `ferramentas/gdc.py` | Decompilador de scripts `.gdc` (GDScript compilado, Godot 4.7) |
 | `ferramentas/gdtok.py` | Tokenizador que confirma que o texto gera exatamente o mesmo bytecode |
 | `ferramentas/build.py` | Troca scripts no APK, refaz o índice `assets.sparsepck` e a versão do manifest |
-| `ferramentas/build_assets.py` | Troca outros arquivos do APK (texturas, cenas, dados), atualiza o índice e a versão do manifest |
+| `ferramentas/build_assets.py` | Troca ou acrescenta outros arquivos do APK (texturas, cenas, dados), atualiza o índice e a versão do manifest |
 | `ferramentas/ctex.py` | Gera texturas `.ctex` do Godot (WebP sem perda) a partir de PNG, usando um `.ctex` existente como modelo |
 | `ferramentas/apkv2.py` | Assina e verifica o APK (esquema v2) usando o `openssl` |
 | `ferramentas/certificado.der` | Certificado público da assinatura da v7 |
 
 A chave privada da assinatura **não** está no repositório. Ela fica guardada fora dele e é
-necessária para que versões futuras instalem por cima da v10 sem desinstalar.
+necessária para que versões futuras instalem por cima da v11 sem desinstalar.
 
 ### Gerar uma nova versão
 
 ```bash
-python3 ferramentas/build.py CyberSentinel-v10.apk pasta_raiz/ sem_assinatura.apk 11
-python3 ferramentas/apkv2.py sign sem_assinatura.apk CyberSentinel-v11.apk chave.pem ferramentas/certificado.der
-python3 ferramentas/apkv2.py verify CyberSentinel-v11.apk
+python3 ferramentas/build.py CyberSentinel-v11.apk pasta_raiz/ sem_assinatura.apk 12
+python3 ferramentas/apkv2.py sign sem_assinatura.apk CyberSentinel-v12.apk chave.pem ferramentas/certificado.der
+python3 ferramentas/apkv2.py verify CyberSentinel-v12.apk
 ```
 
 `pasta_raiz/` deve conter uma pasta `scripts/` com a mesma estrutura de `scripts_v7/`
@@ -130,9 +147,12 @@ caminhos do APK:
 
 ```bash
 python3 ferramentas/ctex.py modelo.ctex imagem.png patch/assets/.godot/imported/<nome>.png-<hash>.ctex
-python3 ferramentas/build_assets.py CyberSentinel-v10.apk patch/ sem_assinatura.apk 11
+python3 ferramentas/build_assets.py CyberSentinel-v11.apk patch/ sem_assinatura.apk 12
 ```
 
-O `build_assets.py` só troca arquivos que já existem no APK. Para mudar a posição ou o tamanho
+Um arquivo da pasta que ainda não existe no APK entra como arquivo novo, com entrada nova no
+índice. Uma imagem nova precisa de três coisas: o `.ctex`, um `<imagem>.png.import` apontando
+para ele (o nome do `.ctex` usa o md5 de `res://<imagem>.png`) e a entrada no `resourceMap` de
+`assets/data/gd_project.json`. Objetos novos entram em `assets/data/gd_objects.json`. Para mudar a posição ou o tamanho
 de uma instância, edite os valores float32 no `.scn` da cena correspondente
 (`assets/.godot/exported/.../export-<hash>-<cena>.scn`).

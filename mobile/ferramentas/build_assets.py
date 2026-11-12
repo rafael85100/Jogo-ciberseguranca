@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-"""Troca arquivos ja existentes no APK (texturas .ctex, cenas .scn, JSON de dados etc.),
-atualiza tamanho e md5 no indice assets.sparsepck e a versao do manifest. Nao assina.
+"""Troca ou acrescenta arquivos no APK (texturas .ctex e .import, cenas .scn, JSON de dados etc.),
+atualiza tamanho e md5 no indice assets.sparsepck (arquivos novos ganham entrada nova) e a versao
+do manifest. Nao assina.
 
 Uso: build_assets.py base.apk pasta_patch/ saida.apk versionCode
 pasta_patch/ espelha os caminhos do APK, ex.: pasta_patch/assets/.godot/imported/p5.png-....ctex
@@ -13,12 +14,18 @@ infos = {i.filename: i for i in zin.infolist()}
 order = [i.filename for i in zin.infolist()]
 files = {n: zin.read(n) for n in order}
 
-# 1) troca de arquivos (so caminhos que ja existem)
-changed = []
-for root, _, names in os.walk(patch_dir):
-    for n in names:
+# 1) troca de arquivos; caminhos que nao existem entram no fim do zip
+changed, added = [], []
+ref_info = infos['assets/assets.sparsepck']
+for root, _, names in sorted(os.walk(patch_dir)):
+    for n in sorted(names):
         rel = os.path.relpath(os.path.join(root, n), patch_dir).replace(os.sep, '/')
-        assert rel in files, 'nao existe no APK: ' + rel
+        if rel not in files:
+            zi = zipfile.ZipInfo(rel, date_time=ref_info.date_time)
+            # .ctex vai sem compressao, como os outros do APK; o resto com deflate
+            zi.compress_type = zipfile.ZIP_STORED if rel.endswith('.ctex') else zipfile.ZIP_DEFLATED
+            zi.external_attr = ref_info.external_attr; zi.create_system = ref_info.create_system
+            infos[rel] = zi; order.append(rel); added.append(rel)
         files[rel] = open(os.path.join(root, n), 'rb').read()
         changed.append(rel)
 
@@ -41,7 +48,9 @@ for rel in changed:
     if rel == 'assets/assets.sparsepck' or not rel.startswith('assets/'):
         continue
     e = idx.get(rel[len('assets/'):])
-    assert e is not None, 'fora do indice: ' + rel
+    if e is None:
+        assert rel in added, 'fora do indice: ' + rel
+        e = [rel[len('assets/'):], 0, 0, b'', 0]; entries.append(e); idx[e[0]] = e
     b = files[rel]; e[2] = len(b); e[3] = hashlib.md5(b).digest()
 for e in entries:
     b = files['assets/' + e[0]]
@@ -120,4 +129,4 @@ with open(out_apk, 'wb') as fp:
             zi.extra = struct.pack('<HHH', 0xD935, 2 + pad, align) + b'\0' * pad
         zout.writestr(zi, files[name])
     zout.close()
-print('arquivos trocados:', len(changed)); print('indice:', len(entries), 'entradas'); print('versao:', old, '->', new_vn, '| versionCode ->', version)
+print('arquivos trocados:', len(changed) - len(added), '| novos:', len(added)); print('indice:', len(entries), 'entradas'); print('versao:', old, '->', new_vn, '| versionCode ->', version)

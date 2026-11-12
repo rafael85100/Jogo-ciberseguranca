@@ -9655,6 +9655,398 @@
         "name": "bg_neon_cena1.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "bg_x7_cena3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bg_x7_cena3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/atirar_00.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/atirar_00.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/atirar_01.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/atirar_01.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/atirar_02.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/atirar_02.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/atirar_03.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/atirar_03.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/atirar_04.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/atirar_04.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/atirar_05.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/atirar_05.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/atirar_06.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/atirar_06.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/atirar_07.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/atirar_07.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/atirar_08.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/atirar_08.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/atirar_09.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/atirar_09.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/atirar_10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/atirar_10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/atirar_11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/atirar_11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/atirar_12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/atirar_12.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/atirar_13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/atirar_13.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/atirar_14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/atirar_14.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/atirar_15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/atirar_15.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/socar_00.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/socar_00.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/socar_01.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/socar_01.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/socar_02.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/socar_02.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/socar_03.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/socar_03.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/socar_04.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/socar_04.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/socar_05.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/socar_05.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/socar_06.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/socar_06.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/socar_07.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/socar_07.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/socar_08.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/socar_08.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/socar_09.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/socar_09.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/socar_10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/socar_10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/socar_11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/socar_11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/socar_12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/socar_12.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/socar_13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/socar_13.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/socar_14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/socar_14.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/socar_15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/socar_15.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/parado_00.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/parado_00.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/parado_01.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/parado_01.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/parado_02.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/parado_02.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/parado_03.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/parado_03.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/parado_04.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/parado_04.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/parado_05.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/parado_05.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/parado_06.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/parado_06.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/parado_07.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/parado_07.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/parado_08.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/parado_08.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/parado_09.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/parado_09.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/parado_10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/parado_10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/parado_11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/parado_11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/parado_12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/parado_12.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/parado_13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/parado_13.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/mysterious/parado_14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/image/mysterious/parado_14.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "bg_arena_final.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bg_arena_final.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ]
   },
@@ -14951,8 +15343,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 6,
+                        "y": 6
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -14968,8 +15360,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 6,
+                        "y": 6
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -14985,8 +15377,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 6,
+                        "y": 6
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -15002,8 +15394,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 6,
+                        "y": 6
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -16810,58 +17202,58 @@
                       "points": [
                         {
                           "name": "disparo",
-                          "x": 109.5,
-                          "y": 23.5
+                          "x": 115.5,
+                          "y": 29.5
                         }
                       ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 43,
-                        "y": 123.5
+                        "x": 49,
+                        "y": 129.5
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 47.5,
-                        "y": 60.5
+                        "x": 53.5,
+                        "y": 66.5
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
-                            "y": 126
+                            "x": 12,
+                            "y": 132
+                          },
+                          {
+                            "x": 35.5,
+                            "y": 58.5
                           },
                           {
                             "x": 29.5,
-                            "y": 52.5
+                            "y": 8.5
                           },
                           {
-                            "x": 23.5,
-                            "y": 2.5
+                            "x": 65.5,
+                            "y": 9
                           },
                           {
-                            "x": 59.5,
-                            "y": 3
+                            "x": 116,
+                            "y": 11.5
                           },
                           {
-                            "x": 110,
-                            "y": 5.5
+                            "x": 116,
+                            "y": 22.5
                           },
                           {
-                            "x": 110,
-                            "y": 16.5
+                            "x": 81.5,
+                            "y": 78
                           },
                           {
-                            "x": 75.5,
-                            "y": 72
+                            "x": 88.5,
+                            "y": 131.5
                           },
                           {
-                            "x": 82.5,
-                            "y": 125.5
-                          },
-                          {
-                            "x": 37,
-                            "y": 128
+                            "x": 43,
+                            "y": 134
                           }
                         ]
                       ]
@@ -16872,58 +17264,58 @@
                       "points": [
                         {
                           "name": "disparo",
-                          "x": 109.5,
-                          "y": 23.5
+                          "x": 115.5,
+                          "y": 29.5
                         }
                       ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 43,
-                        "y": 123.5
+                        "x": 49,
+                        "y": 129.5
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 47.5,
-                        "y": 60.5
+                        "x": 53.5,
+                        "y": 66.5
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
-                            "y": 126
+                            "x": 12,
+                            "y": 132
+                          },
+                          {
+                            "x": 35.5,
+                            "y": 58.5
                           },
                           {
                             "x": 29.5,
-                            "y": 52.5
+                            "y": 8.5
                           },
                           {
-                            "x": 23.5,
-                            "y": 2.5
+                            "x": 65.5,
+                            "y": 9
                           },
                           {
-                            "x": 59.5,
-                            "y": 3
+                            "x": 116,
+                            "y": 11.5
                           },
                           {
-                            "x": 110,
-                            "y": 5.5
+                            "x": 116,
+                            "y": 22.5
                           },
                           {
-                            "x": 110,
-                            "y": 16.5
+                            "x": 81.5,
+                            "y": 78
                           },
                           {
-                            "x": 75.5,
-                            "y": 72
+                            "x": 88.5,
+                            "y": 131.5
                           },
                           {
-                            "x": 82.5,
-                            "y": 125.5
-                          },
-                          {
-                            "x": 37,
-                            "y": 128
+                            "x": 43,
+                            "y": 134
                           }
                         ]
                       ]
@@ -26540,8 +26932,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 6,
+                        "y": 6
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -26557,8 +26949,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 6,
+                        "y": 6
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -26574,8 +26966,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 6,
+                        "y": 6
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -26591,8 +26983,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 6,
+                        "y": 6
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -28399,58 +28791,58 @@
                       "points": [
                         {
                           "name": "disparo",
-                          "x": 109.5,
-                          "y": 23.5
+                          "x": 115.5,
+                          "y": 29.5
                         }
                       ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 43,
-                        "y": 123.5
+                        "x": 49,
+                        "y": 129.5
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 47.5,
-                        "y": 60.5
+                        "x": 53.5,
+                        "y": 66.5
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
-                            "y": 126
+                            "x": 12,
+                            "y": 132
+                          },
+                          {
+                            "x": 35.5,
+                            "y": 58.5
                           },
                           {
                             "x": 29.5,
-                            "y": 52.5
+                            "y": 8.5
                           },
                           {
-                            "x": 23.5,
-                            "y": 2.5
+                            "x": 65.5,
+                            "y": 9
                           },
                           {
-                            "x": 59.5,
-                            "y": 3
+                            "x": 116,
+                            "y": 11.5
                           },
                           {
-                            "x": 110,
-                            "y": 5.5
+                            "x": 116,
+                            "y": 22.5
                           },
                           {
-                            "x": 110,
-                            "y": 16.5
+                            "x": 81.5,
+                            "y": 78
                           },
                           {
-                            "x": 75.5,
-                            "y": 72
+                            "x": 88.5,
+                            "y": 131.5
                           },
                           {
-                            "x": 82.5,
-                            "y": 125.5
-                          },
-                          {
-                            "x": 37,
-                            "y": 128
+                            "x": 43,
+                            "y": 134
                           }
                         ]
                       ]
@@ -28461,58 +28853,58 @@
                       "points": [
                         {
                           "name": "disparo",
-                          "x": 109.5,
-                          "y": 23.5
+                          "x": 115.5,
+                          "y": 29.5
                         }
                       ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 43,
-                        "y": 123.5
+                        "x": 49,
+                        "y": 129.5
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 47.5,
-                        "y": 60.5
+                        "x": 53.5,
+                        "y": 66.5
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
-                            "y": 126
+                            "x": 12,
+                            "y": 132
+                          },
+                          {
+                            "x": 35.5,
+                            "y": 58.5
                           },
                           {
                             "x": 29.5,
-                            "y": 52.5
+                            "y": 8.5
                           },
                           {
-                            "x": 23.5,
-                            "y": 2.5
+                            "x": 65.5,
+                            "y": 9
                           },
                           {
-                            "x": 59.5,
-                            "y": 3
+                            "x": 116,
+                            "y": 11.5
                           },
                           {
-                            "x": 110,
-                            "y": 5.5
+                            "x": 116,
+                            "y": 22.5
                           },
                           {
-                            "x": 110,
-                            "y": 16.5
+                            "x": 81.5,
+                            "y": 78
                           },
                           {
-                            "x": 75.5,
-                            "y": 72
+                            "x": 88.5,
+                            "y": 131.5
                           },
                           {
-                            "x": 82.5,
-                            "y": 125.5
-                          },
-                          {
-                            "x": 37,
-                            "y": 128
+                            "x": 43,
+                            "y": 134
                           }
                         ]
                       ]
@@ -54953,8 +55345,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 6,
+                        "y": 6
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -54970,8 +55362,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 6,
+                        "y": 6
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -54987,8 +55379,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 6,
+                        "y": 6
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -55004,8 +55396,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 6,
+                        "y": 6
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -56908,58 +57300,58 @@
                       "points": [
                         {
                           "name": "disparo",
-                          "x": 109.5,
-                          "y": 23.5
+                          "x": 115.5,
+                          "y": 29.5
                         }
                       ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 43,
-                        "y": 123.5
+                        "x": 49,
+                        "y": 129.5
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 47.5,
-                        "y": 60.5
+                        "x": 53.5,
+                        "y": 66.5
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
-                            "y": 126
+                            "x": 12,
+                            "y": 132
+                          },
+                          {
+                            "x": 35.5,
+                            "y": 58.5
                           },
                           {
                             "x": 29.5,
-                            "y": 52.5
+                            "y": 8.5
                           },
                           {
-                            "x": 23.5,
-                            "y": 2.5
+                            "x": 65.5,
+                            "y": 9
                           },
                           {
-                            "x": 59.5,
-                            "y": 3
+                            "x": 116,
+                            "y": 11.5
                           },
                           {
-                            "x": 110,
-                            "y": 5.5
+                            "x": 116,
+                            "y": 22.5
                           },
                           {
-                            "x": 110,
-                            "y": 16.5
+                            "x": 81.5,
+                            "y": 78
                           },
                           {
-                            "x": 75.5,
-                            "y": 72
+                            "x": 88.5,
+                            "y": 131.5
                           },
                           {
-                            "x": 82.5,
-                            "y": 125.5
-                          },
-                          {
-                            "x": 37,
-                            "y": 128
+                            "x": 43,
+                            "y": 134
                           }
                         ]
                       ]
@@ -56970,58 +57362,58 @@
                       "points": [
                         {
                           "name": "disparo",
-                          "x": 109.5,
-                          "y": 23.5
+                          "x": 115.5,
+                          "y": 29.5
                         }
                       ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 43,
-                        "y": 123.5
+                        "x": 49,
+                        "y": 129.5
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 47.5,
-                        "y": 60.5
+                        "x": 53.5,
+                        "y": 66.5
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
-                            "y": 126
+                            "x": 12,
+                            "y": 132
+                          },
+                          {
+                            "x": 35.5,
+                            "y": 58.5
                           },
                           {
                             "x": 29.5,
-                            "y": 52.5
+                            "y": 8.5
                           },
                           {
-                            "x": 23.5,
-                            "y": 2.5
+                            "x": 65.5,
+                            "y": 9
                           },
                           {
-                            "x": 59.5,
-                            "y": 3
+                            "x": 116,
+                            "y": 11.5
                           },
                           {
-                            "x": 110,
-                            "y": 5.5
+                            "x": 116,
+                            "y": 22.5
                           },
                           {
-                            "x": 110,
-                            "y": 16.5
+                            "x": 81.5,
+                            "y": 78
                           },
                           {
-                            "x": 75.5,
-                            "y": 72
+                            "x": 88.5,
+                            "y": 131.5
                           },
                           {
-                            "x": 82.5,
-                            "y": 125.5
-                          },
-                          {
-                            "x": 37,
-                            "y": 128
+                            "x": 43,
+                            "y": 134
                           }
                         ]
                       ]
@@ -71678,7 +72070,7 @@
           "height": 1024,
           "name": "lab_externo",
           "persistentUuid": "cbf5ff22-7142-4b82-9823-407710f119f3",
-          "texture": "lab_exeterno.png",
+          "texture": "bg_x7_cena3.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 1536,
           "variables": [],
@@ -100357,7 +100749,28 @@
         "gameEditorMode": "instances-editor"
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "modo_boss",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "luta",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "dialogo",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "q_usado",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -100643,23 +101056,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 316,
-          "keepRatio": true,
-          "layer": "",
-          "name": "boss_x",
-          "persistentUuid": "ba729a66-3368-442c-bcb4-6c7b6692ffb2",
-          "width": 451.0539419087137,
-          "x": 523,
-          "y": 378,
-          "zOrder": 62,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -100758,13 +101154,13 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 120,
           "keepRatio": true,
           "layer": "",
           "name": "txt_dialogo_final",
           "persistentUuid": "b43c4348-603f-41f0-a411-471a07cf9e54",
-          "width": 0,
+          "width": 770,
           "x": 50,
           "y": 767,
           "zOrder": 69,
@@ -100784,6 +101180,22 @@
           "x": 752,
           "y": 354,
           "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Mysterious",
+          "persistentUuid": "6d274623-155f-4823-b474-7d6b573f47ca",
+          "width": 0,
+          "x": 770,
+          "y": 512,
+          "zOrder": 62,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -102015,8 +102427,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 6,
+                        "y": 6
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -102032,8 +102444,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 6,
+                        "y": 6
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -102049,8 +102461,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 6,
+                        "y": 6
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -102066,8 +102478,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 6,
+                        "y": 6
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -103874,58 +104286,58 @@
                       "points": [
                         {
                           "name": "disparo",
-                          "x": 109.5,
-                          "y": 23.5
+                          "x": 115.5,
+                          "y": 29.5
                         }
                       ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 43,
-                        "y": 123.5
+                        "x": 49,
+                        "y": 129.5
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 47.5,
-                        "y": 60.5
+                        "x": 53.5,
+                        "y": 66.5
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
-                            "y": 126
+                            "x": 12,
+                            "y": 132
+                          },
+                          {
+                            "x": 35.5,
+                            "y": 58.5
                           },
                           {
                             "x": 29.5,
-                            "y": 52.5
+                            "y": 8.5
                           },
                           {
-                            "x": 23.5,
-                            "y": 2.5
+                            "x": 65.5,
+                            "y": 9
                           },
                           {
-                            "x": 59.5,
-                            "y": 3
+                            "x": 116,
+                            "y": 11.5
                           },
                           {
-                            "x": 110,
-                            "y": 5.5
+                            "x": 116,
+                            "y": 22.5
                           },
                           {
-                            "x": 110,
-                            "y": 16.5
+                            "x": 81.5,
+                            "y": 78
                           },
                           {
-                            "x": 75.5,
-                            "y": 72
+                            "x": 88.5,
+                            "y": 131.5
                           },
                           {
-                            "x": 82.5,
-                            "y": 125.5
-                          },
-                          {
-                            "x": 37,
-                            "y": 128
+                            "x": 43,
+                            "y": 134
                           }
                         ]
                       ]
@@ -103936,58 +104348,58 @@
                       "points": [
                         {
                           "name": "disparo",
-                          "x": 109.5,
-                          "y": 23.5
+                          "x": 115.5,
+                          "y": 29.5
                         }
                       ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 43,
-                        "y": 123.5
+                        "x": 49,
+                        "y": 129.5
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 47.5,
-                        "y": 60.5
+                        "x": 53.5,
+                        "y": 66.5
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
-                            "y": 126
+                            "x": 12,
+                            "y": 132
+                          },
+                          {
+                            "x": 35.5,
+                            "y": 58.5
                           },
                           {
                             "x": 29.5,
-                            "y": 52.5
+                            "y": 8.5
                           },
                           {
-                            "x": 23.5,
-                            "y": 2.5
+                            "x": 65.5,
+                            "y": 9
                           },
                           {
-                            "x": 59.5,
-                            "y": 3
+                            "x": 116,
+                            "y": 11.5
                           },
                           {
-                            "x": 110,
-                            "y": 5.5
+                            "x": 116,
+                            "y": 22.5
                           },
                           {
-                            "x": 110,
-                            "y": 16.5
+                            "x": 81.5,
+                            "y": 78
                           },
                           {
-                            "x": 75.5,
-                            "y": 72
+                            "x": 88.5,
+                            "y": 131.5
                           },
                           {
-                            "x": 82.5,
-                            "y": 125.5
-                          },
-                          {
-                            "x": 37,
-                            "y": 128
+                            "x": 43,
+                            "y": 134
                           }
                         ]
                       ]
@@ -114663,9 +115075,9 @@
           "height": 1024,
           "name": "finalbg",
           "persistentUuid": "9b92bb8a-516e-4ee4-90a8-fd57590b558e",
-          "texture": "finalbg.png",
+          "texture": "bg_arena_final.png",
           "type": "TiledSpriteObject::TiledSprite",
-          "width": 1536,
+          "width": 1819,
           "variables": [],
           "effects": [],
           "behaviors": [
@@ -114694,189 +115106,6 @@
               "canBeGrabbed": true,
               "platformType": "NormalPlatform",
               "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "boss_x",
-          "persistentUuid": "8b33461f-857f-47c3-a802-ca3029e1d2cf",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [
-            {
-              "effectType": "Outline",
-              "name": "Effect",
-              "doubleParameters": {
-                "padding": 0,
-                "thickness": 2
-              },
-              "stringParameters": {
-                "color": "144;19;254"
-              },
-              "booleanParameters": {}
-            }
-          ],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.12,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite22",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 39,
-                            "y": 28
-                          },
-                          {
-                            "x": 344,
-                            "y": 28
-                          },
-                          {
-                            "x": 344,
-                            "y": 234
-                          },
-                          {
-                            "x": 39,
-                            "y": 234
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite23",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 39,
-                            "y": 28
-                          },
-                          {
-                            "x": 344,
-                            "y": 28
-                          },
-                          {
-                            "x": 344,
-                            "y": 234
-                          },
-                          {
-                            "x": 39,
-                            "y": 234
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite24",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 39,
-                            "y": 28
-                          },
-                          {
-                            "x": 344,
-                            "y": 28
-                          },
-                          {
-                            "x": 344,
-                            "y": 234
-                          },
-                          {
-                            "x": 39,
-                            "y": 234
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite25",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 39,
-                            "y": 28
-                          },
-                          {
-                            "x": 344,
-                            "y": 28
-                          },
-                          {
-                            "x": 344,
-                            "y": 234
-                          },
-                          {
-                            "x": 39,
-                            "y": 234
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ]
         },
@@ -115464,15 +115693,7 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ],
+          "behaviors": [],
           "animations": [
             {
               "name": "",
@@ -115562,6 +115783,2853 @@
                           {
                             "x": 17,
                             "y": 272
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Mysterious",
+          "persistentUuid": "25ec75ac-3b8c-4f91-9840-02dfb0f73c56",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Atirar",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/atirar_00.png",
+                      "points": [
+                        {
+                          "name": "arma",
+                          "x": 142.5,
+                          "y": 35.0
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/atirar_01.png",
+                      "points": [
+                        {
+                          "name": "arma",
+                          "x": 142.5,
+                          "y": 35.0
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/atirar_02.png",
+                      "points": [
+                        {
+                          "name": "arma",
+                          "x": 142.5,
+                          "y": 35.0
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/atirar_03.png",
+                      "points": [
+                        {
+                          "name": "arma",
+                          "x": 142.5,
+                          "y": 35.0
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/atirar_04.png",
+                      "points": [
+                        {
+                          "name": "arma",
+                          "x": 142.5,
+                          "y": 35.0
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/atirar_05.png",
+                      "points": [
+                        {
+                          "name": "arma",
+                          "x": 142.5,
+                          "y": 35.0
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/atirar_06.png",
+                      "points": [
+                        {
+                          "name": "arma",
+                          "x": 142.5,
+                          "y": 35.0
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/atirar_07.png",
+                      "points": [
+                        {
+                          "name": "arma",
+                          "x": 142.5,
+                          "y": 35.0
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/atirar_08.png",
+                      "points": [
+                        {
+                          "name": "arma",
+                          "x": 142.5,
+                          "y": 35.0
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/atirar_09.png",
+                      "points": [
+                        {
+                          "name": "arma",
+                          "x": 142.5,
+                          "y": 35.0
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/atirar_10.png",
+                      "points": [
+                        {
+                          "name": "arma",
+                          "x": 142.5,
+                          "y": 35.0
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/atirar_11.png",
+                      "points": [
+                        {
+                          "name": "arma",
+                          "x": 142.5,
+                          "y": 35.0
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/atirar_12.png",
+                      "points": [
+                        {
+                          "name": "arma",
+                          "x": 142.5,
+                          "y": 35.0
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/atirar_13.png",
+                      "points": [
+                        {
+                          "name": "arma",
+                          "x": 142.5,
+                          "y": 35.0
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/atirar_14.png",
+                      "points": [
+                        {
+                          "name": "arma",
+                          "x": 142.5,
+                          "y": 35.0
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/atirar_15.png",
+                      "points": [
+                        {
+                          "name": "arma",
+                          "x": 142.5,
+                          "y": 35.0
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Socar",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.06,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/socar_00.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/socar_01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/socar_02.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/socar_03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/socar_04.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/socar_05.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/socar_06.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/socar_07.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/socar_08.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/socar_09.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/socar_10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/socar_11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/socar_12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/socar_13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/socar_14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/socar_15.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Parado",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/parado_00.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/parado_01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/parado_02.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/parado_03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/parado_04.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/parado_05.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/parado_06.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/parado_07.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/parado_08.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/parado_09.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/parado_10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/parado_11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/parado_12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/parado_13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/mysterious/parado_14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 45,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 12
+                          },
+                          {
+                            "x": 110,
+                            "y": 155
+                          },
+                          {
+                            "x": 45,
+                            "y": 155
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "48856990c05e2f8a5a7d4a7d9873c474be7075c079262a03f24330bf49d019d4",
+          "name": "bala_r1d",
+          "persistentUuid": "be3356dd-54c0-4d84-a19b-9a0f35fd1562",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.125,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Main Ship Burst Engine_Idle_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 29
+                          },
+                          {
+                            "x": 8,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Main Ship Burst Engine_Idle_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 29
+                          },
+                          {
+                            "x": 8,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Main Ship Burst Engine_Idle_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 29
+                          },
+                          {
+                            "x": 8,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Main Ship Burst Engine_Idle_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 29
+                          },
+                          {
+                            "x": 8,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Main Ship Burst Engine_Idle_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 29
+                          },
+                          {
+                            "x": 8,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Main Ship Burst Engine_Idle_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 29
+                          },
+                          {
+                            "x": 8,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Main Ship Burst Engine_Idle_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 29
+                          },
+                          {
+                            "x": 8,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Powering",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.1667,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Main Ship Burst Engine_Powering_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 29
+                          },
+                          {
+                            "x": 8,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Main Ship Burst Engine_Powering_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 29
+                          },
+                          {
+                            "x": 8,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Main Ship Burst Engine_Powering_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 29
+                          },
+                          {
+                            "x": 8,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Main Ship Burst Engine_Powering_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 29
+                          },
+                          {
+                            "x": 8,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Main Ship Burst Engine_Powering_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 29
+                          },
+                          {
+                            "x": 8,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Main Ship Burst Engine_Powering_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 29
+                          },
+                          {
+                            "x": 8,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "48856990c05e2f8a5a7d4a7d9873c474be7075c079262a03f24330bf49d019d4",
+          "name": "bala_r1d2",
+          "persistentUuid": "8a108c90-a823-40b7-86c4-31b42318dee0",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.125,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Main Ship Burst Engine_Idle_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 29
+                          },
+                          {
+                            "x": 8,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Main Ship Burst Engine_Idle_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 29
+                          },
+                          {
+                            "x": 8,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Main Ship Burst Engine_Idle_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 29
+                          },
+                          {
+                            "x": 8,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Main Ship Burst Engine_Idle_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 29
+                          },
+                          {
+                            "x": 8,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Main Ship Burst Engine_Idle_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 29
+                          },
+                          {
+                            "x": 8,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Main Ship Burst Engine_Idle_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 29
+                          },
+                          {
+                            "x": 8,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Main Ship Burst Engine_Idle_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 29
+                          },
+                          {
+                            "x": 8,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Powering",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.1667,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Main Ship Burst Engine_Powering_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 29
+                          },
+                          {
+                            "x": 8,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Main Ship Burst Engine_Powering_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 29
+                          },
+                          {
+                            "x": 8,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Main Ship Burst Engine_Powering_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 29
+                          },
+                          {
+                            "x": 8,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Main Ship Burst Engine_Powering_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 29
+                          },
+                          {
+                            "x": 8,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Main Ship Burst Engine_Powering_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 29
+                          },
+                          {
+                            "x": 8,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Main Ship Burst Engine_Powering_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 19
+                          },
+                          {
+                            "x": 22,
+                            "y": 29
+                          },
+                          {
+                            "x": 8,
+                            "y": 29
                           }
                         ]
                       ]
@@ -115700,9 +118768,6 @@
             "objectName": "bloco"
           },
           {
-            "objectName": "boss_x"
-          },
-          {
             "objectName": "NewTiledSprite2"
           },
           {
@@ -115836,6 +118901,15 @@
           },
           {
             "objectName": "bar_monstro_life"
+          },
+          {
+            "objectName": "Mysterious"
+          },
+          {
+            "objectName": "bala_r1d"
+          },
+          {
+            "objectName": "bala_r1d2"
           }
         ]
       },
@@ -115884,7 +118958,7 @@
                 "value": "FlippableCapability::FlippableBehavior::FlipX"
               },
               "parameters": [
-                "boss_x",
+                "Mysterious",
                 "Flippable",
                 "yes"
               ]
@@ -115932,6 +119006,22 @@
               "parameters": [
                 "",
                 "dialogofinal"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "box_d"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "txt_dialogo_final"
               ]
             },
             {
@@ -116099,21 +119189,34 @@
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "NumberVariable"
               },
               "parameters": [
-                "Player2",
-                "ativa_dialogo_box",
-                "",
-                "",
-                ""
+                "dialogo",
+                "=",
+                "0"
               ]
             },
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Once"
+                "value": "SceneInstancesCount"
               },
-              "parameters": []
+              "parameters": [
+                "",
+                "ativa_dialogo_box",
+                ">",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "ativa_dialogo_box.X() - Player2.BoundingBoxCenterX()",
+                "<",
+                "60"
+              ]
             }
           ],
           "actions": [
@@ -116124,12 +119227,48 @@
               "parameters": [
                 "\"Start\""
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "dialogo",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "box_d"
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "txt_dialogo_final"
+              ]
             }
           ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "dialogo",
+                "=",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "DialogueTree::IsDialogueLineType"
@@ -116140,6 +119279,16 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "q_usado",
+                "=",
+                "0"
+              ]
+            },
             {
               "type": {
                 "value": "DialogueTree::ScrollClippedText"
@@ -116164,22 +119313,16 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "DialogueTree::HasClippedTextScrollingCompleted"
-                  },
-                  "parameters": []
-                },
-                {
-                  "type": {
-                    "value": "KeyFromTextPressed"
+                    "value": "KeyFromTextReleased"
                   },
                   "parameters": [
                     "",
-                    "\"e\""
+                    "\"q\""
                   ]
                 },
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Once"
+                    "value": "DialogueTree::HasClippedTextScrollingCompleted"
                   },
                   "parameters": []
                 }
@@ -116188,6 +119331,55 @@
                 {
                   "type": {
                     "value": "DialogueTree::GoToNextLine"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "q_usado",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"q\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "q_usado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::HasClippedTextScrollingCompleted",
+                    "inverted": true
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::CompleteClippedTextScrolling"
                   },
                   "parameters": []
                 }
@@ -116200,16 +119392,18 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyFromTextPressed"
+                "value": "NumberVariable"
               },
               "parameters": [
-                "",
-                "\"q\""
+                "dialogo",
+                "=",
+                "1"
               ]
             },
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Once"
+                "value": "DialogueTree::IsDialogueRunning",
+                "inverted": true
               },
               "parameters": []
             }
@@ -116226,11 +119420,85 @@
             },
             {
               "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "box_d"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "txt_dialogo_final"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "luta",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "dialogo",
+                "=",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "BOSS MYSTERIOUS: longe = parado mirando, perto = tiro, colado = soco"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsEmpty"
+              },
+              "parameters": [
+                "bar_vida_play",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "tela_dead",
+                "=",
+                "4"
+              ]
+            },
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
                 "",
-                "\"cenademo\"",
+                "\"dead\"",
                 ""
               ]
             }
@@ -116239,7 +119507,1263 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "bar_monstro_life",
+                "=",
+                "Mysterious.BoundingBoxCenterX() - bar_monstro_life.Width() / 2",
+                "=",
+                "Mysterious.Y() - 10"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "bala_r1d",
+                "-500",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "bala_r1d2",
+                "500",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "modo_boss",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "Mysterious",
+                ">",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Player2.BoundingBoxCenterX()",
+                "<",
+                "Mysterious.BoundingBoxCenterX()"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Mysterious",
+                "Flippable",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "Mysterious",
+                ">",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Player2.BoundingBoxCenterX()",
+                ">=",
+                "Mysterious.BoundingBoxCenterX()"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Mysterious",
+                "Flippable",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "luta",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "Mysterious",
+                ">",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "abs(Player2.BoundingBoxCenterX() - Mysterious.BoundingBoxCenterX())",
+                "<=",
+                "650"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "modo_boss",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "luta",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "Mysterious",
+                ">",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "abs(Player2.BoundingBoxCenterX() - Mysterious.BoundingBoxCenterX())",
+                "<=",
+                "Mysterious.Width() * 0.445 + 25"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "abs(Player2.BoundingBoxCenterY() - Mysterious.BoundingBoxCenterY())",
+                "<",
+                "Mysterious.Height() * 0.6"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "modo_boss",
+                "=",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "luta",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "modo_boss",
+                "=",
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "antes da luta (durante a conversa): animacao Parado"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "modo_boss",
+                "=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "Mysterious",
+                "Animation",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+              },
+              "parameters": [
+                "Mysterious",
+                "Animation"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "longe: fica na pose de tiro, parado"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "modo_boss",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "Mysterious",
+                "Animation",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
+              },
+              "parameters": [
+                "Mysterious",
+                "Animation"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "tiro: a bala sai no quadro 9 (clarão da arma), uma vez a cada volta da animação"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "modo_boss",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "Mysterious",
+                "Animation",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+              },
+              "parameters": [
+                "Mysterious",
+                "Animation"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::ElapsedTime"
+                  },
+                  "parameters": [
+                    "Mysterious",
+                    "Animation",
+                    ">=",
+                    "0.72"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                  },
+                  "parameters": [
+                    "Mysterious",
+                    "Flippable"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "bala_r1d",
+                    "Mysterious.PointX(\"arma\") - 32",
+                    "Mysterious.PointY(\"arma\") - 32",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "bala_r1d",
+                    "Resizable",
+                    "64",
+                    "64"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusic"
+                  },
+                  "parameters": [
+                    "",
+                    "weaponfire1.wav",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::ElapsedTime"
+                  },
+                  "parameters": [
+                    "Mysterious",
+                    "Animation",
+                    ">=",
+                    "0.72"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlippedX",
+                    "inverted": true
+                  },
+                  "parameters": [
+                    "Mysterious",
+                    "Flippable"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "bala_r1d2",
+                    "Mysterious.PointX(\"arma\") - 32",
+                    "Mysterious.PointY(\"arma\") - 32",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "bala_r1d2",
+                    "Resizable",
+                    "64",
+                    "64"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusic"
+                  },
+                  "parameters": [
+                    "",
+                    "weaponfire1.wav",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "soco: acerta no quadro 7 (braço esticado), uma vez a cada soco"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "modo_boss",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "Mysterious",
+                "Animation",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+              },
+              "parameters": [
+                "Mysterious",
+                "Animation"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::ElapsedTime"
+                  },
+                  "parameters": [
+                    "Mysterious",
+                    "Animation",
+                    ">=",
+                    "0.42"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                  },
+                  "parameters": [
+                    "bar_vida_play",
+                    "-",
+                    "25 * mult_dano",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "RedExplosion2",
+                    "Player2.BoundingBoxCenterX()",
+                    "Player2.BoundingBoxCenterY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusic"
+                  },
+                  "parameters": [
+                    "",
+                    "bzzzt.wav",
+                    "no",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "RedExplosion2",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "balas do Mysterious acertam o jogador ou somem nas paredes"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player2",
+                "bala_r1d",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "bar_vida_play",
+                "-",
+                "15 * mult_dano",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "RedExplosion2",
+                "Player2.BoundingBoxCenterX()",
+                "Player2.BoundingBoxCenterY()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "bala_r1d",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "RedExplosion2",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "bala_r1d",
+                "Plataforma",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "bala_r1d",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "bala_r1d",
+                "Plataforma2",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "bala_r1d",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "bala_r1d",
+                "bloco",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "bala_r1d",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player2",
+                "bala_r1d2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "bar_vida_play",
+                "-",
+                "15 * mult_dano",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "RedExplosion2",
+                "Player2.BoundingBoxCenterX()",
+                "Player2.BoundingBoxCenterY()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "bala_r1d2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "RedExplosion2",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "bala_r1d2",
+                "Plataforma",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "bala_r1d2",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "bala_r1d2",
+                "Plataforma2",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "bala_r1d2",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "bala_r1d2",
+                "bloco",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "bala_r1d2",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Mysterious leva dano dos tiros do jogador"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "luta",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "bala1",
+                "Mysterious",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "bar_monstro_life",
+                "-",
+                "10 / mult_hp",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Holy_Explosion3",
+                "Mysterious.BoundingBoxCenterX() - 48",
+                "Mysterious.BoundingBoxCenterY() - 48",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "bala1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Holy_Explosion3",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "luta",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "bala2",
+                "Mysterious",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "bar_monstro_life",
+                "-",
+                "10 / mult_hp",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Holy_Explosion3",
+                "Mysterious.BoundingBoxCenterX() - 48",
+                "Mysterious.BoundingBoxCenterY() - 48",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "bala2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Holy_Explosion3",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsEmpty"
+              },
+              "parameters": [
+                "bar_monstro_life",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Holy_Explosion3",
+                "Mysterious.BoundingBoxCenterX() - 48",
+                "Mysterious.BoundingBoxCenterY() - 48",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "portalF",
+                "Mysterious.BoundingBoxCenterX() - 175",
+                "662 - 272",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Mysterious",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "bar_monstro_life",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Holy_Explosion3",
+                ""
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Link",
