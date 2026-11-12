@@ -52,3 +52,40 @@ Para converter um sprite novo, adicione uma linha à lista `groups` do `convert.
 - **Fundo das cenas 1 e 2:** `bg_neon_cena1.png` (1935x1080, ampliado com NEAREST a partir de
   1679x937), no objeto `bj_2` com y -225 e altura 1080, para cobrir tudo o que a câmera mostra
   na vertical. A imagem já é pixel art, então não passa pelo `convert.py`.
+- **Fundo da cena 3:** `bg_x7_cena3.png` (1536x1024, a imagem "Neon X7 Industrial Alley" sem
+  alterações), na textura do objeto `lab_externo`. Tem o mesmo tamanho do fundo antigo
+  (`lab_exeterno.png`), então posição e parallax ficaram iguais. O arquivo antigo continua no
+  projeto porque o objeto global `lab_externo2` (sem instâncias) ainda aponta para ele.
+- **Boss final `Mysterious` (cena `final`):** substitui o `boss_x`. Os quadros vêm das spritesheets
+  "Mysterious (Boss)-shoot/punch" (4x4 quadros de 128x128), ampliados para 160x160 com LANCZOS e
+  salvos em `assets/image/mysterious/` (`atirar_00..15`, `socar_00..15`). Animação 0 = Atirar
+  (0,08 s/quadro, ponto `arma` no cano), 1 = Socar (0,06 s/quadro). Os eventos usam a variável de
+  cena `modo_boss`: 0 = jogador a mais de 650 px, boss parado na pose de tiro; 1 = até 650 px,
+  atira (bala no quadro 9, mesmas balas `bala_r1d`/`bala_r1d2` dos robôs atiradores da cena 2,
+  15 de dano); 2 = jogador ao alcance do punho (`Width*0.445 + 25`), soca (25 de dano no quadro 7).
+  A tecla Q não leva mais para a `cenademo`: só apaga a parede `ativa_dialogo_box` e esconde a
+  caixa de texto. A cena agora também manda para a tela `dead` (tela_dead 4) quando a vida acaba.
+  Quando a barra do Mysterious zera, ele explode e cria o `portalF` no lugar dele (em pé no chão).
+  Encostar no portal leva à tela `load` com tela_load 5, que abre a `cenademo`. O `portalF` perdeu
+  o comportamento de plataforma, que o deixava sólido e impedia o jogador de encostar nele.
+- **Tiro do robô (`dis_paro_player1.png`, `dis_paro_player_2.png`):** refeitos fora do `convert.py`.
+  O original do backup ganhou 6 px de margem transparente em cada lado (o contorno era cortado na
+  borda) e foi pixelado com bloco 3, 24 cores, contorno e gamma 0.85 (com 0.6, igual ao resto do
+  robô, ficava claro demais, porque o original já é mais claro). Em todas as cenas, origem, ponto
+  `disparo` e máscara de colisão desses quadros foram deslocados +6 px, então nada muda de lugar.
+  Atenção: rodar o `convert.py` de novo sobrescreve esses dois arquivos com a versão antiga.
+  Conversa antes da luta (11/11/2026): o Mysterious fica em x 770, y 512 (pés em y 665, onde começa
+  o desenho do piso; as 3 primeiras linhas do `tilenovo.png` são transparentes), tocando a animação
+  2 = Parado (spritesheet "idle-trimmed", 15 quadros, 0,1 s). As 9 falas estão em
+  `assets/dialogofinal.json`. A variável de cena `dialogo` controla tudo: 0 = ainda não começou
+  (a caixa fica escondida); vira 1 quando o robô chega a menos de 60 px da parede
+  `ativa_dialogo_box` (por distância, não por colisão: a colisão com a parede sólida liga e desliga
+  e reiniciava a conversa). Com 1, soltar o Q completa a fala que está sendo escrita ou, se ela já
+  terminou, passa para a próxima (`q_usado` impede que um mesmo Q faça as duas coisas). Quando a
+  extensão diz que a conversa acabou (`IsDialogueRunning` falso, depois do Q na última fala), a
+  parede some, a caixa se esconde, `luta` vira 1 e `dialogo` vira 2. Só com `luta` = 1 valem tiro,
+  soco e dano no boss. O texto quebra linha sozinho (instância com largura fixa de 770 px).
+- **Fundo da cena final:** `bg_arena_final.png` ("Neon Cyberpunk Hacker Arena", 1672x941 ampliado com
+  NEAREST para 1819x1024), no objeto `finalbg` da cena `final`. A altura de 1024 e a posição
+  (-64, -64) são as do fundo antigo, então cobre a mesma área da câmera. O `finalbg.png` antigo
+  continua no projeto: os objetos `finalbg` da cena 2 e da cena 3 (sem instâncias) apontam para ele.
