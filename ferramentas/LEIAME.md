@@ -89,3 +89,24 @@ Para converter um sprite novo, adicione uma linha à lista `groups` do `convert.
   NEAREST para 1819x1024), no objeto `finalbg` da cena `final`. A altura de 1024 e a posição
   (-64, -64) são as do fundo antigo, então cobre a mesma área da câmera. O `finalbg.png` antigo
   continua no projeto: os objetos `finalbg` da cena 2 e da cena 3 (sem instâncias) apontam para ele.
+
+## Munição (13/11/2026)
+
+`municao.py` aplica o sistema de munição no `game.json` (só roda uma vez; aborta se o objeto
+`Municao` já existir). Pente de 12 balas, recarga de 1,2 s (tecla **R** ou automática com o pente
+vazio). Reserva inicial: Normal 36, Difícil 24. Cada caixa dá +24 (Normal) ou +30 (Difícil), até 96.
+As caixas (objeto global `Municao`, quadros em `assets/image/municao/`, corrigidos a partir do
+spritesheet "Pixel Art Ammo Crate") ficam em pontos fixos de cada cena. No início, um laço
+apaga caixas sorteadas até sobrar `alvo_municao`:
+
+| Cena | Pontos | Normal | Difícil |
+|---|---|---|---|
+| cena1 | 5 | 2 | 1 |
+| cena2 | 10 | 7 | 6 |
+| cena3 | 7 | 4 | 3 |
+| final | 3 | 2 | 1 |
+
+No Insano (`dificuldade` = 2) as caixas somem, o contador fica escondido e o pente nunca esvazia.
+Sem nenhuma bala, o robô gera 6 balas depois de 5 s (Normal) ou 8 s (Difícil), para a fase não travar.
+Para mudar um ponto, arraste a caixa no editor da cena; para mudar a quantidade, edite o
+primeiro evento da cena (`alvo_municao`).

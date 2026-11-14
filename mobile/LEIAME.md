@@ -1,13 +1,13 @@
 # Cyber Sentinel — versão Android
 
-`CyberSentinel-v11.apk` é o port do jogo para celular. Ele roda no **Godot 4.7.2**, com um
+`CyberSentinel-v12.apk` é o port do jogo para celular. Ele roda no **Godot 4.7.2**, com um
 runtime próprio que reproduz os eventos do projeto GDevelop (`game.json`). O APK tem os mesmos
 eventos, objetos, instâncias e recursos do projeto original e traz controles de toque na tela.
 
 ## Instalação
 
-1. Copie `CyberSentinel-v11.apk` para o celular (Android 7.0 ou mais recente).
-2. A v11 instala por cima da v7 até a v10, porque usa a mesma assinatura. **Se a v6 estiver instalada,
+1. Copie `CyberSentinel-v12.apk` para o celular (Android 7.0 ou mais recente).
+2. A v12 instala por cima da v7 até a v11, porque usa a mesma assinatura. **Se a v6 estiver instalada,
    desinstale antes.** A v6 tem outra chave, então o Android não deixa instalar uma por cima da
    outra. O jogo não tem save, então nada se perde.
 3. Abra o APK e permita a instalação de fontes desconhecidas, se o Android pedir.
@@ -19,6 +19,7 @@ eventos, objetos, instâncias e recursos do projeto original e traz controles de
 | `<` `>` | Andar |
 | PULO | Pular |
 | TIRO | Atirar |
+| R | Recarregar o pente (a recarga também é automática quando ele esvazia) |
 | ESCUDO | Ativar o escudo (fase 3) |
 | X | Começar a luta com o chefe (fase 3) |
 | Q | Passar as falas da conversa com o chefe final; na última, começa a luta |
@@ -26,6 +27,26 @@ eventos, objetos, instâncias e recursos do projeto original e traz controles de
 
 O botão **voltar** do Android pausa durante as fases, volta ao menu nas outras telas e só fecha
 o jogo a partir do menu principal. O jogo também pausa sozinho quando vai para segundo plano.
+
+## O que mudou na v12 (em relação à v11)
+
+Leva para o celular o sistema de munição feito no jogo de PC em 13/11/2026 (`ferramentas/municao.py`).
+
+- **Pente de 12 balas**, com recarga de 1,2 s pelo novo botão **R** ou automática quando o pente
+  esvazia. O contador (`pente / reserva`) fica no canto superior esquerdo e mostra
+  "RECARREGANDO..." e "SEM BALAS!". A barra de balas agora vai até 12.
+- **Reserva:** 36 no Normal e 24 no Difícil no começo de cada fase. Cada caixa de munição dá +24
+  (Normal) ou +30 (Difícil), até 96. Sem nenhuma bala, o robô ganha 6 depois de 5 s (Normal) ou
+  8 s (Difícil).
+- **Caixas** nos mesmos pontos do PC, sorteadas no começo da fase (Normal/Difícil): fase 1 2/1,
+  fase 2 7/6, fase 3 4/3, final 2/1. Elas e o contador são criados pelo script, porque não existem
+  nos `.scn`.
+- **Insano:** balas infinitas, sem caixas e sem contador. A tela de dificuldade agora grava a
+  global `dificuldade` (0/1/2), como no PC.
+- O foguete (`Rocket_Pickup`) da fase 2 saiu, como no PC.
+
+Scripts alterados: `sheets/sheet_player.gd`, `layouts/dificuldade.gd` e `runtime/gd_touch.gd`
+(em `scripts_v12/`). As 9 imagens da caixa são idênticas, pixel a pixel, às do PC.
 
 ## O que mudou na v11 (em relação à v10)
 
@@ -111,11 +132,12 @@ do jogador.
 
 | Caminho | Conteúdo |
 |---|---|
-| `CyberSentinel-v11.apk` | Jogo pronto para instalar (as versões anteriores estão no histórico do git) |
+| `CyberSentinel-v12.apk` | Jogo pronto para instalar (as versões anteriores estão no histórico do git) |
 | `scripts_v7/` | Os 12 scripts GDScript que a v7 alterou, em texto |
 | `scripts_v8/` | Os 3 scripts que a v8 alterou (`gd_sprite`, `platformer_object`, `tween`) |
 | `scripts_v9/` | O script que a v9 alterou (`platformer_object`, versão final) |
 | `scripts_v11/` | A cena final da v11 (`layouts/final.gd`: conversa e luta com o Mysterious) |
+| `scripts_v12/` | Munição (`sheet_player`), dificuldade e botão R (`gd_touch`) da v12 |
 | `ferramentas/gdc.py` | Decompilador de scripts `.gdc` (GDScript compilado, Godot 4.7) |
 | `ferramentas/gdtok.py` | Tokenizador que confirma que o texto gera exatamente o mesmo bytecode |
 | `ferramentas/build.py` | Troca scripts no APK, refaz o índice `assets.sparsepck` e a versão do manifest |
@@ -125,14 +147,14 @@ do jogador.
 | `ferramentas/certificado.der` | Certificado público da assinatura da v7 |
 
 A chave privada da assinatura **não** está no repositório. Ela fica guardada fora dele e é
-necessária para que versões futuras instalem por cima da v11 sem desinstalar.
+necessária para que versões futuras instalem por cima da v12 sem desinstalar.
 
 ### Gerar uma nova versão
 
 ```bash
-python3 ferramentas/build.py CyberSentinel-v11.apk pasta_raiz/ sem_assinatura.apk 12
-python3 ferramentas/apkv2.py sign sem_assinatura.apk CyberSentinel-v12.apk chave.pem ferramentas/certificado.der
-python3 ferramentas/apkv2.py verify CyberSentinel-v12.apk
+python3 ferramentas/build.py CyberSentinel-v12.apk pasta_raiz/ sem_assinatura.apk 13
+python3 ferramentas/apkv2.py sign sem_assinatura.apk CyberSentinel-v13.apk chave.pem ferramentas/certificado.der
+python3 ferramentas/apkv2.py verify CyberSentinel-v13.apk
 ```
 
 `pasta_raiz/` deve conter uma pasta `scripts/` com a mesma estrutura de `scripts_v7/`
@@ -147,7 +169,7 @@ caminhos do APK:
 
 ```bash
 python3 ferramentas/ctex.py modelo.ctex imagem.png patch/assets/.godot/imported/<nome>.png-<hash>.ctex
-python3 ferramentas/build_assets.py CyberSentinel-v11.apk patch/ sem_assinatura.apk 12
+python3 ferramentas/build_assets.py CyberSentinel-v12.apk patch/ sem_assinatura.apk 13
 ```
 
 Um arquivo da pasta que ainda não existe no APK entra como arquivo novo, com entrada nova no
