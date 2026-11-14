@@ -1,13 +1,13 @@
 # Cyber Sentinel — versão Android
 
-`CyberSentinel-v12.apk` é o port do jogo para celular. Ele roda no **Godot 4.7.2**, com um
+`CyberSentinel-v13.apk` é o port do jogo para celular. Ele roda no **Godot 4.7.2**, com um
 runtime próprio que reproduz os eventos do projeto GDevelop (`game.json`). O APK tem os mesmos
 eventos, objetos, instâncias e recursos do projeto original e traz controles de toque na tela.
 
 ## Instalação
 
-1. Copie `CyberSentinel-v12.apk` para o celular (Android 7.0 ou mais recente).
-2. A v12 instala por cima da v7 até a v11, porque usa a mesma assinatura. **Se a v6 estiver instalada,
+1. Copie `CyberSentinel-v13.apk` para o celular (Android 7.0 ou mais recente).
+2. A v13 instala por cima da v7 até a v12, porque usa a mesma assinatura. **Se a v6 estiver instalada,
    desinstale antes.** A v6 tem outra chave, então o Android não deixa instalar uma por cima da
    outra. O jogo não tem save, então nada se perde.
 3. Abra o APK e permita a instalação de fontes desconhecidas, se o Android pedir.
@@ -27,6 +27,19 @@ eventos, objetos, instâncias e recursos do projeto original e traz controles de
 
 O botão **voltar** do Android pausa durante as fases, volta ao menu nas outras telas e só fecha
 o jogo a partir do menu principal. O jogo também pausa sozinho quando vai para segundo plano.
+
+## O que mudou na v13 (em relação à v12)
+
+Só o visual dos controles de toque mudou, no estilo neon do jogo. As posições, os tamanhos e a
+área de toque de cada botão são os mesmos da v12.
+
+- Os botões viraram octógonos azul-escuros com borda neon ciano, linha roxa interna, brilho e
+  reflexo no topo. Ao apertar, o botão acende em azul e encolhe um pouco.
+- Ícones desenhados: setas para andar, chevrons no PULO, mira no TIRO, escudo no ESCUDO, X grosso
+  e barras no pause. O nome fica embaixo do ícone. E, Q e R são letras grandes com contorno.
+- O menu de pausa (CONTINUAR / MENU PRINCIPAL) usa o mesmo estilo.
+
+Tudo é desenhado por código em `runtime/gd_touch.gd` (em `scripts_v13/`), sem imagens novas.
 
 ## O que mudou na v12 (em relação à v11)
 
@@ -132,12 +145,13 @@ do jogador.
 
 | Caminho | Conteúdo |
 |---|---|
-| `CyberSentinel-v12.apk` | Jogo pronto para instalar (as versões anteriores estão no histórico do git) |
+| `CyberSentinel-v13.apk` | Jogo pronto para instalar (as versões anteriores estão no histórico do git) |
 | `scripts_v7/` | Os 12 scripts GDScript que a v7 alterou, em texto |
 | `scripts_v8/` | Os 3 scripts que a v8 alterou (`gd_sprite`, `platformer_object`, `tween`) |
 | `scripts_v9/` | O script que a v9 alterou (`platformer_object`, versão final) |
 | `scripts_v11/` | A cena final da v11 (`layouts/final.gd`: conversa e luta com o Mysterious) |
 | `scripts_v12/` | Munição (`sheet_player`), dificuldade e botão R (`gd_touch`) da v12 |
+| `scripts_v13/` | Botões de toque no estilo neon (`gd_touch`) da v13 |
 | `ferramentas/gdc.py` | Decompilador de scripts `.gdc` (GDScript compilado, Godot 4.7) |
 | `ferramentas/gdtok.py` | Tokenizador que confirma que o texto gera exatamente o mesmo bytecode |
 | `ferramentas/build.py` | Troca scripts no APK, refaz o índice `assets.sparsepck` e a versão do manifest |
@@ -147,14 +161,14 @@ do jogador.
 | `ferramentas/certificado.der` | Certificado público da assinatura da v7 |
 
 A chave privada da assinatura **não** está no repositório. Ela fica guardada fora dele e é
-necessária para que versões futuras instalem por cima da v12 sem desinstalar.
+necessária para que versões futuras instalem por cima da v13 sem desinstalar.
 
 ### Gerar uma nova versão
 
 ```bash
-python3 ferramentas/build.py CyberSentinel-v12.apk pasta_raiz/ sem_assinatura.apk 13
-python3 ferramentas/apkv2.py sign sem_assinatura.apk CyberSentinel-v13.apk chave.pem ferramentas/certificado.der
-python3 ferramentas/apkv2.py verify CyberSentinel-v13.apk
+python3 ferramentas/build.py CyberSentinel-v13.apk pasta_raiz/ sem_assinatura.apk 14
+python3 ferramentas/apkv2.py sign sem_assinatura.apk CyberSentinel-v14.apk chave.pem ferramentas/certificado.der
+python3 ferramentas/apkv2.py verify CyberSentinel-v14.apk
 ```
 
 `pasta_raiz/` deve conter uma pasta `scripts/` com a mesma estrutura de `scripts_v7/`
@@ -169,7 +183,7 @@ caminhos do APK:
 
 ```bash
 python3 ferramentas/ctex.py modelo.ctex imagem.png patch/assets/.godot/imported/<nome>.png-<hash>.ctex
-python3 ferramentas/build_assets.py CyberSentinel-v12.apk patch/ sem_assinatura.apk 13
+python3 ferramentas/build_assets.py CyberSentinel-v13.apk patch/ sem_assinatura.apk 14
 ```
 
 Um arquivo da pasta que ainda não existe no APK entra como arquivo novo, com entrada nova no
