@@ -50,6 +50,12 @@ Mas o maior ataque cibernético da história escondia um segredo: o vírus era s
 3. No GDevelop, vá em **Abrir projeto** e escolha o arquivo `game.json`.
 4. Clique em **Preview** para jogar. O jogo começa pela cena `menu`.
 
+## Jogar no Windows (.exe)
+
+Baixe [`windows/CyberSentinel.exe`](windows/CyberSentinel.exe) e dê dois cliques. Não precisa
+instalar nada nem abrir o GDevelop. Se o Windows avisar que protegeu o computador, clique em
+**Mais informações → Executar assim mesmo**. Detalhes em [`windows/LEIAME.md`](windows/LEIAME.md).
+
 ## Versão para celular (Android)
 
 O jogo também tem um port para Android: o arquivo
