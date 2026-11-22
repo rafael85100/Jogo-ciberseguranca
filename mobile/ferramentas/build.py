@@ -90,10 +90,14 @@ while q < len(m):
                 vn_idx = vd
     q += sz
 old = strs[vn_idx]; new_vn = '%d.0' % version
-assert len(new_vn) == len(old) and uses[vn_idx] == ['versionName'], (old, uses.get(vn_idx))
-o, _ = sget(vn_idx)
-if fl & 0x100: m[o:o + len(old)] = new_vn.encode()
-else: m[o:o + 2 * len(old)] = new_vn.encode('utf-16le')
+if len(new_vn) == len(old) and uses[vn_idx] == ['versionName']:
+    o, _ = sget(vn_idx)
+    if fl & 0x100: m[o:o + len(old)] = new_vn.encode()
+    else: m[o:o + 2 * len(old)] = new_vn.encode('utf-16le')
+else:
+    # tamanho diferente (ex.: "1.7" da v21): o build_assets.py troca o versionName depois
+    print('versionName', repr(old), 'mantido aqui; use o build_assets.py para trocar')
+    new_vn = old
 files['AndroidManifest.xml'] = bytes(m)
 
 # 4) zip alinhado (dados STORED em multiplo de 4; .so em 16 KiB se STORED)
