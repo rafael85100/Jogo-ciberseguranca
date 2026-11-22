@@ -1,32 +1,39 @@
 # Cyber Sentinel — versão Android
 
-`CyberSentinel-v13.apk` é o port do jogo para celular. Ele roda no **Godot 4.7.2**, com um
-runtime próprio que reproduz os eventos do projeto GDevelop (`game.json`). O APK tem os mesmos
-eventos, objetos, instâncias e recursos do projeto original e traz controles de toque na tela.
+A versão mais recente é a **v22** (`CyberSentinel-v22.apk`). Ela tem 111 MB, mais que o limite de
+arquivo do GitHub, por isso fica na página de [Releases](https://github.com/rafael85100/Jogo-ciberseguranca/releases/tag/apk-v22) e não nesta pasta.
+`CyberSentinel-v13.apk`, nesta pasta, é a versão anterior. O port roda no **Godot 4.7.2**, com um
+runtime próprio que reproduz os eventos do projeto GDevelop (`game.json`), e traz controles de
+toque na tela.
 
 ## Instalação
 
-1. Copie `CyberSentinel-v13.apk` para o celular (Android 7.0 ou mais recente).
-2. A v13 instala por cima da v7 até a v12, porque usa a mesma assinatura. **Se a v6 estiver instalada,
-   desinstale antes.** A v6 tem outra chave, então o Android não deixa instalar uma por cima da
-   outra. O jogo não tem save, então nada se perde.
+1. Baixe o `CyberSentinel-v22.apk` da [Release](https://github.com/rafael85100/Jogo-ciberseguranca/releases/tag/apk-v22) e copie para o celular (Android 7.0 ou
+   mais recente).
+2. **Se a v21 estiver instalada, desinstale antes.** A v21 foi gerada em outra máquina, com outra
+   assinatura, e o Android não deixa instalar uma por cima da outra. A v22 instala por cima da v7
+   até a v13, que usam a mesma assinatura dela. O jogo não tem save, então nada se perde.
 3. Abra o APK e permita a instalação de fontes desconhecidas, se o Android pedir.
 
-## Controles de toque
+## O que mudou na v22 (em relação à v21)
 
-| Botão | Ação |
-|---|---|
-| `<` `>` | Andar |
-| PULO | Pular |
-| TIRO | Atirar |
-| R | Recarregar o pente (a recarga também é automática quando ele esvazia) |
-| ESCUDO | Ativar o escudo (fase 3) |
-| X | Começar a luta com o chefe (fase 3) |
-| Q | Passar as falas da conversa com o chefe final; na última, começa a luta |
-| II | Pausar (Continuar ou Menu principal) |
+- **Máquinas geradoras de inimigos**, iguais às do jogo de PC. A quantidade de inimigos é a mesma,
+  mas eles saem de uma máquina por área. Quando o robô chega perto, a máquina solta o grupo todo de
+  uma vez e cada inimigo vai até o ponto de sempre, onde volta a patrulhar.
+  - Fase 1: 1 máquina com os 3 drones.
+  - Fase 2: 3 máquinas, com 3 + 3 + 4 robôs.
+- A v22 parte da v21 (soco, mira para cima e na diagonal, suporte a controle, co-op e tela de
+  controles) e só troca os scripts das fases 1 e 2 (`scripts_v22/layouts/`). As 11 imagens da
+  máquina e o objeto `maquina_geradora` entram pelo `ferramentas/maquinas_apk.py`.
 
-O botão **voltar** do Android pausa durante as fases, volta ao menu nas outras telas e só fecha
-o jogo a partir do menu principal. O jogo também pausa sozinho quando vai para segundo plano.
+Build da v22:
+
+```bash
+python3 ferramentas/build.py CyberSentinel-v21.apk raiz/ etapa1.apk 22      # raiz/scripts/layouts/ = scripts_v22/layouts/
+python3 ferramentas/maquinas_apk.py etapa1.apk ../game.json .. patch/
+python3 ferramentas/build_assets.py etapa1.apk patch/ etapa2.apk 22
+python3 ferramentas/apkv2.py sign etapa2.apk CyberSentinel-v22.apk chave.pem ferramentas/certificado.der
+```
 
 ## O que mudou na v13 (em relação à v12)
 
