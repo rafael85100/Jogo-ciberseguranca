@@ -20,6 +20,10 @@ O `.exe` traz dentro dele a exportação HTML5 do jogo, feita com o exportador o
 Ao abrir, ele serve esses arquivos só para o próprio computador (`127.0.0.1`) e abre uma janela
 de aplicativo do Edge. Quando a janela fecha, o `.exe` também fecha.
 
+O botão **Sair** do menu também fecha o jogo. Na exportação HTML5, a ação "Sair do jogo" do GDevelop
+não faz nada fora do Electron, por isso o launcher acrescenta um script à página: quando o jogo pede
+para sair, a página chama `/__quit` e o launcher fecha a janela e termina.
+
 Para o arquivo caber no limite de 100 MB do GitHub, os PNGs foram regravados em WebP **sem perdas**
 (os pixels são idênticos, o script confere um por um). Os nomes dos arquivos continuam iguais.
 
@@ -30,7 +34,7 @@ Ferramentas em `ferramentas/` (precisa de Node.js, Python com Pillow e Go):
 ```bash
 npm install gdcore-tools
 node ferramentas/export.mjs /caminho/do/game.json "$PWD/web"   # exporta o jogo para HTML5
-python3 ferramentas/towebp.py web                              # PNG -> WebP sem perdas
+python3 ferramentas/towebp.py web                              # PNG -> WebP sem perdas (TOWEBP_JOBS=6 threads)
 
 mkdir launcher && cp ferramentas/launcher.go launcher/main.go && cp -r web launcher/game
 cd launcher && go mod init cybersentinel

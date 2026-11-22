@@ -1,6 +1,6 @@
 import sys, os, io
 from PIL import Image, ImageChops
-from concurrent.futures import ProcessPoolExecutor
+from concurrent.futures import ThreadPoolExecutor
 root = sys.argv[1]
 def conv(path):
     try:
@@ -20,6 +20,7 @@ def conv(path):
     open(path, "wb").write(data)
     return old - len(data)
 files = [os.path.join(d, f) for d, _, fs in os.walk(root) for f in fs if f.lower().endswith(".png")]
-with ProcessPoolExecutor() as ex:
+# threads (o Pillow libera o GIL ao comprimir); com processos o pool quebrava (ConnectionResetError)
+with ThreadPoolExecutor(max_workers=int(os.environ.get('TOWEBP_JOBS', '6'))) as ex:
     saved = sum(ex.map(conv, files))
 print(len(files), "pngs, saved MB:", saved/1e6)
