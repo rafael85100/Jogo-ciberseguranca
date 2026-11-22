@@ -10191,6 +10191,94 @@
         "name": "assets/image/pausa_sel.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "assets/image/maquina/ligada0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/image/maquina/ligada0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/maquina/ligada1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/image/maquina/ligada1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/maquina/ligada2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/image/maquina/ligada2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/maquina/ligada3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/image/maquina/ligada3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/maquina/gerando0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/image/maquina/gerando0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/maquina/gerando1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/image/maquina/gerando1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/maquina/gerando2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/image/maquina/gerando2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/maquina/gerando3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/image/maquina/gerando3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/maquina/gerando4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/image/maquina/gerando4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/maquina/gerando5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/image/maquina/gerando5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/image/maquina/desligada.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/image/maquina/desligada.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ]
   },
@@ -14352,6 +14440,528 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "maquina_geradora",
+      "persistentUuid": "7e54cbd4-7dae-4b8e-b5e9-ef7a1752a6e1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "grupo",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "estado",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "ligada",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.18,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/image/maquina/ligada0.png",
+                  "points": [
+                    {
+                      "name": "nucleo",
+                      "x": 60,
+                      "y": 78
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 12
+                      },
+                      {
+                        "x": 114,
+                        "y": 12
+                      },
+                      {
+                        "x": 114,
+                        "y": 147
+                      },
+                      {
+                        "x": 6,
+                        "y": 147
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/image/maquina/ligada1.png",
+                  "points": [
+                    {
+                      "name": "nucleo",
+                      "x": 60,
+                      "y": 78
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 12
+                      },
+                      {
+                        "x": 114,
+                        "y": 12
+                      },
+                      {
+                        "x": 114,
+                        "y": 147
+                      },
+                      {
+                        "x": 6,
+                        "y": 147
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/image/maquina/ligada2.png",
+                  "points": [
+                    {
+                      "name": "nucleo",
+                      "x": 60,
+                      "y": 78
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 12
+                      },
+                      {
+                        "x": 114,
+                        "y": 12
+                      },
+                      {
+                        "x": 114,
+                        "y": 147
+                      },
+                      {
+                        "x": 6,
+                        "y": 147
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/image/maquina/ligada3.png",
+                  "points": [
+                    {
+                      "name": "nucleo",
+                      "x": 60,
+                      "y": 78
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 12
+                      },
+                      {
+                        "x": 114,
+                        "y": 12
+                      },
+                      {
+                        "x": 114,
+                        "y": 147
+                      },
+                      {
+                        "x": 6,
+                        "y": 147
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "gerando",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.07,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/image/maquina/gerando0.png",
+                  "points": [
+                    {
+                      "name": "nucleo",
+                      "x": 60,
+                      "y": 78
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 12
+                      },
+                      {
+                        "x": 114,
+                        "y": 12
+                      },
+                      {
+                        "x": 114,
+                        "y": 147
+                      },
+                      {
+                        "x": 6,
+                        "y": 147
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/image/maquina/gerando1.png",
+                  "points": [
+                    {
+                      "name": "nucleo",
+                      "x": 60,
+                      "y": 78
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 12
+                      },
+                      {
+                        "x": 114,
+                        "y": 12
+                      },
+                      {
+                        "x": 114,
+                        "y": 147
+                      },
+                      {
+                        "x": 6,
+                        "y": 147
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/image/maquina/gerando2.png",
+                  "points": [
+                    {
+                      "name": "nucleo",
+                      "x": 60,
+                      "y": 78
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 12
+                      },
+                      {
+                        "x": 114,
+                        "y": 12
+                      },
+                      {
+                        "x": 114,
+                        "y": 147
+                      },
+                      {
+                        "x": 6,
+                        "y": 147
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/image/maquina/gerando3.png",
+                  "points": [
+                    {
+                      "name": "nucleo",
+                      "x": 60,
+                      "y": 78
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 12
+                      },
+                      {
+                        "x": 114,
+                        "y": 12
+                      },
+                      {
+                        "x": 114,
+                        "y": 147
+                      },
+                      {
+                        "x": 6,
+                        "y": 147
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/image/maquina/gerando4.png",
+                  "points": [
+                    {
+                      "name": "nucleo",
+                      "x": 60,
+                      "y": 78
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 12
+                      },
+                      {
+                        "x": 114,
+                        "y": 12
+                      },
+                      {
+                        "x": 114,
+                        "y": 147
+                      },
+                      {
+                        "x": 6,
+                        "y": 147
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/image/maquina/gerando5.png",
+                  "points": [
+                    {
+                      "name": "nucleo",
+                      "x": 60,
+                      "y": 78
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 12
+                      },
+                      {
+                        "x": 114,
+                        "y": 12
+                      },
+                      {
+                        "x": 114,
+                        "y": 147
+                      },
+                      {
+                        "x": 6,
+                        "y": 147
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "desligada",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/image/maquina/desligada.png",
+                  "points": [
+                    {
+                      "name": "nucleo",
+                      "x": 60,
+                      "y": 78
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 12
+                      },
+                      {
+                        "x": 114,
+                        "y": 12
+                      },
+                      {
+                        "x": 114,
+                        "y": 147
+                      },
+                      {
+                        "x": 6,
+                        "y": 147
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -14410,6 +15020,9 @@
       },
       {
         "objectName": "pausa_sel"
+      },
+      {
+        "objectName": "maquina_geradora"
       }
     ]
   },
@@ -15110,6 +15723,29 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "depth": 0,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "maquina_geradora",
+          "persistentUuid": "8cb6e77c-0878-490b-b87a-8743f1c776f7",
+          "width": 0,
+          "x": 2590,
+          "y": 382,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "grupo",
+              "type": "number",
+              "value": 1
+            }
+          ]
         }
       ],
       "objects": [
@@ -18998,6 +19634,26 @@
               "name": "soco_id",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "home_x",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "home_y",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "estado",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "flip0",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [],
@@ -19013,6 +19669,10 @@
               "StartPosition": 0,
               "LastPosition": 0,
               "Timecheck": 0
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
             }
           ],
           "animations": [
@@ -19204,6 +19864,26 @@
               "name": "soco_id",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "home_x",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "home_y",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "estado",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "flip0",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [],
@@ -19219,6 +19899,10 @@
               "StartPosition": 0,
               "LastPosition": 0,
               "Timecheck": 0
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
             }
           ],
           "animations": [
@@ -19295,6 +19979,26 @@
               "name": "soco_id",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "home_x",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "home_y",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "estado",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "flip0",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [],
@@ -19310,6 +20014,10 @@
               "StartPosition": 0,
               "LastPosition": 0,
               "Timecheck": 0
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
             }
           ],
           "animations": [
@@ -25394,6 +26102,1096 @@
             "textG": 0,
             "textR": 0
           },
+          "comment": "Máquinas geradoras (ferramentas/maquinas.py): os inimigos começam guardados e saem da máquina do grupo deles quando o robô chega perto; depois vão para o ponto de sempre e voltam a patrulhar.",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "maquina_geradora",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "drone2",
+                    "home_x",
+                    "=",
+                    "drone2.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "drone2",
+                    "home_y",
+                    "=",
+                    "drone2.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "drone2",
+                    "estado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "drone2",
+                    "TimedBackAndForthMirroredMovement",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "drone2",
+                    "=",
+                    "drone2.X()",
+                    "=",
+                    "-20000"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                      },
+                      "parameters": [
+                        "drone2",
+                        "Flippable"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "drone2",
+                        "flip0",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "drone3",
+                    "home_x",
+                    "=",
+                    "drone3.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "drone3",
+                    "home_y",
+                    "=",
+                    "drone3.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "drone3",
+                    "estado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "drone3",
+                    "TimedBackAndForthMirroredMovement",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "drone3",
+                    "=",
+                    "drone3.X()",
+                    "=",
+                    "-20000"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                      },
+                      "parameters": [
+                        "drone3",
+                        "Flippable"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "drone3",
+                        "flip0",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "drone4",
+                    "home_x",
+                    "=",
+                    "drone4.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "drone4",
+                    "home_y",
+                    "=",
+                    "drone4.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "drone4",
+                    "estado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "drone4",
+                    "TimedBackAndForthMirroredMovement",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "drone4",
+                    "=",
+                    "drone4.X()",
+                    "=",
+                    "-20000"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                      },
+                      "parameters": [
+                        "drone4",
+                        "Flippable"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "drone4",
+                        "flip0",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "maquina_geradora",
+                "grupo",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "maquina_geradora",
+                "estado",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "TimeFromStart()",
+                ">",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Player2.X()",
+                ">",
+                "maquina_geradora.X() - 650"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "maquina_geradora",
+                "estado",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "maquina_geradora",
+                "Animation",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "bzzzt.wav",
+                "",
+                "80",
+                "0.6"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "RedExplosion",
+                "maquina_geradora.PointX(\"nucleo\")",
+                "maquina_geradora.PointY(\"nucleo\")",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "drone2",
+                    "=",
+                    "maquina_geradora.PointX(\"nucleo\") - drone2.Width() / 2",
+                    "=",
+                    "maquina_geradora.PointY(\"nucleo\") - drone2.Height() / 2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "drone2",
+                    "estado",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "drone2",
+                    "Tween",
+                    "\"saida\"",
+                    "drone2.Variable(home_x)",
+                    "drone2.Variable(home_y)",
+                    "\"easeOutQuad\"",
+                    "max(0.7, abs(drone2.Variable(home_x) - drone2.X()) / 550)",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "drone2.Variable(home_x)",
+                        "<",
+                        "drone2.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "drone2",
+                        "Flippable",
+                        "yes"
+                      ]
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "drone2.Variable(home_x)",
+                        ">=",
+                        "drone2.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "drone2",
+                        "Flippable",
+                        "no"
+                      ]
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "drone3",
+                    "=",
+                    "maquina_geradora.PointX(\"nucleo\") - drone3.Width() / 2",
+                    "=",
+                    "maquina_geradora.PointY(\"nucleo\") - drone3.Height() / 2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "drone3",
+                    "estado",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "drone3",
+                    "Tween",
+                    "\"saida\"",
+                    "drone3.Variable(home_x)",
+                    "drone3.Variable(home_y)",
+                    "\"easeOutQuad\"",
+                    "max(0.7, abs(drone3.Variable(home_x) - drone3.X()) / 550)",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "drone3.Variable(home_x)",
+                        "<",
+                        "drone3.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "drone3",
+                        "Flippable",
+                        "yes"
+                      ]
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "drone3.Variable(home_x)",
+                        ">=",
+                        "drone3.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "drone3",
+                        "Flippable",
+                        "no"
+                      ]
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "drone4",
+                    "=",
+                    "maquina_geradora.PointX(\"nucleo\") - drone4.Width() / 2",
+                    "=",
+                    "maquina_geradora.PointY(\"nucleo\") - drone4.Height() / 2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "drone4",
+                    "estado",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "drone4",
+                    "Tween",
+                    "\"saida\"",
+                    "drone4.Variable(home_x)",
+                    "drone4.Variable(home_y)",
+                    "\"easeOutQuad\"",
+                    "max(0.7, abs(drone4.Variable(home_x) - drone4.X()) / 550)",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "drone4.Variable(home_x)",
+                        "<",
+                        "drone4.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "drone4",
+                        "Flippable",
+                        "yes"
+                      ]
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "drone4.Variable(home_x)",
+                        ">=",
+                        "drone4.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "drone4",
+                        "Flippable",
+                        "no"
+                      ]
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1.3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "maquina_geradora",
+                    "Animation",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "maquina_geradora",
+                    "estado",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "RedExplosion",
+                    ""
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "drone2",
+                "estado",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "drone2",
+                "Tween",
+                "\"saida\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "drone2",
+                "estado",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "drone2",
+                "TimedBackAndForthMirroredMovement",
+                "yes"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "drone2",
+                    "flip0",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "drone2",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "drone2",
+                    "flip0",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "drone2",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "drone3",
+                "estado",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "drone3",
+                "Tween",
+                "\"saida\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "drone3",
+                "estado",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "drone3",
+                "TimedBackAndForthMirroredMovement",
+                "yes"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "drone3",
+                    "flip0",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "drone3",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "drone3",
+                    "flip0",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "drone3",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "drone4",
+                "estado",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "drone4",
+                "Tween",
+                "\"saida\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "drone4",
+                "estado",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "drone4",
+                "TimedBackAndForthMirroredMovement",
+                "yes"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "drone4",
+                    "flip0",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "drone4",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "drone4",
+                    "flip0",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "drone4",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
           "comment": "Munição: quantas caixas ficam nesta cena (sorteadas entre os 5 pontos). Normal 2, Difícil 1, Insano 0 (balas infinitas).",
           "comment2": ""
         },
@@ -28039,6 +29837,75 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "depth": 0,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "maquina_geradora",
+          "persistentUuid": "f9555329-65c6-470e-bf38-6827b6ef55a2",
+          "width": 0,
+          "x": 500,
+          "y": 388,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "grupo",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "depth": 0,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "maquina_geradora",
+          "persistentUuid": "cbf256ec-42d1-4f40-b4ee-af798eab2da6",
+          "width": 0,
+          "x": 2040,
+          "y": 388,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "grupo",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "depth": 0,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "maquina_geradora",
+          "persistentUuid": "4d3f312d-4946-4485-9cd7-448ba6bd644e",
+          "width": 0,
+          "x": 4270,
+          "y": 388,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "grupo",
+              "type": "number",
+              "value": 4
+            }
+          ]
         }
       ],
       "objects": [
@@ -38790,6 +40657,26 @@
               "name": "soco_id",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "home_x",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "home_y",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "estado",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "flip0",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [
@@ -38818,6 +40705,10 @@
               "StartPosition": 0,
               "LastPosition": 0,
               "Timecheck": 0
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
             }
           ],
           "animations": [
@@ -39656,6 +41547,26 @@
               "name": "soco_id",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "home_x",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "home_y",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "estado",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "flip0",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [],
@@ -39671,6 +41582,10 @@
               "StartPosition": 0,
               "LastPosition": 0,
               "Timecheck": 0
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
             }
           ],
           "animations": [
@@ -40509,10 +42424,35 @@
               "name": "soco_id",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "home_x",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "home_y",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "estado",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "flip0",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "NewSprite",
@@ -41349,6 +43289,26 @@
               "name": "soco_id",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "home_x",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "home_y",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "estado",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "flip0",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [],
@@ -41364,6 +43324,10 @@
               "StartPosition": 0,
               "LastPosition": 0,
               "Timecheck": 0
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
             }
           ],
           "animations": [
@@ -42202,6 +44166,26 @@
               "name": "soco_id",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "home_x",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "home_y",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "estado",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "flip0",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [],
@@ -42217,6 +44201,10 @@
               "StartPosition": 0,
               "LastPosition": 0,
               "Timecheck": 0
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
             }
           ],
           "animations": [
@@ -43074,6 +45062,26 @@
               "name": "soco_id",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "home_x",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "home_y",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "estado",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "flip0",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [],
@@ -43089,6 +45097,10 @@
               "StartPosition": 0,
               "LastPosition": 0,
               "Timecheck": 0
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
             }
           ],
           "animations": [
@@ -43819,6 +45831,26 @@
               "name": "soco_id",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "home_x",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "home_y",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "estado",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "flip0",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [],
@@ -43834,6 +45866,10 @@
               "StartPosition": 0,
               "LastPosition": 0,
               "Timecheck": 0
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
             }
           ],
           "animations": [
@@ -44559,7 +46595,28 @@
           "persistentUuid": "40861091-cd79-489f-99c7-5fe200092fec",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "home_x",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "home_y",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "estado",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "flip0",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -44573,6 +46630,10 @@
               "StartPosition": 0,
               "LastPosition": 0,
               "Timecheck": 0
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
             }
           ],
           "animations": [
@@ -47665,7 +49726,28 @@
           "persistentUuid": "3e827c48-d1ad-4986-8afd-b10c05d5c75d",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "home_x",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "home_y",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "estado",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "flip0",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -47679,6 +49761,10 @@
               "StartPosition": 0,
               "LastPosition": 0,
               "Timecheck": 0
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
             }
           ],
           "animations": [
@@ -49111,7 +51197,28 @@
           "persistentUuid": "d77488a0-cc82-439c-8852-bc30e56a4dd9",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "home_x",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "home_y",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "estado",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "flip0",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -49125,6 +51232,10 @@
               "StartPosition": 0,
               "LastPosition": 0,
               "Timecheck": 0
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
             }
           ],
           "animations": [
@@ -55468,6 +57579,3476 @@
         ]
       },
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Máquinas geradoras (ferramentas/maquinas.py): os inimigos começam guardados e saem da máquina do grupo deles quando o robô chega perto; depois vão para o ponto de sempre e voltam a patrulhar.",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "maquina_geradora",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z",
+                    "home_x",
+                    "=",
+                    "robo_z.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z",
+                    "home_y",
+                    "=",
+                    "robo_z.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z",
+                    "estado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "robo_z",
+                    "TimedBackAndForthMirroredMovement",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "robo_z",
+                    "=",
+                    "robo_z.X()",
+                    "=",
+                    "-20000"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                      },
+                      "parameters": [
+                        "robo_z",
+                        "Flippable"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "robo_z",
+                        "flip0",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z2",
+                    "home_x",
+                    "=",
+                    "robo_z2.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z2",
+                    "home_y",
+                    "=",
+                    "robo_z2.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z2",
+                    "estado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "robo_z2",
+                    "TimedBackAndForthMirroredMovement",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "robo_z2",
+                    "=",
+                    "robo_z2.X()",
+                    "=",
+                    "-20000"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                      },
+                      "parameters": [
+                        "robo_z2",
+                        "Flippable"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "robo_z2",
+                        "flip0",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z3",
+                    "home_x",
+                    "=",
+                    "robo_z3.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z3",
+                    "home_y",
+                    "=",
+                    "robo_z3.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z3",
+                    "estado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "robo_z3",
+                    "=",
+                    "robo_z3.X()",
+                    "=",
+                    "-20000"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                      },
+                      "parameters": [
+                        "robo_z3",
+                        "Flippable"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "robo_z3",
+                        "flip0",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z4",
+                    "home_x",
+                    "=",
+                    "robo_z4.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z4",
+                    "home_y",
+                    "=",
+                    "robo_z4.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z4",
+                    "estado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "robo_z4",
+                    "TimedBackAndForthMirroredMovement",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "robo_z4",
+                    "=",
+                    "robo_z4.X()",
+                    "=",
+                    "-20000"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                      },
+                      "parameters": [
+                        "robo_z4",
+                        "Flippable"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "robo_z4",
+                        "flip0",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z5",
+                    "home_x",
+                    "=",
+                    "robo_z5.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z5",
+                    "home_y",
+                    "=",
+                    "robo_z5.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z5",
+                    "estado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "robo_z5",
+                    "TimedBackAndForthMirroredMovement",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "robo_z5",
+                    "=",
+                    "robo_z5.X()",
+                    "=",
+                    "-20000"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                      },
+                      "parameters": [
+                        "robo_z5",
+                        "Flippable"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "robo_z5",
+                        "flip0",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z6",
+                    "home_x",
+                    "=",
+                    "robo_z6.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z6",
+                    "home_y",
+                    "=",
+                    "robo_z6.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z6",
+                    "estado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "robo_z6",
+                    "TimedBackAndForthMirroredMovement",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "robo_z6",
+                    "=",
+                    "robo_z6.X()",
+                    "=",
+                    "-20000"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                      },
+                      "parameters": [
+                        "robo_z6",
+                        "Flippable"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "robo_z6",
+                        "flip0",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z7",
+                    "home_x",
+                    "=",
+                    "robo_z7.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z7",
+                    "home_y",
+                    "=",
+                    "robo_z7.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z7",
+                    "estado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "robo_z7",
+                    "TimedBackAndForthMirroredMovement",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "robo_z7",
+                    "=",
+                    "robo_z7.X()",
+                    "=",
+                    "-20000"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                      },
+                      "parameters": [
+                        "robo_z7",
+                        "Flippable"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "robo_z7",
+                        "flip0",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_a",
+                    "home_x",
+                    "=",
+                    "robo_a.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_a",
+                    "home_y",
+                    "=",
+                    "robo_a.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_a",
+                    "estado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "robo_a",
+                    "TimedBackAndForthMirroredMovement",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "robo_a",
+                    "=",
+                    "robo_a.X()",
+                    "=",
+                    "-20000"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                      },
+                      "parameters": [
+                        "robo_a",
+                        "Flippable"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "robo_a",
+                        "flip0",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_a2",
+                    "home_x",
+                    "=",
+                    "robo_a2.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_a2",
+                    "home_y",
+                    "=",
+                    "robo_a2.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_a2",
+                    "estado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "robo_a2",
+                    "TimedBackAndForthMirroredMovement",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "robo_a2",
+                    "=",
+                    "robo_a2.X()",
+                    "=",
+                    "-20000"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                      },
+                      "parameters": [
+                        "robo_a2",
+                        "Flippable"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "robo_a2",
+                        "flip0",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_a3",
+                    "home_x",
+                    "=",
+                    "robo_a3.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_a3",
+                    "home_y",
+                    "=",
+                    "robo_a3.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_a3",
+                    "estado",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "robo_a3",
+                    "TimedBackAndForthMirroredMovement",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "robo_a3",
+                    "=",
+                    "robo_a3.X()",
+                    "=",
+                    "-20000"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                      },
+                      "parameters": [
+                        "robo_a3",
+                        "Flippable"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "robo_a3",
+                        "flip0",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "maquina_geradora",
+                "grupo",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "maquina_geradora",
+                "estado",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "TimeFromStart()",
+                ">",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Player2.X()",
+                ">",
+                "maquina_geradora.X() - 650"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "maquina_geradora",
+                "estado",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "maquina_geradora",
+                "Animation",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "bzzzt.wav",
+                "",
+                "80",
+                "0.6"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "RedExplosion",
+                "maquina_geradora.PointX(\"nucleo\")",
+                "maquina_geradora.PointY(\"nucleo\")",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "robo_z",
+                    "=",
+                    "maquina_geradora.PointX(\"nucleo\") - robo_z.Width() / 2",
+                    "=",
+                    "robo_z.Variable(home_y)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z",
+                    "estado",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "robo_z",
+                    "Tween",
+                    "\"saida\"",
+                    "robo_z.Variable(home_x)",
+                    "robo_z.Variable(home_y)",
+                    "\"easeOutQuad\"",
+                    "max(0.7, abs(robo_z.Variable(home_x) - robo_z.X()) / 550)",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "robo_z.Variable(home_x)",
+                        "<",
+                        "robo_z.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "robo_z",
+                        "Flippable",
+                        "yes"
+                      ]
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "robo_z.Variable(home_x)",
+                        ">=",
+                        "robo_z.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "robo_z",
+                        "Flippable",
+                        "no"
+                      ]
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "robo_z2",
+                    "=",
+                    "maquina_geradora.PointX(\"nucleo\") - robo_z2.Width() / 2",
+                    "=",
+                    "robo_z2.Variable(home_y)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z2",
+                    "estado",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "robo_z2",
+                    "Tween",
+                    "\"saida\"",
+                    "robo_z2.Variable(home_x)",
+                    "robo_z2.Variable(home_y)",
+                    "\"easeOutQuad\"",
+                    "max(0.7, abs(robo_z2.Variable(home_x) - robo_z2.X()) / 550)",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "robo_z2.Variable(home_x)",
+                        "<",
+                        "robo_z2.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "robo_z2",
+                        "Flippable",
+                        "yes"
+                      ]
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "robo_z2.Variable(home_x)",
+                        ">=",
+                        "robo_z2.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "robo_z2",
+                        "Flippable",
+                        "no"
+                      ]
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "robo_z3",
+                    "=",
+                    "maquina_geradora.PointX(\"nucleo\") - robo_z3.Width() / 2",
+                    "=",
+                    "robo_z3.Variable(home_y)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z3",
+                    "estado",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "robo_z3",
+                    "Tween",
+                    "\"saida\"",
+                    "robo_z3.Variable(home_x)",
+                    "robo_z3.Variable(home_y)",
+                    "\"easeOutQuad\"",
+                    "max(0.7, abs(robo_z3.Variable(home_x) - robo_z3.X()) / 550)",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "robo_z3.Variable(home_x)",
+                        "<",
+                        "robo_z3.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "robo_z3",
+                        "Flippable",
+                        "yes"
+                      ]
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "robo_z3.Variable(home_x)",
+                        ">=",
+                        "robo_z3.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "robo_z3",
+                        "Flippable",
+                        "no"
+                      ]
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1.3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "maquina_geradora",
+                    "Animation",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "maquina_geradora",
+                    "estado",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "RedExplosion",
+                    ""
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "maquina_geradora",
+                "grupo",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "maquina_geradora",
+                "estado",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "TimeFromStart()",
+                ">",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Player2.X()",
+                ">",
+                "maquina_geradora.X() - 650"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "maquina_geradora",
+                "estado",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "maquina_geradora",
+                "Animation",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "bzzzt.wav",
+                "",
+                "80",
+                "0.6"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "RedExplosion",
+                "maquina_geradora.PointX(\"nucleo\")",
+                "maquina_geradora.PointY(\"nucleo\")",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "robo_z4",
+                    "=",
+                    "maquina_geradora.PointX(\"nucleo\") - robo_z4.Width() / 2",
+                    "=",
+                    "robo_z4.Variable(home_y)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z4",
+                    "estado",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "robo_z4",
+                    "Tween",
+                    "\"saida\"",
+                    "robo_z4.Variable(home_x)",
+                    "robo_z4.Variable(home_y)",
+                    "\"easeOutQuad\"",
+                    "max(0.7, abs(robo_z4.Variable(home_x) - robo_z4.X()) / 550)",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "robo_z4.Variable(home_x)",
+                        "<",
+                        "robo_z4.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "robo_z4",
+                        "Flippable",
+                        "yes"
+                      ]
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "robo_z4.Variable(home_x)",
+                        ">=",
+                        "robo_z4.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "robo_z4",
+                        "Flippable",
+                        "no"
+                      ]
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "robo_z5",
+                    "=",
+                    "maquina_geradora.PointX(\"nucleo\") - robo_z5.Width() / 2",
+                    "=",
+                    "robo_z5.Variable(home_y)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z5",
+                    "estado",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "robo_z5",
+                    "Tween",
+                    "\"saida\"",
+                    "robo_z5.Variable(home_x)",
+                    "robo_z5.Variable(home_y)",
+                    "\"easeOutQuad\"",
+                    "max(0.7, abs(robo_z5.Variable(home_x) - robo_z5.X()) / 550)",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "robo_z5.Variable(home_x)",
+                        "<",
+                        "robo_z5.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "robo_z5",
+                        "Flippable",
+                        "yes"
+                      ]
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "robo_z5.Variable(home_x)",
+                        ">=",
+                        "robo_z5.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "robo_z5",
+                        "Flippable",
+                        "no"
+                      ]
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "robo_z6",
+                    "=",
+                    "maquina_geradora.PointX(\"nucleo\") - robo_z6.Width() / 2",
+                    "=",
+                    "robo_z6.Variable(home_y)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z6",
+                    "estado",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "robo_z6",
+                    "Tween",
+                    "\"saida\"",
+                    "robo_z6.Variable(home_x)",
+                    "robo_z6.Variable(home_y)",
+                    "\"easeOutQuad\"",
+                    "max(0.7, abs(robo_z6.Variable(home_x) - robo_z6.X()) / 550)",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "robo_z6.Variable(home_x)",
+                        "<",
+                        "robo_z6.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "robo_z6",
+                        "Flippable",
+                        "yes"
+                      ]
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "robo_z6.Variable(home_x)",
+                        ">=",
+                        "robo_z6.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "robo_z6",
+                        "Flippable",
+                        "no"
+                      ]
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1.3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "maquina_geradora",
+                    "Animation",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "maquina_geradora",
+                    "estado",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "RedExplosion",
+                    ""
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "maquina_geradora",
+                "grupo",
+                "=",
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "maquina_geradora",
+                "estado",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "TimeFromStart()",
+                ">",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Player2.X()",
+                ">",
+                "maquina_geradora.X() - 650"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "maquina_geradora",
+                "estado",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "maquina_geradora",
+                "Animation",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "bzzzt.wav",
+                "",
+                "80",
+                "0.6"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "RedExplosion",
+                "maquina_geradora.PointX(\"nucleo\")",
+                "maquina_geradora.PointY(\"nucleo\")",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "robo_z7",
+                    "=",
+                    "maquina_geradora.PointX(\"nucleo\") - robo_z7.Width() / 2",
+                    "=",
+                    "robo_z7.Variable(home_y)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z7",
+                    "estado",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "robo_z7",
+                    "Tween",
+                    "\"saida\"",
+                    "robo_z7.Variable(home_x)",
+                    "robo_z7.Variable(home_y)",
+                    "\"easeOutQuad\"",
+                    "max(0.7, abs(robo_z7.Variable(home_x) - robo_z7.X()) / 550)",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "robo_z7.Variable(home_x)",
+                        "<",
+                        "robo_z7.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "robo_z7",
+                        "Flippable",
+                        "yes"
+                      ]
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "robo_z7.Variable(home_x)",
+                        ">=",
+                        "robo_z7.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "robo_z7",
+                        "Flippable",
+                        "no"
+                      ]
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "robo_a",
+                    "=",
+                    "maquina_geradora.PointX(\"nucleo\") - robo_a.Width() / 2",
+                    "=",
+                    "robo_a.Variable(home_y)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_a",
+                    "estado",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "robo_a",
+                    "Tween",
+                    "\"saida\"",
+                    "robo_a.Variable(home_x)",
+                    "robo_a.Variable(home_y)",
+                    "\"easeOutQuad\"",
+                    "max(0.7, abs(robo_a.Variable(home_x) - robo_a.X()) / 550)",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "robo_a.Variable(home_x)",
+                        "<",
+                        "robo_a.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "robo_a",
+                        "Flippable",
+                        "yes"
+                      ]
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "robo_a.Variable(home_x)",
+                        ">=",
+                        "robo_a.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "robo_a",
+                        "Flippable",
+                        "no"
+                      ]
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "robo_a2",
+                    "=",
+                    "maquina_geradora.PointX(\"nucleo\") - robo_a2.Width() / 2",
+                    "=",
+                    "robo_a2.Variable(home_y)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_a2",
+                    "estado",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "robo_a2",
+                    "Tween",
+                    "\"saida\"",
+                    "robo_a2.Variable(home_x)",
+                    "robo_a2.Variable(home_y)",
+                    "\"easeOutQuad\"",
+                    "max(0.7, abs(robo_a2.Variable(home_x) - robo_a2.X()) / 550)",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "robo_a2.Variable(home_x)",
+                        "<",
+                        "robo_a2.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "robo_a2",
+                        "Flippable",
+                        "yes"
+                      ]
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "robo_a2.Variable(home_x)",
+                        ">=",
+                        "robo_a2.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "robo_a2",
+                        "Flippable",
+                        "no"
+                      ]
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "robo_a3",
+                    "=",
+                    "maquina_geradora.PointX(\"nucleo\") - robo_a3.Width() / 2",
+                    "=",
+                    "robo_a3.Variable(home_y)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_a3",
+                    "estado",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "robo_a3",
+                    "Tween",
+                    "\"saida\"",
+                    "robo_a3.Variable(home_x)",
+                    "robo_a3.Variable(home_y)",
+                    "\"easeOutQuad\"",
+                    "max(0.7, abs(robo_a3.Variable(home_x) - robo_a3.X()) / 550)",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "robo_a3.Variable(home_x)",
+                        "<",
+                        "robo_a3.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "robo_a3",
+                        "Flippable",
+                        "yes"
+                      ]
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "robo_a3.Variable(home_x)",
+                        ">=",
+                        "robo_a3.X()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "robo_a3",
+                        "Flippable",
+                        "no"
+                      ]
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1.3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "maquina_geradora",
+                    "Animation",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "maquina_geradora",
+                    "estado",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "RedExplosion",
+                    ""
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "robo_z",
+                "estado",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "robo_z",
+                "Tween",
+                "\"saida\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "robo_z",
+                "estado",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "robo_z",
+                "TimedBackAndForthMirroredMovement",
+                "yes"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z",
+                    "flip0",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z",
+                    "flip0",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "robo_z2",
+                "estado",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "robo_z2",
+                "Tween",
+                "\"saida\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "robo_z2",
+                "estado",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "robo_z2",
+                "TimedBackAndForthMirroredMovement",
+                "yes"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z2",
+                    "flip0",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z2",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z2",
+                    "flip0",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z2",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "robo_z3",
+                "estado",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "robo_z3",
+                "Tween",
+                "\"saida\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "robo_z3",
+                "estado",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z3",
+                    "flip0",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z3",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z3",
+                    "flip0",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z3",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "robo_z4",
+                "estado",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "robo_z4",
+                "Tween",
+                "\"saida\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "robo_z4",
+                "estado",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "robo_z4",
+                "TimedBackAndForthMirroredMovement",
+                "yes"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z4",
+                    "flip0",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z4",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z4",
+                    "flip0",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z4",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "robo_z5",
+                "estado",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "robo_z5",
+                "Tween",
+                "\"saida\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "robo_z5",
+                "estado",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "robo_z5",
+                "TimedBackAndForthMirroredMovement",
+                "yes"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z5",
+                    "flip0",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z5",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z5",
+                    "flip0",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z5",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "robo_z6",
+                "estado",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "robo_z6",
+                "Tween",
+                "\"saida\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "robo_z6",
+                "estado",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "robo_z6",
+                "TimedBackAndForthMirroredMovement",
+                "yes"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z6",
+                    "flip0",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z6",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z6",
+                    "flip0",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z6",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "robo_z7",
+                "estado",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "robo_z7",
+                "Tween",
+                "\"saida\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "robo_z7",
+                "estado",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "robo_z7",
+                "TimedBackAndForthMirroredMovement",
+                "yes"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z7",
+                    "flip0",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z7",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_z7",
+                    "flip0",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z7",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "robo_a",
+                "estado",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "robo_a",
+                "Tween",
+                "\"saida\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "robo_a",
+                "estado",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "robo_a",
+                "TimedBackAndForthMirroredMovement",
+                "yes"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_a",
+                    "flip0",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_a",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_a",
+                    "flip0",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_a",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "robo_a2",
+                "estado",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "robo_a2",
+                "Tween",
+                "\"saida\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "robo_a2",
+                "estado",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "robo_a2",
+                "TimedBackAndForthMirroredMovement",
+                "yes"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_a2",
+                    "flip0",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_a2",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_a2",
+                    "flip0",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_a2",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "robo_a3",
+                "estado",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "robo_a3",
+                "Tween",
+                "\"saida\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "robo_a3",
+                "estado",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "robo_a3",
+                "TimedBackAndForthMirroredMovement",
+                "yes"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_a3",
+                    "flip0",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_a3",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "robo_a3",
+                    "flip0",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_a3",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
