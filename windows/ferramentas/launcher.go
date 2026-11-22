@@ -1,6 +1,8 @@
 // Cyber Sentinel - launcher para Windows.
 // Serve o jogo exportado do GDevelop (embutido no .exe) em 127.0.0.1 e abre
 // uma janela de aplicativo do Edge/Chrome. Fecha sozinho quando a janela fecha.
+// O botão Sair do jogo (ação "Sair do jogo" do GDevelop) chama /__quit: o launcher
+// fecha a janela do navegador e termina.
 package main
 
 import (
@@ -23,7 +25,19 @@ var gameFiles embed.FS
 
 var lastPing atomic.Int64
 
-const heartbeat = `<script>setInterval(function(){fetch("/__alive").catch(function(){})},3000);fetch("/__alive");</script></body>`
+// quitReq recebe um sinal quando o jogo pede para sair.
+var quitReq = make(chan struct{}, 1)
+
+// browserCmd é o processo da janela do jogo (nil se abriu no navegador padrão).
+var browserCmd *exec.Cmd
+
+// Na exportação HTML5, a ação "Sair do jogo" do GDevelop só fecha a janela no Electron.
+// Aqui ela avisa o launcher (/__quit) e tenta fechar a janela.
+const heartbeat = `<script>setInterval(function(){fetch("/__alive").catch(function(){})},3000);fetch("/__alive");
+(function(){var R=window.gdjs&&gdjs.RuntimeGameRenderer;if(!R)return;var orig=R.prototype.stopGame;
+R.prototype.stopGame=function(){try{orig&&orig.call(this)}catch(e){}
+try{navigator.sendBeacon("/__quit")}catch(e){fetch("/__quit",{method:"POST",keepalive:true}).catch(function(){})}
+setTimeout(function(){try{window.close()}catch(e){}},300)};})();</script></body>`
 
 func main() {
 	sub, _ := fs.Sub(gameFiles, "game")
@@ -34,6 +48,13 @@ func main() {
 	mux.HandleFunc("/__alive", func(w http.ResponseWriter, r *http.Request) {
 		lastPing.Store(time.Now().Unix())
 		w.WriteHeader(204)
+	})
+	mux.HandleFunc("/__quit", func(w http.ResponseWriter, r *http.Request) {
+		w.WriteHeader(204)
+		select {
+		case quitReq <- struct{}{}:
+		default:
+		}
 	})
 	mux.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		p := strings.TrimPrefix(path.Clean(r.URL.Path), "/")
@@ -87,6 +108,11 @@ func main() {
 	gone := false
 	for {
 		select {
+		case <-quitReq:
+			if browserCmd != nil && browserCmd.Process != nil {
+				browserCmd.Process.Kill()
+			}
+			return
 		case <-browserExited:
 			gone = true
 			browserExited = nil
@@ -151,6 +177,7 @@ func openAppWindow(url string, exited chan struct{}) bool {
 		if err := cmd.Start(); err != nil {
 			continue
 		}
+		browserCmd = cmd
 		go func() { cmd.Wait(); close(exited) }()
 		return true
 	}

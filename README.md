@@ -22,15 +22,23 @@ Mas o maior ataque cibernético da história escondia um segredo: o vírus era s
 
 ## Controles
 
-| Tecla | Ação |
-|---|---|
-| ← → | Andar |
-| Espaço | Pular |
-| F | Atirar |
-| D | Ativar escudo por 3 segundos (fase 3) |
-| X | Começar a luta com o chefe (fase 3) |
-| E | Avançar o diálogo (fase final) |
-| Q | Pular o diálogo final |
+| Tecla | Controle | Ação |
+|---|---|---|
+| ← → | Direcional / analógico esq. | Andar |
+| Espaço | A | Pular |
+| F | X | Atirar |
+| G | B | Soco corpo a corpo |
+| ↑ (segure) + F | Analógico dir. + X | Atirar para cima; com ← ou → junto, na diagonal |
+| R | LB | Recarregar |
+| D | Y | Ativar escudo por 3 segundos (fase 3 e final) |
+| X | Back | Começar a luta com o chefe (fase 3) |
+| E | LT | Avançar o diálogo (fase final) |
+| Q | RB | Pular o diálogo final |
+| Esc ou P (ou o botão II) | Start | Pausar e continuar nas fases |
+| Na pausa: ↑ ↓ e Enter, ou M | Na pausa: direcional e A, ou B | Escolher CONTINUAR / MENU PRINCIPAL (M e B vão direto ao menu) |
+
+A tabela também aparece no jogo, no botão **Controles** do menu. Nos menus, o analógico esquerdo
+move um cursor e o A clica. Esc nas telas de Jogar, História, Equipe e Controles volta ao menu.
 
 ## Fases
 
