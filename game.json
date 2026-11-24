@@ -42457,6 +42457,18 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "TimedBackAndForthMirroredMovement",
+              "type": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement",
+              "Flippable": "Flippable",
+              "Vertical": false,
+              "Speed": 105,
+              "Distance": 350,
+              "Timeout": 2,
+              "StartPosition": 0,
+              "LastPosition": 0,
+              "Timecheck": 0
+            },
+            {
               "name": "Tween",
               "type": "Tween::TweenBehavior"
             }
@@ -44233,6 +44245,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -44275,6 +44292,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -44317,6 +44339,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -44359,6 +44386,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -44401,6 +44433,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -44456,6 +44493,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -44498,6 +44540,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -44540,6 +44587,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -44582,6 +44634,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -44637,6 +44694,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -44679,6 +44741,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -44734,6 +44801,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -44776,6 +44848,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -44818,6 +44895,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -44873,6 +44955,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -44915,6 +45002,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -44957,6 +45049,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -44999,6 +45096,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -45124,7 +45226,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite4",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45160,7 +45268,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite5",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45196,7 +45310,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite6",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45232,7 +45352,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite7",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45268,7 +45394,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite8",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45317,7 +45449,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite9",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45353,7 +45491,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite10",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45389,7 +45533,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite11",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45425,7 +45575,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite12",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45474,7 +45630,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite13",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45510,7 +45672,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite14",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45559,7 +45727,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite15",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45595,7 +45769,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite16",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45631,7 +45811,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite17",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45680,7 +45866,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite18",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45716,7 +45908,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite19",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45752,7 +45950,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite20",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45788,7 +45992,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite21",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45893,7 +46103,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite4",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45929,7 +46145,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite5",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45965,7 +46187,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite6",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -46001,7 +46229,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite7",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -46037,7 +46271,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite8",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -46086,7 +46326,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite9",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -46122,7 +46368,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite10",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -46158,7 +46410,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite11",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -46194,7 +46452,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite12",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -46243,7 +46507,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite13",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -46279,7 +46549,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite14",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -46328,7 +46604,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite15",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -46364,7 +46646,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite16",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -46400,7 +46688,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite17",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -46449,7 +46743,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite18",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -46485,7 +46785,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite19",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -46521,7 +46827,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite20",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -46557,7 +46869,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite21",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -57847,6 +58165,16 @@
                 },
                 {
                   "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "robo_z3",
+                    "TimedBackAndForthMirroredMovement",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetXY"
                   },
                   "parameters": [
@@ -60231,6 +60559,16 @@
                 "=",
                 "2"
               ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "robo_z3",
+                "TimedBackAndForthMirroredMovement",
+                "yes"
+              ]
             }
           ],
           "events": [
@@ -62283,6 +62621,999 @@
             "includeConfig": 0
           },
           "target": "ex_robo_tiros"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Robôs não atravessam as caixas: encostou numa caixa (bloco) depois de sair da máquina, é separado dela e passa a patrulhar para o lado oposto (espelhado = anda para a esquerda).",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "robo_a",
+                "bloco",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "robo_a",
+                "estado",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "robo_a",
+                "bloco",
+                "no"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_a.BoundingBoxCenterX()",
+                    "<",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_a",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_a.BoundingBoxCenterX()",
+                    ">=",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_a",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "robo_a2",
+                "bloco",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "robo_a2",
+                "estado",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "robo_a2",
+                "bloco",
+                "no"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_a2.BoundingBoxCenterX()",
+                    "<",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_a2",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_a2.BoundingBoxCenterX()",
+                    ">=",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_a2",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "robo_a3",
+                "bloco",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "robo_a3",
+                "estado",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "robo_a3",
+                "bloco",
+                "no"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_a3.BoundingBoxCenterX()",
+                    "<",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_a3",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_a3.BoundingBoxCenterX()",
+                    ">=",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_a3",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "robo_z",
+                "bloco",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "robo_z",
+                "estado",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "robo_z",
+                "bloco",
+                "no"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_z.BoundingBoxCenterX()",
+                    "<",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_z.BoundingBoxCenterX()",
+                    ">=",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "robo_z2",
+                "bloco",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "robo_z2",
+                "estado",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "robo_z2",
+                "bloco",
+                "no"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_z2.BoundingBoxCenterX()",
+                    "<",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z2",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_z2.BoundingBoxCenterX()",
+                    ">=",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z2",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "robo_z3",
+                "bloco",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "robo_z3",
+                "estado",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "robo_z3",
+                "bloco",
+                "no"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_z3.BoundingBoxCenterX()",
+                    "<",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z3",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_z3.BoundingBoxCenterX()",
+                    ">=",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z3",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "robo_z4",
+                "bloco",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "robo_z4",
+                "estado",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "robo_z4",
+                "bloco",
+                "no"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_z4.BoundingBoxCenterX()",
+                    "<",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z4",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_z4.BoundingBoxCenterX()",
+                    ">=",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z4",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "robo_z5",
+                "bloco",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "robo_z5",
+                "estado",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "robo_z5",
+                "bloco",
+                "no"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_z5.BoundingBoxCenterX()",
+                    "<",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z5",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_z5.BoundingBoxCenterX()",
+                    ">=",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z5",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "robo_z6",
+                "bloco",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "robo_z6",
+                "estado",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "robo_z6",
+                "bloco",
+                "no"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_z6.BoundingBoxCenterX()",
+                    "<",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z6",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_z6.BoundingBoxCenterX()",
+                    ">=",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z6",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "robo_z7",
+                "bloco",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "robo_z7",
+                "estado",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "robo_z7",
+                "bloco",
+                "no"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_z7.BoundingBoxCenterX()",
+                    "<",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z7",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_z7.BoundingBoxCenterX()",
+                    ">=",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z7",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
         }
       ],
       "layers": [
@@ -112778,6 +114109,21 @@
           "name": "quer_andar",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "boss_vx",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "boss_vy",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "sorteio_tiro",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -130448,7 +131794,18 @@
           "persistentUuid": "be3356dd-54c0-4d84-a19b-9a0f35fd1562",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "vx",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "vy",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -130953,7 +132310,18 @@
           "persistentUuid": "8a108c90-a823-40b7-86c4-31b42318dee0",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "vx",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "vy",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -133492,8 +134860,8 @@
               },
               "parameters": [
                 "bala_r1d",
-                "-500",
-                "0",
+                "bala_r1d.Variable(vx)",
+                "bala_r1d.Variable(vy)",
                 ""
               ]
             },
@@ -133503,8 +134871,8 @@
               },
               "parameters": [
                 "bala_r1d2",
-                "500",
-                "0",
+                "bala_r1d2.Variable(vx)",
+                "bala_r1d2.Variable(vy)",
                 ""
               ]
             },
@@ -133838,6 +135206,149 @@
           ],
           "events": [
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Mira do chefe: reto, diagonal para cima ou para baixo (45°), para o lado em que está virado.",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "boss_vx",
+                    "=",
+                    "500"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "boss_vy",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "(Player2.BoundingBoxCenterY() - Mysterious.PointY(\"arma\"))",
+                    "<",
+                    "-abs((Player2.BoundingBoxCenterX() - Mysterious.PointX(\"arma\"))) * 0.414"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "boss_vx",
+                    "=",
+                    "353.553"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "boss_vy",
+                    "=",
+                    "-353.553"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "(Player2.BoundingBoxCenterY() - Mysterious.PointY(\"arma\"))",
+                    ">",
+                    "abs((Player2.BoundingBoxCenterX() - Mysterious.PointX(\"arma\"))) * 0.414"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "boss_vx",
+                    "=",
+                    "353.553"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "boss_vy",
+                    "=",
+                    "353.553"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                  },
+                  "parameters": [
+                    "Mysterious",
+                    "Flippable"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "boss_vx",
+                    "*",
+                    "-1"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -133878,6 +135389,38 @@
                     "Mysterious.PointX(\"arma\") - 32",
                     "Mysterious.PointY(\"arma\") - 32",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "bala_r1d",
+                    "vx",
+                    "=",
+                    "boss_vx"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "bala_r1d",
+                    "vy",
+                    "=",
+                    "boss_vy"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "bala_r1d",
+                    "=",
+                    "ToDeg(atan2(boss_vy, boss_vx)) - 180"
                   ]
                 },
                 {
@@ -133947,6 +135490,38 @@
                     "Mysterious.PointX(\"arma\") - 32",
                     "Mysterious.PointY(\"arma\") - 32",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "bala_r1d2",
+                    "vx",
+                    "=",
+                    "boss_vx"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "bala_r1d2",
+                    "vy",
+                    "=",
+                    "boss_vy"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "bala_r1d2",
+                    "=",
+                    "ToDeg(atan2(boss_vy, boss_vx))"
                   ]
                 },
                 {
@@ -134229,7 +135804,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "anda atrás do robô (APK v21): fica entre x 520 e 1450, pula a cada 2,2 s, quando trava ou quando o robô está acima; atira quando está perto (650 px), no chão e sem recarga",
+          "comment": "anda atrás do robô (APK v21): fica entre x 520 e 1450, pula a cada 2,2 s, quando trava ou quando o robô está acima; atira quando está perto (650 px), no chão e sem recarga. Quando a recarga acaba, só atira se o sorteio (1..100) cair até 50 + 10 * dificuldade; senão tenta de novo em 0,7 s",
           "comment2": ""
         },
         {
@@ -134516,23 +136091,80 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "atirando",
+                    "sorteio_tiro",
                     "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "atira_t",
-                    "=",
-                    "0"
+                    "RandomInRange(1, 100)"
                   ]
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "sorteio_tiro",
+                        "<=",
+                        "50 + 10 * dificuldade"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "atirando",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "atira_t",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "sorteio_tiro",
+                        ">",
+                        "50 + 10 * dificuldade"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "cd_tiro",
+                        "=",
+                        "0.7"
+                      ]
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -134726,6 +136358,116 @@
             "textR": 0
           },
           "comment": "balas do Mysterious acertam o jogador ou somem nas paredes"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "bala_r1d",
+                    "<",
+                    "-400"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "bala_r1d",
+                    ">",
+                    "Player2.X() + 2000"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "bala_r1d",
+                    "<",
+                    "Player2.X() - 2000"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "bala_r1d",
+                ""
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "bala_r1d2",
+                    "<",
+                    "-400"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "bala_r1d2",
+                    ">",
+                    "Player2.X() + 2000"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "bala_r1d2",
+                    "<",
+                    "Player2.X() - 2000"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "bala_r1d2",
+                ""
+              ]
+            }
+          ],
+          "events": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -135224,6 +136966,19 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Chefe morreu: o portal aparece no fim da arena, encostado na torre de caixas (x 2830).",
+          "comment2": ""
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -135262,7 +137017,7 @@
               "parameters": [
                 "",
                 "portalF",
-                "Mysterious.BoundingBoxCenterX() - 175",
+                "2830",
                 "662 - 272",
                 ""
               ]
@@ -155311,7 +157066,7 @@
                 "=",
                 "robo_z4.PointX(\"z4\")",
                 "=",
-                "robo_z2.PointY(\"z4\")"
+                "robo_z4.PointY(\"z4\")"
               ]
             },
             {
@@ -156896,7 +158651,7 @@
                 "value": "Delete"
               },
               "parameters": [
-                "robo_z",
+                "robo_z7",
                 ""
               ]
             },
@@ -158164,7 +159919,7 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
               "parameters": [
-                "robo_a",
+                "robo_a3",
                 "Animation",
                 "=",
                 "3"

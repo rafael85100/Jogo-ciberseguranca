@@ -121,3 +121,33 @@ primeiro evento da cena (`alvo_municao`).
 - **Plataformas:** `plataformas_final.py` (roda uma vez) desenha `assets/image/plataforma_neon.png`
   (72x12 px ampliado 3x) e põe 4 `plataforma_neon` (Jumpthru) na cena final: (480,555), (760,445),
   (1040,555), (1320,445). Degraus de 110 px; o pulo segurado do robô chega a 140 px.
+
+## Robôs da fase 2 (23/11/2026)
+
+`robos_cena2.py` (roda uma vez) leva ao PC correções de bugs do projeto original que o APK já tinha
+desde a v7:
+- a barra `barZ4` pegava o Y do `robo_z2`; quando ele morria, o HP do `robo_z4` ia para y 0 e sumia;
+- `robo_z5`, `robo_z6` e `robo_z7` não tinham o ponto da barra (`z5`/`z6`/`z7`), então a barra ficava
+  solta no canto do quadro; os pontos novos copiam o `z4` do `robo_z4` (mesmas imagens);
+- a morte do `robo_z7` apagava o `robo_z`;
+- a morte do `robo_a3` tocava a animação no `robo_a`.
+- O `robo_z3` ficava parado: no projeto original ele não tinha patrulha. `robo_z3_patrulha.py` (roda uma
+  vez) copia a do `robo_z2` (distância 350, velocidade 105) e liga/desliga a patrulha junto com a
+  máquina geradora, como nos outros robôs.
+- Os robôs da fase 2 atravessavam as caixas (`bloco`), porque a patrulha só move em X e não tem
+  colisão. `robos_caixas.py` (roda uma vez): depois de sair da máquina geradora, o robô que encosta
+  numa caixa é separado dela e passa a patrulhar para o lado oposto.
+
+## Chefe final: mira diagonal e portal (24/11/2026)
+
+`boss_final.py` (roda uma vez), na cena `final`:
+- **Mira:** no ataque de tiro, a direção vai do ponto `arma` até o robô e é encaixada em reto ou
+  diagonal (45°, para cima ou para baixo) quando o robô está a mais de 22,5° da horizontal. A bala
+  guarda `vx`/`vy` (500 px/s) e gira para apontar para onde vai. O chefe continua andando atrás do
+  robô e virado para ele.
+- **Nem sempre atira:** quando a recarga acaba, sorteia 1..100 e só atira se cair até
+  `50 + 10 * dificuldade` (Normal 50%, Difícil 60%, Insano 70%); senão tenta de novo em 0,7 s.
+  Medido em 45 s com o robô parado ao alcance: 14 tiros antes, 10 depois (Normal).
+- Balas do chefe a mais de 2000 px do robô ou acima de y -400 são apagadas.
+- **Portal:** quando o chefe morre, o `portalF` nasce no fim da arena (x 2830, encostado na torre de
+  caixas que fecha a fase), não mais no lugar do chefe.
