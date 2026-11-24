@@ -8,13 +8,18 @@
 //     Funciona sem mouse: setas cima/baixo escolhem (destaque pausa_sel), Enter ou Espaco confirmam,
 //     Esc ou P continuam, M vai ao menu. Controle: direcional escolhe, A confirma, B vai ao menu.
 //     O clique do mouse tambem funciona;
-//   - botoes do controle viram as teclas do teclado.
+//   - botoes do controle viram as teclas do teclado;
+//   - WASD funciona igual as setas (W = cima, A = esquerda, S = baixo, D = direita), tambem no
+//     menu de pausa. As duas fontes (seta, letra e controle) somam: soltar uma nao solta a tecla
+//     se a outra continua apertada. O escudo, que era D, passou para C.
 // Submenus (dificuldade, historia, equipe, controles, cenademo): Esc volta ao menu.
 // Menus: o analogico esquerdo move um cursor (cursor_pad) e o A clica.
 if (!gdjs._cyberSentinelPad2) {
   gdjs._cyberSentinelPad2 = true;
   gdjs._cyberSentinelPad = true; // a versao antiga (sem pausa) nao registra de novo
-  const KEYS = { Left: 37, Up: 38, Right: 39, Space: 32, f: 70, g: 71, d: 68, r: 82, q: 81, e: 69, x: 88 };
+  const KEYS = { Space: 32, f: 70, g: 71, c: 67, r: 82, q: 81, e: 69, x: 88 };
+  const SETAS = { Left: 37, Up: 38, Right: 39 };      // do controle, somadas ao teclado
+  const WASD = { 87: 38, 65: 37, 83: 40, 68: 39 };  // W A S D -> codigo da seta
   const FASES = ['cena1', 'cena2', 'cena3', 'final'];
   const SUBMENUS = ['dificuldade', 'historia', 'equipe', 'controles', 'cenademo'];
   const DEAD = 0.5, STICK = 0.25;
@@ -24,12 +29,44 @@ if (!gdjs._cyberSentinelPad2) {
   const st = {
     keys: {}, click: false, cx: 640, cy: 360, ct: 99, scene: null, cursor: null,
     pausado: false, botao: null, tela: null, sel: null, opcao: 0, esc: false, prev: {}, tec: {},
+    im: null, fontes: {},
   };
+  // ---- setas e WASD: cada seta do jogo fica apertada enquanto alguma fonte (seta, letra, controle)
+  // estiver apertada. Roda na captura da janela, antes do document.onkeydown do GDevelop.
+  const fonte = (seta, id, on) => {
+    const f = st.fontes[seta] || (st.fontes[seta] = {});
+    const antes = Object.keys(f).length > 0;
+    if (on) f[id] = true; else delete f[id];
+    const agora = Object.keys(f).length > 0;
+    if (agora && !antes) st.im.onKeyPressed(seta);
+    else if (!agora && antes) st.im.onKeyReleased(seta);
+  };
+  const setaTeclado = function (e, on) {
+    const k = e.keyCode;
+    const seta = WASD[k] || (k >= 37 && k <= 40 ? k : 0);
+    if (!seta || !st.im) return;
+    const foco = document.activeElement;
+    if (foco && foco !== document.body && foco.tagName !== 'CANVAS') return; // igual ao GDevelop
+    e.stopImmediatePropagation();
+    e.preventDefault();
+    if (on && !e.repeat) {
+      if (seta === 38) st.tec.cima = true;
+      if (seta === 40) st.tec.baixo = true;
+    }
+    fonte(seta, 'k' + k, on);
+  };
+  window.addEventListener('keydown', (e) => setaTeclado(e, true), true);
+  window.addEventListener('keyup', (e) => setaTeclado(e, false), true);
+  window.addEventListener('blur', () => {  // janela perdeu o foco: solta tudo o que somamos
+    for (const seta in st.fontes) {
+      if (st.im && Object.keys(st.fontes[seta]).length > 0) st.im.onKeyReleased(Number(seta));
+    }
+    st.fontes = {};
+    for (const k in SETAS) delete st.keys[k];
+  });
   window.addEventListener('keydown', function (e) {
     if (e.repeat) return;
     if (e.key === 'Escape' || e.key === 'p' || e.key === 'P') st.esc = true;
-    else if (e.key === 'ArrowUp') st.tec.cima = true;
-    else if (e.key === 'ArrowDown') st.tec.baixo = true;
     else if (e.key === 'Enter' || e.key === ' ') st.tec.ok = true;
     else if (e.key === 'm' || e.key === 'M') st.tec.menu = true;
   });
@@ -38,6 +75,7 @@ if (!gdjs._cyberSentinelPad2) {
   gdjs.registerRuntimeScenePreEventsCallback(function (scene) {
     const game = scene.getGame();
     const im = game.getInputManager();
+    st.im = im;
     const nome = scene.getName();
     const fase = FASES.indexOf(nome) >= 0;
     let pad = null;
@@ -113,7 +151,8 @@ if (!gdjs._cyberSentinelPad2) {
           st.sel.setPosition(r.x - 20, r.y - 20);
         }
         // solta as teclas simuladas pelo controle e ignora o teclado enquanto pausado
-        for (const k in KEYS) st.keys[k] = false;
+        st.keys = {};
+        st.fontes = {};
         im._pressedKeys.clear();
         im._justPressedKeys.clear();
         im._releasedKeys.clear();
@@ -130,7 +169,7 @@ if (!gdjs._cyberSentinelPad2) {
       want.Space = bt(0);
       want.f = bt(2);
       want.g = bt(1);
-      want.d = bt(3);
+      want.c = bt(3);
       want.r = bt(4);
       want.q = bt(5);
       want.e = trig(6);
@@ -140,6 +179,11 @@ if (!gdjs._cyberSentinelPad2) {
       const w = !!want[k];
       if (w && !st.keys[k]) im.onKeyPressed(KEYS[k]);
       else if (!w && st.keys[k]) im.onKeyReleased(KEYS[k]);
+      st.keys[k] = w;
+    }
+    for (const k in SETAS) {
+      const w = !!want[k];
+      if (w !== !!st.keys[k]) fonte(SETAS[k], 'pad', w);
       st.keys[k] = w;
     }
     const vars = game.getVariables();

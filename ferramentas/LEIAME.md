@@ -110,3 +110,14 @@ No Insano (`dificuldade` = 2) as caixas somem, o contador fica escondido e o pen
 Sem nenhuma bala, o robô gera 6 balas depois de 5 s (Normal) ou 8 s (Difícil), para a fase não travar.
 Para mudar um ponto, arraste a caixa no editor da cena; para mudar a quantidade, edite o
 primeiro evento da cena (`alvo_municao`).
+
+## WASD e plataformas da arena final (23/11/2026)
+
+- **WASD:** W A S D funcionam igual às setas (W mira para cima, A/D andam, W/S escolhem no menu de
+  pausa). Fica em `controle_pausa.js` (copiado para o game.json pelo `pausa_pc.py`): um listener na
+  captura da janela troca a letra pela seta antes do `document.onkeydown` do GDevelop, e cada seta
+  só é solta quando nenhuma fonte (seta, letra, controle) continua apertada. Como D virou "direita",
+  o **escudo passou para C** (cena3 e final; no controle continua no Y).
+- **Plataformas:** `plataformas_final.py` (roda uma vez) desenha `assets/image/plataforma_neon.png`
+  (72x12 px ampliado 3x) e põe 4 `plataforma_neon` (Jumpthru) na cena final: (480,555), (760,445),
+  (1040,555), (1320,445). Degraus de 110 px; o pulo segurado do robô chega a 140 px.
