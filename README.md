@@ -67,8 +67,8 @@ instalar nada nem abrir o GDevelop. Se o Windows avisar que protegeu o computado
 ## Versão para celular (Android)
 
 O jogo também tem um port para Android, com controles de toque, pausa e suporte ao botão voltar.
-A versão mais recente, a v22 (com as máquinas geradoras), fica na página de
-[Releases](https://github.com/rafael85100/Jogo-ciberseguranca/releases/tag/apk-v22), porque passa do limite de tamanho de arquivo do GitHub. Instalação, controles e a lista de correções de cada versão estão em
+A versão mais recente, a v23 (plataformas e mira diagonal do chefe final, correções dos robôs da fase 2), fica na página de
+[Releases](https://github.com/rafael85100/Jogo-ciberseguranca/releases/tag/apk-v23), porque passa do limite de tamanho de arquivo do GitHub. Instalação, controles e a lista de correções de cada versão estão em
 [`mobile/LEIAME.md`](mobile/LEIAME.md).
 
 ## Estrutura
