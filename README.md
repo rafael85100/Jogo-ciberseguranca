@@ -24,18 +24,18 @@ Mas o maior ataque cibernético da história escondia um segredo: o vírus era s
 
 | Tecla | Controle | Ação |
 |---|---|---|
-| ← → | Direcional / analógico esq. | Andar |
+| ← → ou A D | Direcional / analógico esq. | Andar |
 | Espaço | A | Pular |
 | F | X | Atirar |
 | G | B | Soco corpo a corpo |
-| ↑ (segure) + F | Analógico dir. + X | Atirar para cima; com ← ou → junto, na diagonal |
+| ↑ ou W (segure) + F | Analógico dir. + X | Atirar para cima; com ←/→ ou A/D junto, na diagonal |
 | R | LB | Recarregar |
-| D | Y | Ativar escudo por 3 segundos (fase 3 e final) |
+| C | Y | Ativar escudo por 3 segundos (fase 3 e final) |
 | X | Back | Começar a luta com o chefe (fase 3) |
 | E | LT | Avançar o diálogo (fase final) |
 | Q | RB | Pular o diálogo final |
 | Esc ou P (ou o botão II) | Start | Pausar e continuar nas fases |
-| Na pausa: ↑ ↓ e Enter, ou M | Na pausa: direcional e A, ou B | Escolher CONTINUAR / MENU PRINCIPAL (M e B vão direto ao menu) |
+| Na pausa: ↑ ↓ (ou W S) e Enter, ou M | Na pausa: direcional e A, ou B | Escolher CONTINUAR / MENU PRINCIPAL (M e B vão direto ao menu) |
 
 A tabela também aparece no jogo, no botão **Controles** do menu. Nos menus, o analógico esquerdo
 move um cursor e o A clica. Esc nas telas de Jogar, História, Equipe e Controles volta ao menu.
@@ -45,7 +45,7 @@ move um cursor e o A clica. Esc nas telas de Jogar, História, Equipe e Controle
 1. **Cidade invadida:** primeiros drones inimigos.
 2. **Distrito tecnológico:** robôs infectados que patrulham a cidade.
 3. **Laboratório externo:** minas, monstros alados, vírus e o chefe **Lagarto Cibernético**.
-4. **Final:** o confronto que revela a verdadeira ameaça.
+4. **Final:** o confronto que revela a verdadeira ameaça, numa arena com plataformas neon.
 
 ## Como abrir o projeto
 
@@ -67,8 +67,8 @@ instalar nada nem abrir o GDevelop. Se o Windows avisar que protegeu o computado
 ## Versão para celular (Android)
 
 O jogo também tem um port para Android, com controles de toque, pausa e suporte ao botão voltar.
-A versão mais recente, a v22 (com as máquinas geradoras), fica na página de
-[Releases](https://github.com/rafael85100/Jogo-ciberseguranca/releases/tag/apk-v22), porque passa do limite de tamanho de arquivo do GitHub. Instalação, controles e a lista de correções de cada versão estão em
+A versão mais recente, a v23 (plataformas e mira diagonal do chefe final, correções dos robôs da fase 2), fica na página de
+[Releases](https://github.com/rafael85100/Jogo-ciberseguranca/releases/tag/apk-v23), porque passa do limite de tamanho de arquivo do GitHub. Instalação, controles e a lista de correções de cada versão estão em
 [`mobile/LEIAME.md`](mobile/LEIAME.md).
 
 ## Estrutura

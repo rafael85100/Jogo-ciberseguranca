@@ -66,7 +66,7 @@ texto(t, 640, 240, 'PAUSADO', 52, C_EDGE)
 for (x, y, w, h), rot in [((490, 300, 300, 70), 'CONTINUAR'), ((490, 400, 300, 70), 'MENU PRINCIPAL')]:
     painel(t, x + w / 2, y + h / 2, w / 2, h / 2)
     texto(t, x + w / 2, y + h / 2, rot, 26, C_TEXT)
-ImageDraw.Draw(t).text((640, 520), '↑ ↓ escolhe   ·   Enter ou Espaço confirma   ·   Esc ou P continua   ·   M vai ao menu',
+ImageDraw.Draw(t).text((640, 520), '↑ ↓ ou W S escolhe   ·   Enter ou Espaço confirma   ·   Esc ou P continua   ·   M vai ao menu',
                        font=ImageFont.truetype(FONTE, 16), fill=(184, 189, 204, 255), anchor='mm')
 t.save('assets/image/pausa_tela.png')
 

@@ -1,19 +1,46 @@
 # Cyber Sentinel — versão Android
 
-A versão mais recente é a **v22** (`CyberSentinel-v22.apk`). Ela tem 111 MB, mais que o limite de
-arquivo do GitHub, por isso fica na página de [Releases](https://github.com/rafael85100/Jogo-ciberseguranca/releases/tag/apk-v22) e não nesta pasta.
+A versão mais recente é a **v23** (`CyberSentinel-v23.apk`). Ela tem 111 MB, mais que o limite de
+arquivo do GitHub, por isso fica na página de [Releases](https://github.com/rafael85100/Jogo-ciberseguranca/releases/tag/apk-v23) e não nesta pasta.
 `CyberSentinel-v13.apk`, nesta pasta, é a versão anterior. O port roda no **Godot 4.7.2**, com um
 runtime próprio que reproduz os eventos do projeto GDevelop (`game.json`), e traz controles de
 toque na tela.
 
 ## Instalação
 
-1. Baixe o `CyberSentinel-v22.apk` da [Release](https://github.com/rafael85100/Jogo-ciberseguranca/releases/tag/apk-v22) e copie para o celular (Android 7.0 ou
+1. Baixe o `CyberSentinel-v23.apk` da [Release](https://github.com/rafael85100/Jogo-ciberseguranca/releases/tag/apk-v23) e copie para o celular (Android 7.0 ou
    mais recente).
 2. **Se a v21 estiver instalada, desinstale antes.** A v21 foi gerada em outra máquina, com outra
-   assinatura, e o Android não deixa instalar uma por cima da outra. A v22 instala por cima da v7
-   até a v13, que usam a mesma assinatura dela. O jogo não tem save, então nada se perde.
+   assinatura, e o Android não deixa instalar uma por cima da outra. A v23 instala por cima da v22
+   e da v7 até a v13, que usam a mesma assinatura dela. O jogo não tem save, então nada se perde.
 3. Abra o APK e permita a instalação de fontes desconhecidas, se o Android pedir.
+
+## O que mudou na v23 (em relação à v22)
+
+Leva para o celular as mudanças do PC de 23 e 24/11/2026 (WASD e escudo no C são só do teclado):
+
+- **Luta final:** 4 plataformas neon atravessáveis por baixo na arena do Mysterious. O port ganhou
+  suporte a plataformas do tipo Jumpthru (`behaviors/platform.gd` e `platformer_object.gd`): só
+  seguram quem chega por cima. O chefe também sobe nelas.
+- **Chefe:** mira reta ou na diagonal (45°, para cima ou para baixo) na direção do robô, e nem
+  sempre atira (sorteio de 50 / 60 / 70% em Normal / Difícil / Insano; senão tenta de novo em 0,7 s).
+  As balas giram para onde vão e somem longe do robô.
+- **Portal** nasce no fim da arena (x 2830), não mais no lugar do chefe.
+- **Fase 2:** o `robo_z3` ganhou patrulha (ficava parado); as barras de HP do `robo_z5/z6/z7` ficam
+  em cima da cabeça (faltava o ponto da barra); os robôs não atravessam mais as caixas.
+
+Arquivos: `scripts_v23/` (`layouts/final.gd`, `layouts/cena2.gd`, `behaviors/platform.gd`,
+`behaviors/platformer_object.gd`) e `ferramentas/v23_apk.py` (textura e objeto `plataforma_neon`,
+patrulha do `robo_z3`, pontos z5/z6/z7 no `gd_objects.json`).
+
+Build da v23:
+
+```bash
+python3 ferramentas/build.py CyberSentinel-v22.apk raiz/ etapa1.apk 23      # raiz/scripts/ = scripts_v23/
+python3 ferramentas/v23_apk.py etapa1.apk ../game.json .. patch/
+python3 ferramentas/build_assets.py etapa1.apk patch/ etapa2.apk 23
+python3 ferramentas/apkv2.py sign etapa2.apk CyberSentinel-v23.apk chave.pem ferramentas/certificado.der
+```
 
 ## O que mudou na v22 (em relação à v21)
 

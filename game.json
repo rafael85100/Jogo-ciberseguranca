@@ -10279,6 +10279,14 @@
         "name": "assets/image/maquina/desligada.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "assets/image/plataforma_neon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/image/plataforma_neon.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ]
   },
@@ -42449,6 +42457,18 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "TimedBackAndForthMirroredMovement",
+              "type": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement",
+              "Flippable": "Flippable",
+              "Vertical": false,
+              "Speed": 105,
+              "Distance": 350,
+              "Timeout": 2,
+              "StartPosition": 0,
+              "LastPosition": 0,
+              "Timecheck": 0
+            },
+            {
               "name": "Tween",
               "type": "Tween::TweenBehavior"
             }
@@ -44225,6 +44245,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -44267,6 +44292,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -44309,6 +44339,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -44351,6 +44386,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -44393,6 +44433,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -44448,6 +44493,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -44490,6 +44540,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -44532,6 +44587,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -44574,6 +44634,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -44629,6 +44694,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -44671,6 +44741,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -44726,6 +44801,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -44768,6 +44848,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -44810,6 +44895,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -44865,6 +44955,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -44907,6 +45002,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -44949,6 +45049,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -44991,6 +45096,11 @@
                           "name": "z4",
                           "x": 58.5,
                           "y": 40.5
+                        },
+                        {
+                          "name": "z5",
+                          "x": 59.5,
+                          "y": 37.5
                         }
                       ],
                       "originPoint": {
@@ -45116,7 +45226,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite4",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45152,7 +45268,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite5",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45188,7 +45310,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite6",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45224,7 +45352,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite7",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45260,7 +45394,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite8",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45309,7 +45449,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite9",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45345,7 +45491,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite10",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45381,7 +45533,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite11",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45417,7 +45575,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite12",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45466,7 +45630,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite13",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45502,7 +45672,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite14",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45551,7 +45727,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite15",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45587,7 +45769,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite16",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45623,7 +45811,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite17",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45672,7 +45866,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite18",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45708,7 +45908,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite19",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45744,7 +45950,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite20",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45780,7 +45992,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite21",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z6",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45885,7 +46103,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite4",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45921,7 +46145,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite5",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45957,7 +46187,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite6",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -45993,7 +46229,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite7",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -46029,7 +46271,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite8",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -46078,7 +46326,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite9",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -46114,7 +46368,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite10",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -46150,7 +46410,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite11",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -46186,7 +46452,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite12",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -46235,7 +46507,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite13",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -46271,7 +46549,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite14",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -46320,7 +46604,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite15",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -46356,7 +46646,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite16",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -46392,7 +46688,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite17",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -46441,7 +46743,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite18",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -46477,7 +46785,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite19",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -46513,7 +46827,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite20",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -46549,7 +46869,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite21",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "z7",
+                          "x": 59.5,
+                          "y": 37.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -57839,6 +58165,16 @@
                 },
                 {
                   "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "robo_z3",
+                    "TimedBackAndForthMirroredMovement",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetXY"
                   },
                   "parameters": [
@@ -60223,6 +60559,16 @@
                 "=",
                 "2"
               ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "robo_z3",
+                "TimedBackAndForthMirroredMovement",
+                "yes"
+              ]
             }
           ],
           "events": [
@@ -62275,6 +62621,999 @@
             "includeConfig": 0
           },
           "target": "ex_robo_tiros"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Robôs não atravessam as caixas: encostou numa caixa (bloco) depois de sair da máquina, é separado dela e passa a patrulhar para o lado oposto (espelhado = anda para a esquerda).",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "robo_a",
+                "bloco",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "robo_a",
+                "estado",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "robo_a",
+                "bloco",
+                "no"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_a.BoundingBoxCenterX()",
+                    "<",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_a",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_a.BoundingBoxCenterX()",
+                    ">=",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_a",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "robo_a2",
+                "bloco",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "robo_a2",
+                "estado",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "robo_a2",
+                "bloco",
+                "no"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_a2.BoundingBoxCenterX()",
+                    "<",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_a2",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_a2.BoundingBoxCenterX()",
+                    ">=",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_a2",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "robo_a3",
+                "bloco",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "robo_a3",
+                "estado",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "robo_a3",
+                "bloco",
+                "no"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_a3.BoundingBoxCenterX()",
+                    "<",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_a3",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_a3.BoundingBoxCenterX()",
+                    ">=",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_a3",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "robo_z",
+                "bloco",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "robo_z",
+                "estado",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "robo_z",
+                "bloco",
+                "no"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_z.BoundingBoxCenterX()",
+                    "<",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_z.BoundingBoxCenterX()",
+                    ">=",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "robo_z2",
+                "bloco",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "robo_z2",
+                "estado",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "robo_z2",
+                "bloco",
+                "no"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_z2.BoundingBoxCenterX()",
+                    "<",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z2",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_z2.BoundingBoxCenterX()",
+                    ">=",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z2",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "robo_z3",
+                "bloco",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "robo_z3",
+                "estado",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "robo_z3",
+                "bloco",
+                "no"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_z3.BoundingBoxCenterX()",
+                    "<",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z3",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_z3.BoundingBoxCenterX()",
+                    ">=",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z3",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "robo_z4",
+                "bloco",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "robo_z4",
+                "estado",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "robo_z4",
+                "bloco",
+                "no"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_z4.BoundingBoxCenterX()",
+                    "<",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z4",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_z4.BoundingBoxCenterX()",
+                    ">=",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z4",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "robo_z5",
+                "bloco",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "robo_z5",
+                "estado",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "robo_z5",
+                "bloco",
+                "no"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_z5.BoundingBoxCenterX()",
+                    "<",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z5",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_z5.BoundingBoxCenterX()",
+                    ">=",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z5",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "robo_z6",
+                "bloco",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "robo_z6",
+                "estado",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "robo_z6",
+                "bloco",
+                "no"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_z6.BoundingBoxCenterX()",
+                    "<",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z6",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_z6.BoundingBoxCenterX()",
+                    ">=",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z6",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "robo_z7",
+                "bloco",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "robo_z7",
+                "estado",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "robo_z7",
+                "bloco",
+                "no"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_z7.BoundingBoxCenterX()",
+                    "<",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z7",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "robo_z7.BoundingBoxCenterX()",
+                    ">=",
+                    "bloco.BoundingBoxCenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "robo_z7",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ],
+              "events": []
+            }
+          ]
         }
       ],
       "layers": [
@@ -112301,7 +113640,7 @@
               },
               "parameters": [
                 "",
-                "\"d\""
+                "\"c\""
               ]
             },
             {
@@ -112768,6 +114107,21 @@
         },
         {
           "name": "quer_andar",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "boss_vx",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "boss_vy",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "sorteio_tiro",
           "type": "number",
           "value": 0
         }
@@ -113261,6 +114615,74 @@
           "x": 70,
           "y": 46,
           "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "depth": 0,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "plataforma_neon",
+          "persistentUuid": "153fcc97-f999-4a90-b053-95e62d51300e",
+          "width": 0,
+          "x": 480,
+          "y": 555,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "depth": 0,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "plataforma_neon",
+          "persistentUuid": "5df20f21-6bbd-4eed-9dad-684aa2211f14",
+          "width": 0,
+          "x": 760,
+          "y": 445,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "depth": 0,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "plataforma_neon",
+          "persistentUuid": "3950f13b-3f62-445a-b425-354d1f92f4bd",
+          "width": 0,
+          "x": 1040,
+          "y": 555,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "depth": 0,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "plataforma_neon",
+          "persistentUuid": "bb71d6cf-9869-44df-8769-13399bfe3dc2",
+          "width": 0,
+          "x": 1320,
+          "y": 445,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -130372,7 +131794,18 @@
           "persistentUuid": "be3356dd-54c0-4d84-a19b-9a0f35fd1562",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "vx",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "vy",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -130877,7 +132310,18 @@
           "persistentUuid": "8a108c90-a823-40b7-86c4-31b42318dee0",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "vx",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "vy",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -131374,6 +132818,75 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "plataforma_neon",
+          "persistentUuid": "38f973c5-0869-4410-b86d-435ced5491c6",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "Jumpthru",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/image/plataforma_neon.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 216,
+                            "y": 0
+                          },
+                          {
+                            "x": 216,
+                            "y": 36
+                          },
+                          {
+                            "x": 0,
+                            "y": 36
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -131645,6 +133158,9 @@
           },
           {
             "objectName": "bala_r1d2"
+          },
+          {
+            "objectName": "plataforma_neon"
           }
         ]
       },
@@ -131923,7 +133439,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Escudo na fase final (APK v21): D cria o escudo por 3 s; ele bloqueia tiros do chefe, dos drones e o soco.",
+          "comment": "Escudo na fase final (APK v21): C cria o escudo por 3 s; ele bloqueia tiros do chefe, dos drones e o soco.",
           "comment2": ""
         },
         {
@@ -131935,7 +133451,7 @@
               },
               "parameters": [
                 "",
-                "\"d\""
+                "\"c\""
               ]
             },
             {
@@ -133344,8 +134860,8 @@
               },
               "parameters": [
                 "bala_r1d",
-                "-500",
-                "0",
+                "bala_r1d.Variable(vx)",
+                "bala_r1d.Variable(vy)",
                 ""
               ]
             },
@@ -133355,8 +134871,8 @@
               },
               "parameters": [
                 "bala_r1d2",
-                "500",
-                "0",
+                "bala_r1d2.Variable(vx)",
+                "bala_r1d2.Variable(vy)",
                 ""
               ]
             },
@@ -133690,6 +135206,149 @@
           ],
           "events": [
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Mira do chefe: reto, diagonal para cima ou para baixo (45°), para o lado em que está virado.",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "boss_vx",
+                    "=",
+                    "500"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "boss_vy",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "(Player2.BoundingBoxCenterY() - Mysterious.PointY(\"arma\"))",
+                    "<",
+                    "-abs((Player2.BoundingBoxCenterX() - Mysterious.PointX(\"arma\"))) * 0.414"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "boss_vx",
+                    "=",
+                    "353.553"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "boss_vy",
+                    "=",
+                    "-353.553"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "(Player2.BoundingBoxCenterY() - Mysterious.PointY(\"arma\"))",
+                    ">",
+                    "abs((Player2.BoundingBoxCenterX() - Mysterious.PointX(\"arma\"))) * 0.414"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "boss_vx",
+                    "=",
+                    "353.553"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "boss_vy",
+                    "=",
+                    "353.553"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                  },
+                  "parameters": [
+                    "Mysterious",
+                    "Flippable"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "boss_vx",
+                    "*",
+                    "-1"
+                  ]
+                }
+              ],
+              "events": []
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -133730,6 +135389,38 @@
                     "Mysterious.PointX(\"arma\") - 32",
                     "Mysterious.PointY(\"arma\") - 32",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "bala_r1d",
+                    "vx",
+                    "=",
+                    "boss_vx"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "bala_r1d",
+                    "vy",
+                    "=",
+                    "boss_vy"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "bala_r1d",
+                    "=",
+                    "ToDeg(atan2(boss_vy, boss_vx)) - 180"
                   ]
                 },
                 {
@@ -133799,6 +135490,38 @@
                     "Mysterious.PointX(\"arma\") - 32",
                     "Mysterious.PointY(\"arma\") - 32",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "bala_r1d2",
+                    "vx",
+                    "=",
+                    "boss_vx"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "bala_r1d2",
+                    "vy",
+                    "=",
+                    "boss_vy"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "bala_r1d2",
+                    "=",
+                    "ToDeg(atan2(boss_vy, boss_vx))"
                   ]
                 },
                 {
@@ -134081,7 +135804,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "anda atrás do robô (APK v21): fica entre x 520 e 1450, pula a cada 2,2 s, quando trava ou quando o robô está acima; atira quando está perto (650 px), no chão e sem recarga",
+          "comment": "anda atrás do robô (APK v21): fica entre x 520 e 1450, pula a cada 2,2 s, quando trava ou quando o robô está acima; atira quando está perto (650 px), no chão e sem recarga. Quando a recarga acaba, só atira se o sorteio (1..100) cair até 50 + 10 * dificuldade; senão tenta de novo em 0,7 s",
           "comment2": ""
         },
         {
@@ -134368,23 +136091,80 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "atirando",
+                    "sorteio_tiro",
                     "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "atira_t",
-                    "=",
-                    "0"
+                    "RandomInRange(1, 100)"
                   ]
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "sorteio_tiro",
+                        "<=",
+                        "50 + 10 * dificuldade"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "atirando",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "atira_t",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "sorteio_tiro",
+                        ">",
+                        "50 + 10 * dificuldade"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "cd_tiro",
+                        "=",
+                        "0.7"
+                      ]
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -134578,6 +136358,116 @@
             "textR": 0
           },
           "comment": "balas do Mysterious acertam o jogador ou somem nas paredes"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "bala_r1d",
+                    "<",
+                    "-400"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "bala_r1d",
+                    ">",
+                    "Player2.X() + 2000"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "bala_r1d",
+                    "<",
+                    "Player2.X() - 2000"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "bala_r1d",
+                ""
+              ]
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "bala_r1d2",
+                    "<",
+                    "-400"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "bala_r1d2",
+                    ">",
+                    "Player2.X() + 2000"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "bala_r1d2",
+                    "<",
+                    "Player2.X() - 2000"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "bala_r1d2",
+                ""
+              ]
+            }
+          ],
+          "events": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -135076,6 +136966,19 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Chefe morreu: o portal aparece no fim da arena, encostado na torre de caixas (x 2830).",
+          "comment2": ""
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -135114,7 +137017,7 @@
               "parameters": [
                 "",
                 "portalF",
-                "Mysterious.BoundingBoxCenterX() - 175",
+                "2830",
                 "662 - 272",
                 ""
               ]
@@ -138329,7 +140232,7 @@
       "events": [
         {
           "type": "BuiltinCommonInstructions::JsCode",
-          "inlineCode": "// Controle (gamepad) do jogador 1 e pausa, como no APK v21. Registra uma vez so e roda antes dos\n// eventos de toda cena. Este arquivo e copiado para os eventos JavaScript do game.json por\n// ferramentas/pausa_pc.py (menu, controles e eventos externos \"Player\").\n//\n// Fases (cena1, cena2, cena3, final):\n//   - botao II (pausa_botao) no canto superior direito, Esc ou P, ou Start do controle: pausa/continua;\n//   - pausado: tempo da cena parado, teclas ignoradas, tela pausa_tela com CONTINUAR e MENU PRINCIPAL.\n//     Funciona sem mouse: setas cima/baixo escolhem (destaque pausa_sel), Enter ou Espaco confirmam,\n//     Esc ou P continuam, M vai ao menu. Controle: direcional escolhe, A confirma, B vai ao menu.\n//     O clique do mouse tambem funciona;\n//   - botoes do controle viram as teclas do teclado.\n// Submenus (dificuldade, historia, equipe, controles, cenademo): Esc volta ao menu.\n// Menus: o analogico esquerdo move um cursor (cursor_pad) e o A clica.\nif (!gdjs._cyberSentinelPad2) {\n  gdjs._cyberSentinelPad2 = true;\n  gdjs._cyberSentinelPad = true; // a versao antiga (sem pausa) nao registra de novo\n  const KEYS = { Left: 37, Up: 38, Right: 39, Space: 32, f: 70, g: 71, d: 68, r: 82, q: 81, e: 69, x: 88 };\n  const FASES = ['cena1', 'cena2', 'cena3', 'final'];\n  const SUBMENUS = ['dificuldade', 'historia', 'equipe', 'controles', 'cenademo'];\n  const DEAD = 0.5, STICK = 0.25;\n  const BOTAO_PAUSA = { x: 1230, y: 50, r: 34 };\n  const CONTINUAR = { x: 490, y: 300, w: 300, h: 70 };\n  const MENU = { x: 490, y: 400, w: 300, h: 70 };\n  const st = {\n    keys: {}, click: false, cx: 640, cy: 360, ct: 99, scene: null, cursor: null,\n    pausado: false, botao: null, tela: null, sel: null, opcao: 0, esc: false, prev: {}, tec: {},\n  };\n  window.addEventListener('keydown', function (e) {\n    if (e.repeat) return;\n    if (e.key === 'Escape' || e.key === 'p' || e.key === 'P') st.esc = true;\n    else if (e.key === 'ArrowUp') st.tec.cima = true;\n    else if (e.key === 'ArrowDown') st.tec.baixo = true;\n    else if (e.key === 'Enter' || e.key === ' ') st.tec.ok = true;\n    else if (e.key === 'm' || e.key === 'M') st.tec.menu = true;\n  });\n  const dentro = (x, y, r) => x >= r.x && x <= r.x + r.w && y >= r.y && y <= r.y + r.h;\n\n  gdjs.registerRuntimeScenePreEventsCallback(function (scene) {\n    const game = scene.getGame();\n    const im = game.getInputManager();\n    const nome = scene.getName();\n    const fase = FASES.indexOf(nome) >= 0;\n    let pad = null;\n    try {\n      const list = navigator.getGamepads ? navigator.getGamepads() : [];\n      for (const p of list) { if (p && p.connected) { pad = p; break; } }\n    } catch (e) { pad = null; }\n    const bt = (i) => !!(pad && pad.buttons[i] && pad.buttons[i].pressed);\n    const ax = (i) => (pad && pad.axes[i] !== undefined ? pad.axes[i] : 0);\n    const trig = (i) => !!(pad && pad.buttons[i] && pad.buttons[i].value > DEAD);\n    const aperta = (i) => { const now = bt(i), was = !!st.prev[i]; st.prev[i] = now; return now && !was; };\n    const startJ = aperta(9), aJ = aperta(0), bJ = aperta(1), cimaJ = aperta(12), baixoJ = aperta(13);\n    const esc = st.esc, tec = st.tec;\n    st.esc = false;\n    st.tec = {};\n\n    if (st.scene !== scene) {\n      st.scene = scene; st.cursor = null; st.ct = 99;\n      st.pausado = false; st.botao = null; st.tela = null; st.sel = null;\n    }\n\n    // ---- submenus: Esc volta ao menu ----\n    if (esc && SUBMENUS.indexOf(nome) >= 0) {\n      scene.requestChange(gdjs.SceneChangeRequest.REPLACE_SCENE, 'menu');\n      return;\n    }\n\n    // ---- pausa nas fases ----\n    if (fase) {\n      if (!st.botao) {\n        st.botao = scene.createObject('pausa_botao');\n        if (st.botao) {\n          st.botao.setLayer('GUI');\n          st.botao.setPosition(BOTAO_PAUSA.x - 36, BOTAO_PAUSA.y - 36);\n          st.botao.setZOrder(100000);\n        }\n      }\n      const soltou = im.isMouseButtonReleased(0);\n      const mx = im.getCursorX(), my = im.getCursorY();\n      let alterna = esc || startJ;\n      if (!st.pausado && soltou &&\n          Math.hypot(mx - BOTAO_PAUSA.x, my - BOTAO_PAUSA.y) <= BOTAO_PAUSA.r) alterna = true;\n      if (st.pausado) {\n        if (tec.cima || cimaJ) st.opcao = 0;\n        if (tec.baixo || baixoJ) st.opcao = 1;\n        const ok = tec.ok || aJ;\n        if ((ok && st.opcao === 0) || (soltou && dentro(mx, my, CONTINUAR))) alterna = true;\n        if (tec.menu || bJ || (ok && st.opcao === 1) || (soltou && dentro(mx, my, MENU))) {\n          scene.getTimeManager().setTimeScale(1);\n          scene.requestChange(gdjs.SceneChangeRequest.REPLACE_SCENE, 'menu');\n          return;\n        }\n      }\n      if (alterna) {\n        st.pausado = !st.pausado;\n        scene.getTimeManager().setTimeScale(st.pausado ? 0 : 1);\n        if (st.pausado && !st.tela) {\n          st.tela = scene.createObject('pausa_tela');\n          if (st.tela) { st.tela.setLayer('GUI'); st.tela.setPosition(0, 0); st.tela.setZOrder(100001); }\n        }\n        if (st.pausado && !st.sel) {\n          st.sel = scene.createObject('pausa_sel');\n          if (st.sel) { st.sel.setLayer('GUI'); st.sel.setZOrder(100002); }\n        }\n        st.opcao = 0;\n        if (st.tela) st.tela.hide(!st.pausado);\n        if (st.sel) st.sel.hide(!st.pausado);\n        if (st.botao) st.botao.hide(st.pausado);\n      }\n      if (st.pausado) {\n        if (st.sel) {\n          const r = st.opcao === 0 ? CONTINUAR : MENU;\n          st.sel.setPosition(r.x - 20, r.y - 20);\n        }\n        // solta as teclas simuladas pelo controle e ignora o teclado enquanto pausado\n        for (const k in KEYS) st.keys[k] = false;\n        im._pressedKeys.clear();\n        im._justPressedKeys.clear();\n        im._releasedKeys.clear();\n        return;\n      }\n    }\n\n    // ---- controle: botoes viram teclas nas fases ----\n    const want = {};\n    if (pad && fase) {\n      want.Left = bt(14) || ax(0) < -DEAD;\n      want.Right = bt(15) || ax(0) > DEAD;\n      want.Up = bt(12) || ax(1) < -DEAD;\n      want.Space = bt(0);\n      want.f = bt(2);\n      want.g = bt(1);\n      want.d = bt(3);\n      want.r = bt(4);\n      want.q = bt(5);\n      want.e = trig(6);\n      want.x = bt(8);\n    }\n    for (const k in KEYS) {\n      const w = !!want[k];\n      if (w && !st.keys[k]) im.onKeyPressed(KEYS[k]);\n      else if (!w && st.keys[k]) im.onKeyReleased(KEYS[k]);\n      st.keys[k] = w;\n    }\n    const vars = game.getVariables();\n    vars.get('pad_mira_cima').setNumber(pad && fase && ax(3) < -DEAD ? 1 : 0);\n    vars.get('pad_mira_esq').setNumber(pad && fase && ax(2) < -DEAD ? 1 : 0);\n    vars.get('pad_mira_dir').setNumber(pad && fase && ax(2) > DEAD ? 1 : 0);\n\n    // ---- cursor do controle nos menus ----\n    let vx = 0, vy = 0;\n    if (pad && !fase) {\n      const sx = ax(0), sy = ax(1);\n      if (Math.hypot(sx, sy) > STICK) { vx += sx; vy += sy; }\n      if (bt(14)) vx -= 1;\n      if (bt(15)) vx += 1;\n      if (bt(12)) vy -= 1;\n      if (bt(13)) vy += 1;\n    }\n    const dt = scene.getTimeManager().getElapsedTime() / 1000;\n    if (vx !== 0 || vy !== 0) {\n      const len = Math.hypot(vx, vy), k = len > 1 ? 1 / len : 1;\n      st.cx = Math.min(1280, Math.max(0, st.cx + vx * k * 650 * dt));\n      st.cy = Math.min(720, Math.max(0, st.cy + vy * k * 650 * dt));\n      st.ct = 0;\n      im.onMouseMove(st.cx, st.cy);\n    } else {\n      st.ct += dt;\n    }\n    const click = !!pad && !fase && bt(0);\n    if (click && !st.click) { im.onMouseMove(st.cx, st.cy); im.onMouseButtonPressed(0); st.ct = 0; }\n    else if (!click && st.click) im.onMouseButtonReleased(0);\n    st.click = click;\n    const show = !!pad && !fase && st.ct < 3;\n    if (show && !st.cursor) {\n      st.cursor = scene.createObject('cursor_pad');\n      if (st.cursor) st.cursor.setZOrder(100000);\n    }\n    if (st.cursor) {\n      st.cursor.setPosition(st.cx - 16, st.cy - 16);\n      st.cursor.hide(!show);\n    }\n  });\n}\n",
+          "inlineCode": "// Controle (gamepad) do jogador 1 e pausa, como no APK v21. Registra uma vez so e roda antes dos\n// eventos de toda cena. Este arquivo e copiado para os eventos JavaScript do game.json por\n// ferramentas/pausa_pc.py (menu, controles e eventos externos \"Player\").\n//\n// Fases (cena1, cena2, cena3, final):\n//   - botao II (pausa_botao) no canto superior direito, Esc ou P, ou Start do controle: pausa/continua;\n//   - pausado: tempo da cena parado, teclas ignoradas, tela pausa_tela com CONTINUAR e MENU PRINCIPAL.\n//     Funciona sem mouse: setas cima/baixo escolhem (destaque pausa_sel), Enter ou Espaco confirmam,\n//     Esc ou P continuam, M vai ao menu. Controle: direcional escolhe, A confirma, B vai ao menu.\n//     O clique do mouse tambem funciona;\n//   - botoes do controle viram as teclas do teclado;\n//   - WASD funciona igual as setas (W = cima, A = esquerda, S = baixo, D = direita), tambem no\n//     menu de pausa. As duas fontes (seta, letra e controle) somam: soltar uma nao solta a tecla\n//     se a outra continua apertada. O escudo, que era D, passou para C.\n// Submenus (dificuldade, historia, equipe, controles, cenademo): Esc volta ao menu.\n// Menus: o analogico esquerdo move um cursor (cursor_pad) e o A clica.\nif (!gdjs._cyberSentinelPad2) {\n  gdjs._cyberSentinelPad2 = true;\n  gdjs._cyberSentinelPad = true; // a versao antiga (sem pausa) nao registra de novo\n  const KEYS = { Space: 32, f: 70, g: 71, c: 67, r: 82, q: 81, e: 69, x: 88 };\n  const SETAS = { Left: 37, Up: 38, Right: 39 };      // do controle, somadas ao teclado\n  const WASD = { 87: 38, 65: 37, 83: 40, 68: 39 };  // W A S D -> codigo da seta\n  const FASES = ['cena1', 'cena2', 'cena3', 'final'];\n  const SUBMENUS = ['dificuldade', 'historia', 'equipe', 'controles', 'cenademo'];\n  const DEAD = 0.5, STICK = 0.25;\n  const BOTAO_PAUSA = { x: 1230, y: 50, r: 34 };\n  const CONTINUAR = { x: 490, y: 300, w: 300, h: 70 };\n  const MENU = { x: 490, y: 400, w: 300, h: 70 };\n  const st = {\n    keys: {}, click: false, cx: 640, cy: 360, ct: 99, scene: null, cursor: null,\n    pausado: false, botao: null, tela: null, sel: null, opcao: 0, esc: false, prev: {}, tec: {},\n    im: null, fontes: {},\n  };\n  // ---- setas e WASD: cada seta do jogo fica apertada enquanto alguma fonte (seta, letra, controle)\n  // estiver apertada. Roda na captura da janela, antes do document.onkeydown do GDevelop.\n  const fonte = (seta, id, on) => {\n    const f = st.fontes[seta] || (st.fontes[seta] = {});\n    const antes = Object.keys(f).length > 0;\n    if (on) f[id] = true; else delete f[id];\n    const agora = Object.keys(f).length > 0;\n    if (agora && !antes) st.im.onKeyPressed(seta);\n    else if (!agora && antes) st.im.onKeyReleased(seta);\n  };\n  const setaTeclado = function (e, on) {\n    const k = e.keyCode;\n    const seta = WASD[k] || (k >= 37 && k <= 40 ? k : 0);\n    if (!seta || !st.im) return;\n    const foco = document.activeElement;\n    if (foco && foco !== document.body && foco.tagName !== 'CANVAS') return; // igual ao GDevelop\n    e.stopImmediatePropagation();\n    e.preventDefault();\n    if (on && !e.repeat) {\n      if (seta === 38) st.tec.cima = true;\n      if (seta === 40) st.tec.baixo = true;\n    }\n    fonte(seta, 'k' + k, on);\n  };\n  window.addEventListener('keydown', (e) => setaTeclado(e, true), true);\n  window.addEventListener('keyup', (e) => setaTeclado(e, false), true);\n  window.addEventListener('blur', () => {  // janela perdeu o foco: solta tudo o que somamos\n    for (const seta in st.fontes) {\n      if (st.im && Object.keys(st.fontes[seta]).length > 0) st.im.onKeyReleased(Number(seta));\n    }\n    st.fontes = {};\n    for (const k in SETAS) delete st.keys[k];\n  });\n  window.addEventListener('keydown', function (e) {\n    if (e.repeat) return;\n    if (e.key === 'Escape' || e.key === 'p' || e.key === 'P') st.esc = true;\n    else if (e.key === 'Enter' || e.key === ' ') st.tec.ok = true;\n    else if (e.key === 'm' || e.key === 'M') st.tec.menu = true;\n  });\n  const dentro = (x, y, r) => x >= r.x && x <= r.x + r.w && y >= r.y && y <= r.y + r.h;\n\n  gdjs.registerRuntimeScenePreEventsCallback(function (scene) {\n    const game = scene.getGame();\n    const im = game.getInputManager();\n    st.im = im;\n    const nome = scene.getName();\n    const fase = FASES.indexOf(nome) >= 0;\n    let pad = null;\n    try {\n      const list = navigator.getGamepads ? navigator.getGamepads() : [];\n      for (const p of list) { if (p && p.connected) { pad = p; break; } }\n    } catch (e) { pad = null; }\n    const bt = (i) => !!(pad && pad.buttons[i] && pad.buttons[i].pressed);\n    const ax = (i) => (pad && pad.axes[i] !== undefined ? pad.axes[i] : 0);\n    const trig = (i) => !!(pad && pad.buttons[i] && pad.buttons[i].value > DEAD);\n    const aperta = (i) => { const now = bt(i), was = !!st.prev[i]; st.prev[i] = now; return now && !was; };\n    const startJ = aperta(9), aJ = aperta(0), bJ = aperta(1), cimaJ = aperta(12), baixoJ = aperta(13);\n    const esc = st.esc, tec = st.tec;\n    st.esc = false;\n    st.tec = {};\n\n    if (st.scene !== scene) {\n      st.scene = scene; st.cursor = null; st.ct = 99;\n      st.pausado = false; st.botao = null; st.tela = null; st.sel = null;\n    }\n\n    // ---- submenus: Esc volta ao menu ----\n    if (esc && SUBMENUS.indexOf(nome) >= 0) {\n      scene.requestChange(gdjs.SceneChangeRequest.REPLACE_SCENE, 'menu');\n      return;\n    }\n\n    // ---- pausa nas fases ----\n    if (fase) {\n      if (!st.botao) {\n        st.botao = scene.createObject('pausa_botao');\n        if (st.botao) {\n          st.botao.setLayer('GUI');\n          st.botao.setPosition(BOTAO_PAUSA.x - 36, BOTAO_PAUSA.y - 36);\n          st.botao.setZOrder(100000);\n        }\n      }\n      const soltou = im.isMouseButtonReleased(0);\n      const mx = im.getCursorX(), my = im.getCursorY();\n      let alterna = esc || startJ;\n      if (!st.pausado && soltou &&\n          Math.hypot(mx - BOTAO_PAUSA.x, my - BOTAO_PAUSA.y) <= BOTAO_PAUSA.r) alterna = true;\n      if (st.pausado) {\n        if (tec.cima || cimaJ) st.opcao = 0;\n        if (tec.baixo || baixoJ) st.opcao = 1;\n        const ok = tec.ok || aJ;\n        if ((ok && st.opcao === 0) || (soltou && dentro(mx, my, CONTINUAR))) alterna = true;\n        if (tec.menu || bJ || (ok && st.opcao === 1) || (soltou && dentro(mx, my, MENU))) {\n          scene.getTimeManager().setTimeScale(1);\n          scene.requestChange(gdjs.SceneChangeRequest.REPLACE_SCENE, 'menu');\n          return;\n        }\n      }\n      if (alterna) {\n        st.pausado = !st.pausado;\n        scene.getTimeManager().setTimeScale(st.pausado ? 0 : 1);\n        if (st.pausado && !st.tela) {\n          st.tela = scene.createObject('pausa_tela');\n          if (st.tela) { st.tela.setLayer('GUI'); st.tela.setPosition(0, 0); st.tela.setZOrder(100001); }\n        }\n        if (st.pausado && !st.sel) {\n          st.sel = scene.createObject('pausa_sel');\n          if (st.sel) { st.sel.setLayer('GUI'); st.sel.setZOrder(100002); }\n        }\n        st.opcao = 0;\n        if (st.tela) st.tela.hide(!st.pausado);\n        if (st.sel) st.sel.hide(!st.pausado);\n        if (st.botao) st.botao.hide(st.pausado);\n      }\n      if (st.pausado) {\n        if (st.sel) {\n          const r = st.opcao === 0 ? CONTINUAR : MENU;\n          st.sel.setPosition(r.x - 20, r.y - 20);\n        }\n        // solta as teclas simuladas pelo controle e ignora o teclado enquanto pausado\n        st.keys = {};\n        st.fontes = {};\n        im._pressedKeys.clear();\n        im._justPressedKeys.clear();\n        im._releasedKeys.clear();\n        return;\n      }\n    }\n\n    // ---- controle: botoes viram teclas nas fases ----\n    const want = {};\n    if (pad && fase) {\n      want.Left = bt(14) || ax(0) < -DEAD;\n      want.Right = bt(15) || ax(0) > DEAD;\n      want.Up = bt(12) || ax(1) < -DEAD;\n      want.Space = bt(0);\n      want.f = bt(2);\n      want.g = bt(1);\n      want.c = bt(3);\n      want.r = bt(4);\n      want.q = bt(5);\n      want.e = trig(6);\n      want.x = bt(8);\n    }\n    for (const k in KEYS) {\n      const w = !!want[k];\n      if (w && !st.keys[k]) im.onKeyPressed(KEYS[k]);\n      else if (!w && st.keys[k]) im.onKeyReleased(KEYS[k]);\n      st.keys[k] = w;\n    }\n    for (const k in SETAS) {\n      const w = !!want[k];\n      if (w !== !!st.keys[k]) fonte(SETAS[k], 'pad', w);\n      st.keys[k] = w;\n    }\n    const vars = game.getVariables();\n    vars.get('pad_mira_cima').setNumber(pad && fase && ax(3) < -DEAD ? 1 : 0);\n    vars.get('pad_mira_esq').setNumber(pad && fase && ax(2) < -DEAD ? 1 : 0);\n    vars.get('pad_mira_dir').setNumber(pad && fase && ax(2) > DEAD ? 1 : 0);\n\n    // ---- cursor do controle nos menus ----\n    let vx = 0, vy = 0;\n    if (pad && !fase) {\n      const sx = ax(0), sy = ax(1);\n      if (Math.hypot(sx, sy) > STICK) { vx += sx; vy += sy; }\n      if (bt(14)) vx -= 1;\n      if (bt(15)) vx += 1;\n      if (bt(12)) vy -= 1;\n      if (bt(13)) vy += 1;\n    }\n    const dt = scene.getTimeManager().getElapsedTime() / 1000;\n    if (vx !== 0 || vy !== 0) {\n      const len = Math.hypot(vx, vy), k = len > 1 ? 1 / len : 1;\n      st.cx = Math.min(1280, Math.max(0, st.cx + vx * k * 650 * dt));\n      st.cy = Math.min(720, Math.max(0, st.cy + vy * k * 650 * dt));\n      st.ct = 0;\n      im.onMouseMove(st.cx, st.cy);\n    } else {\n      st.ct += dt;\n    }\n    const click = !!pad && !fase && bt(0);\n    if (click && !st.click) { im.onMouseMove(st.cx, st.cy); im.onMouseButtonPressed(0); st.ct = 0; }\n    else if (!click && st.click) im.onMouseButtonReleased(0);\n    st.click = click;\n    const show = !!pad && !fase && st.ct < 3;\n    if (show && !st.cursor) {\n      st.cursor = scene.createObject('cursor_pad');\n      if (st.cursor) st.cursor.setZOrder(100000);\n    }\n    if (st.cursor) {\n      st.cursor.setPosition(st.cx - 16, st.cy - 16);\n      st.cursor.hide(!show);\n    }\n  });\n}\n",
           "parameterObjects": "",
           "useStrict": true,
           "eventsSheetExpanded": false
@@ -140943,7 +142846,7 @@
       "events": [
         {
           "type": "BuiltinCommonInstructions::JsCode",
-          "inlineCode": "// Controle (gamepad) do jogador 1 e pausa, como no APK v21. Registra uma vez so e roda antes dos\n// eventos de toda cena. Este arquivo e copiado para os eventos JavaScript do game.json por\n// ferramentas/pausa_pc.py (menu, controles e eventos externos \"Player\").\n//\n// Fases (cena1, cena2, cena3, final):\n//   - botao II (pausa_botao) no canto superior direito, Esc ou P, ou Start do controle: pausa/continua;\n//   - pausado: tempo da cena parado, teclas ignoradas, tela pausa_tela com CONTINUAR e MENU PRINCIPAL.\n//     Funciona sem mouse: setas cima/baixo escolhem (destaque pausa_sel), Enter ou Espaco confirmam,\n//     Esc ou P continuam, M vai ao menu. Controle: direcional escolhe, A confirma, B vai ao menu.\n//     O clique do mouse tambem funciona;\n//   - botoes do controle viram as teclas do teclado.\n// Submenus (dificuldade, historia, equipe, controles, cenademo): Esc volta ao menu.\n// Menus: o analogico esquerdo move um cursor (cursor_pad) e o A clica.\nif (!gdjs._cyberSentinelPad2) {\n  gdjs._cyberSentinelPad2 = true;\n  gdjs._cyberSentinelPad = true; // a versao antiga (sem pausa) nao registra de novo\n  const KEYS = { Left: 37, Up: 38, Right: 39, Space: 32, f: 70, g: 71, d: 68, r: 82, q: 81, e: 69, x: 88 };\n  const FASES = ['cena1', 'cena2', 'cena3', 'final'];\n  const SUBMENUS = ['dificuldade', 'historia', 'equipe', 'controles', 'cenademo'];\n  const DEAD = 0.5, STICK = 0.25;\n  const BOTAO_PAUSA = { x: 1230, y: 50, r: 34 };\n  const CONTINUAR = { x: 490, y: 300, w: 300, h: 70 };\n  const MENU = { x: 490, y: 400, w: 300, h: 70 };\n  const st = {\n    keys: {}, click: false, cx: 640, cy: 360, ct: 99, scene: null, cursor: null,\n    pausado: false, botao: null, tela: null, sel: null, opcao: 0, esc: false, prev: {}, tec: {},\n  };\n  window.addEventListener('keydown', function (e) {\n    if (e.repeat) return;\n    if (e.key === 'Escape' || e.key === 'p' || e.key === 'P') st.esc = true;\n    else if (e.key === 'ArrowUp') st.tec.cima = true;\n    else if (e.key === 'ArrowDown') st.tec.baixo = true;\n    else if (e.key === 'Enter' || e.key === ' ') st.tec.ok = true;\n    else if (e.key === 'm' || e.key === 'M') st.tec.menu = true;\n  });\n  const dentro = (x, y, r) => x >= r.x && x <= r.x + r.w && y >= r.y && y <= r.y + r.h;\n\n  gdjs.registerRuntimeScenePreEventsCallback(function (scene) {\n    const game = scene.getGame();\n    const im = game.getInputManager();\n    const nome = scene.getName();\n    const fase = FASES.indexOf(nome) >= 0;\n    let pad = null;\n    try {\n      const list = navigator.getGamepads ? navigator.getGamepads() : [];\n      for (const p of list) { if (p && p.connected) { pad = p; break; } }\n    } catch (e) { pad = null; }\n    const bt = (i) => !!(pad && pad.buttons[i] && pad.buttons[i].pressed);\n    const ax = (i) => (pad && pad.axes[i] !== undefined ? pad.axes[i] : 0);\n    const trig = (i) => !!(pad && pad.buttons[i] && pad.buttons[i].value > DEAD);\n    const aperta = (i) => { const now = bt(i), was = !!st.prev[i]; st.prev[i] = now; return now && !was; };\n    const startJ = aperta(9), aJ = aperta(0), bJ = aperta(1), cimaJ = aperta(12), baixoJ = aperta(13);\n    const esc = st.esc, tec = st.tec;\n    st.esc = false;\n    st.tec = {};\n\n    if (st.scene !== scene) {\n      st.scene = scene; st.cursor = null; st.ct = 99;\n      st.pausado = false; st.botao = null; st.tela = null; st.sel = null;\n    }\n\n    // ---- submenus: Esc volta ao menu ----\n    if (esc && SUBMENUS.indexOf(nome) >= 0) {\n      scene.requestChange(gdjs.SceneChangeRequest.REPLACE_SCENE, 'menu');\n      return;\n    }\n\n    // ---- pausa nas fases ----\n    if (fase) {\n      if (!st.botao) {\n        st.botao = scene.createObject('pausa_botao');\n        if (st.botao) {\n          st.botao.setLayer('GUI');\n          st.botao.setPosition(BOTAO_PAUSA.x - 36, BOTAO_PAUSA.y - 36);\n          st.botao.setZOrder(100000);\n        }\n      }\n      const soltou = im.isMouseButtonReleased(0);\n      const mx = im.getCursorX(), my = im.getCursorY();\n      let alterna = esc || startJ;\n      if (!st.pausado && soltou &&\n          Math.hypot(mx - BOTAO_PAUSA.x, my - BOTAO_PAUSA.y) <= BOTAO_PAUSA.r) alterna = true;\n      if (st.pausado) {\n        if (tec.cima || cimaJ) st.opcao = 0;\n        if (tec.baixo || baixoJ) st.opcao = 1;\n        const ok = tec.ok || aJ;\n        if ((ok && st.opcao === 0) || (soltou && dentro(mx, my, CONTINUAR))) alterna = true;\n        if (tec.menu || bJ || (ok && st.opcao === 1) || (soltou && dentro(mx, my, MENU))) {\n          scene.getTimeManager().setTimeScale(1);\n          scene.requestChange(gdjs.SceneChangeRequest.REPLACE_SCENE, 'menu');\n          return;\n        }\n      }\n      if (alterna) {\n        st.pausado = !st.pausado;\n        scene.getTimeManager().setTimeScale(st.pausado ? 0 : 1);\n        if (st.pausado && !st.tela) {\n          st.tela = scene.createObject('pausa_tela');\n          if (st.tela) { st.tela.setLayer('GUI'); st.tela.setPosition(0, 0); st.tela.setZOrder(100001); }\n        }\n        if (st.pausado && !st.sel) {\n          st.sel = scene.createObject('pausa_sel');\n          if (st.sel) { st.sel.setLayer('GUI'); st.sel.setZOrder(100002); }\n        }\n        st.opcao = 0;\n        if (st.tela) st.tela.hide(!st.pausado);\n        if (st.sel) st.sel.hide(!st.pausado);\n        if (st.botao) st.botao.hide(st.pausado);\n      }\n      if (st.pausado) {\n        if (st.sel) {\n          const r = st.opcao === 0 ? CONTINUAR : MENU;\n          st.sel.setPosition(r.x - 20, r.y - 20);\n        }\n        // solta as teclas simuladas pelo controle e ignora o teclado enquanto pausado\n        for (const k in KEYS) st.keys[k] = false;\n        im._pressedKeys.clear();\n        im._justPressedKeys.clear();\n        im._releasedKeys.clear();\n        return;\n      }\n    }\n\n    // ---- controle: botoes viram teclas nas fases ----\n    const want = {};\n    if (pad && fase) {\n      want.Left = bt(14) || ax(0) < -DEAD;\n      want.Right = bt(15) || ax(0) > DEAD;\n      want.Up = bt(12) || ax(1) < -DEAD;\n      want.Space = bt(0);\n      want.f = bt(2);\n      want.g = bt(1);\n      want.d = bt(3);\n      want.r = bt(4);\n      want.q = bt(5);\n      want.e = trig(6);\n      want.x = bt(8);\n    }\n    for (const k in KEYS) {\n      const w = !!want[k];\n      if (w && !st.keys[k]) im.onKeyPressed(KEYS[k]);\n      else if (!w && st.keys[k]) im.onKeyReleased(KEYS[k]);\n      st.keys[k] = w;\n    }\n    const vars = game.getVariables();\n    vars.get('pad_mira_cima').setNumber(pad && fase && ax(3) < -DEAD ? 1 : 0);\n    vars.get('pad_mira_esq').setNumber(pad && fase && ax(2) < -DEAD ? 1 : 0);\n    vars.get('pad_mira_dir').setNumber(pad && fase && ax(2) > DEAD ? 1 : 0);\n\n    // ---- cursor do controle nos menus ----\n    let vx = 0, vy = 0;\n    if (pad && !fase) {\n      const sx = ax(0), sy = ax(1);\n      if (Math.hypot(sx, sy) > STICK) { vx += sx; vy += sy; }\n      if (bt(14)) vx -= 1;\n      if (bt(15)) vx += 1;\n      if (bt(12)) vy -= 1;\n      if (bt(13)) vy += 1;\n    }\n    const dt = scene.getTimeManager().getElapsedTime() / 1000;\n    if (vx !== 0 || vy !== 0) {\n      const len = Math.hypot(vx, vy), k = len > 1 ? 1 / len : 1;\n      st.cx = Math.min(1280, Math.max(0, st.cx + vx * k * 650 * dt));\n      st.cy = Math.min(720, Math.max(0, st.cy + vy * k * 650 * dt));\n      st.ct = 0;\n      im.onMouseMove(st.cx, st.cy);\n    } else {\n      st.ct += dt;\n    }\n    const click = !!pad && !fase && bt(0);\n    if (click && !st.click) { im.onMouseMove(st.cx, st.cy); im.onMouseButtonPressed(0); st.ct = 0; }\n    else if (!click && st.click) im.onMouseButtonReleased(0);\n    st.click = click;\n    const show = !!pad && !fase && st.ct < 3;\n    if (show && !st.cursor) {\n      st.cursor = scene.createObject('cursor_pad');\n      if (st.cursor) st.cursor.setZOrder(100000);\n    }\n    if (st.cursor) {\n      st.cursor.setPosition(st.cx - 16, st.cy - 16);\n      st.cursor.hide(!show);\n    }\n  });\n}\n",
+          "inlineCode": "// Controle (gamepad) do jogador 1 e pausa, como no APK v21. Registra uma vez so e roda antes dos\n// eventos de toda cena. Este arquivo e copiado para os eventos JavaScript do game.json por\n// ferramentas/pausa_pc.py (menu, controles e eventos externos \"Player\").\n//\n// Fases (cena1, cena2, cena3, final):\n//   - botao II (pausa_botao) no canto superior direito, Esc ou P, ou Start do controle: pausa/continua;\n//   - pausado: tempo da cena parado, teclas ignoradas, tela pausa_tela com CONTINUAR e MENU PRINCIPAL.\n//     Funciona sem mouse: setas cima/baixo escolhem (destaque pausa_sel), Enter ou Espaco confirmam,\n//     Esc ou P continuam, M vai ao menu. Controle: direcional escolhe, A confirma, B vai ao menu.\n//     O clique do mouse tambem funciona;\n//   - botoes do controle viram as teclas do teclado;\n//   - WASD funciona igual as setas (W = cima, A = esquerda, S = baixo, D = direita), tambem no\n//     menu de pausa. As duas fontes (seta, letra e controle) somam: soltar uma nao solta a tecla\n//     se a outra continua apertada. O escudo, que era D, passou para C.\n// Submenus (dificuldade, historia, equipe, controles, cenademo): Esc volta ao menu.\n// Menus: o analogico esquerdo move um cursor (cursor_pad) e o A clica.\nif (!gdjs._cyberSentinelPad2) {\n  gdjs._cyberSentinelPad2 = true;\n  gdjs._cyberSentinelPad = true; // a versao antiga (sem pausa) nao registra de novo\n  const KEYS = { Space: 32, f: 70, g: 71, c: 67, r: 82, q: 81, e: 69, x: 88 };\n  const SETAS = { Left: 37, Up: 38, Right: 39 };      // do controle, somadas ao teclado\n  const WASD = { 87: 38, 65: 37, 83: 40, 68: 39 };  // W A S D -> codigo da seta\n  const FASES = ['cena1', 'cena2', 'cena3', 'final'];\n  const SUBMENUS = ['dificuldade', 'historia', 'equipe', 'controles', 'cenademo'];\n  const DEAD = 0.5, STICK = 0.25;\n  const BOTAO_PAUSA = { x: 1230, y: 50, r: 34 };\n  const CONTINUAR = { x: 490, y: 300, w: 300, h: 70 };\n  const MENU = { x: 490, y: 400, w: 300, h: 70 };\n  const st = {\n    keys: {}, click: false, cx: 640, cy: 360, ct: 99, scene: null, cursor: null,\n    pausado: false, botao: null, tela: null, sel: null, opcao: 0, esc: false, prev: {}, tec: {},\n    im: null, fontes: {},\n  };\n  // ---- setas e WASD: cada seta do jogo fica apertada enquanto alguma fonte (seta, letra, controle)\n  // estiver apertada. Roda na captura da janela, antes do document.onkeydown do GDevelop.\n  const fonte = (seta, id, on) => {\n    const f = st.fontes[seta] || (st.fontes[seta] = {});\n    const antes = Object.keys(f).length > 0;\n    if (on) f[id] = true; else delete f[id];\n    const agora = Object.keys(f).length > 0;\n    if (agora && !antes) st.im.onKeyPressed(seta);\n    else if (!agora && antes) st.im.onKeyReleased(seta);\n  };\n  const setaTeclado = function (e, on) {\n    const k = e.keyCode;\n    const seta = WASD[k] || (k >= 37 && k <= 40 ? k : 0);\n    if (!seta || !st.im) return;\n    const foco = document.activeElement;\n    if (foco && foco !== document.body && foco.tagName !== 'CANVAS') return; // igual ao GDevelop\n    e.stopImmediatePropagation();\n    e.preventDefault();\n    if (on && !e.repeat) {\n      if (seta === 38) st.tec.cima = true;\n      if (seta === 40) st.tec.baixo = true;\n    }\n    fonte(seta, 'k' + k, on);\n  };\n  window.addEventListener('keydown', (e) => setaTeclado(e, true), true);\n  window.addEventListener('keyup', (e) => setaTeclado(e, false), true);\n  window.addEventListener('blur', () => {  // janela perdeu o foco: solta tudo o que somamos\n    for (const seta in st.fontes) {\n      if (st.im && Object.keys(st.fontes[seta]).length > 0) st.im.onKeyReleased(Number(seta));\n    }\n    st.fontes = {};\n    for (const k in SETAS) delete st.keys[k];\n  });\n  window.addEventListener('keydown', function (e) {\n    if (e.repeat) return;\n    if (e.key === 'Escape' || e.key === 'p' || e.key === 'P') st.esc = true;\n    else if (e.key === 'Enter' || e.key === ' ') st.tec.ok = true;\n    else if (e.key === 'm' || e.key === 'M') st.tec.menu = true;\n  });\n  const dentro = (x, y, r) => x >= r.x && x <= r.x + r.w && y >= r.y && y <= r.y + r.h;\n\n  gdjs.registerRuntimeScenePreEventsCallback(function (scene) {\n    const game = scene.getGame();\n    const im = game.getInputManager();\n    st.im = im;\n    const nome = scene.getName();\n    const fase = FASES.indexOf(nome) >= 0;\n    let pad = null;\n    try {\n      const list = navigator.getGamepads ? navigator.getGamepads() : [];\n      for (const p of list) { if (p && p.connected) { pad = p; break; } }\n    } catch (e) { pad = null; }\n    const bt = (i) => !!(pad && pad.buttons[i] && pad.buttons[i].pressed);\n    const ax = (i) => (pad && pad.axes[i] !== undefined ? pad.axes[i] : 0);\n    const trig = (i) => !!(pad && pad.buttons[i] && pad.buttons[i].value > DEAD);\n    const aperta = (i) => { const now = bt(i), was = !!st.prev[i]; st.prev[i] = now; return now && !was; };\n    const startJ = aperta(9), aJ = aperta(0), bJ = aperta(1), cimaJ = aperta(12), baixoJ = aperta(13);\n    const esc = st.esc, tec = st.tec;\n    st.esc = false;\n    st.tec = {};\n\n    if (st.scene !== scene) {\n      st.scene = scene; st.cursor = null; st.ct = 99;\n      st.pausado = false; st.botao = null; st.tela = null; st.sel = null;\n    }\n\n    // ---- submenus: Esc volta ao menu ----\n    if (esc && SUBMENUS.indexOf(nome) >= 0) {\n      scene.requestChange(gdjs.SceneChangeRequest.REPLACE_SCENE, 'menu');\n      return;\n    }\n\n    // ---- pausa nas fases ----\n    if (fase) {\n      if (!st.botao) {\n        st.botao = scene.createObject('pausa_botao');\n        if (st.botao) {\n          st.botao.setLayer('GUI');\n          st.botao.setPosition(BOTAO_PAUSA.x - 36, BOTAO_PAUSA.y - 36);\n          st.botao.setZOrder(100000);\n        }\n      }\n      const soltou = im.isMouseButtonReleased(0);\n      const mx = im.getCursorX(), my = im.getCursorY();\n      let alterna = esc || startJ;\n      if (!st.pausado && soltou &&\n          Math.hypot(mx - BOTAO_PAUSA.x, my - BOTAO_PAUSA.y) <= BOTAO_PAUSA.r) alterna = true;\n      if (st.pausado) {\n        if (tec.cima || cimaJ) st.opcao = 0;\n        if (tec.baixo || baixoJ) st.opcao = 1;\n        const ok = tec.ok || aJ;\n        if ((ok && st.opcao === 0) || (soltou && dentro(mx, my, CONTINUAR))) alterna = true;\n        if (tec.menu || bJ || (ok && st.opcao === 1) || (soltou && dentro(mx, my, MENU))) {\n          scene.getTimeManager().setTimeScale(1);\n          scene.requestChange(gdjs.SceneChangeRequest.REPLACE_SCENE, 'menu');\n          return;\n        }\n      }\n      if (alterna) {\n        st.pausado = !st.pausado;\n        scene.getTimeManager().setTimeScale(st.pausado ? 0 : 1);\n        if (st.pausado && !st.tela) {\n          st.tela = scene.createObject('pausa_tela');\n          if (st.tela) { st.tela.setLayer('GUI'); st.tela.setPosition(0, 0); st.tela.setZOrder(100001); }\n        }\n        if (st.pausado && !st.sel) {\n          st.sel = scene.createObject('pausa_sel');\n          if (st.sel) { st.sel.setLayer('GUI'); st.sel.setZOrder(100002); }\n        }\n        st.opcao = 0;\n        if (st.tela) st.tela.hide(!st.pausado);\n        if (st.sel) st.sel.hide(!st.pausado);\n        if (st.botao) st.botao.hide(st.pausado);\n      }\n      if (st.pausado) {\n        if (st.sel) {\n          const r = st.opcao === 0 ? CONTINUAR : MENU;\n          st.sel.setPosition(r.x - 20, r.y - 20);\n        }\n        // solta as teclas simuladas pelo controle e ignora o teclado enquanto pausado\n        st.keys = {};\n        st.fontes = {};\n        im._pressedKeys.clear();\n        im._justPressedKeys.clear();\n        im._releasedKeys.clear();\n        return;\n      }\n    }\n\n    // ---- controle: botoes viram teclas nas fases ----\n    const want = {};\n    if (pad && fase) {\n      want.Left = bt(14) || ax(0) < -DEAD;\n      want.Right = bt(15) || ax(0) > DEAD;\n      want.Up = bt(12) || ax(1) < -DEAD;\n      want.Space = bt(0);\n      want.f = bt(2);\n      want.g = bt(1);\n      want.c = bt(3);\n      want.r = bt(4);\n      want.q = bt(5);\n      want.e = trig(6);\n      want.x = bt(8);\n    }\n    for (const k in KEYS) {\n      const w = !!want[k];\n      if (w && !st.keys[k]) im.onKeyPressed(KEYS[k]);\n      else if (!w && st.keys[k]) im.onKeyReleased(KEYS[k]);\n      st.keys[k] = w;\n    }\n    for (const k in SETAS) {\n      const w = !!want[k];\n      if (w !== !!st.keys[k]) fonte(SETAS[k], 'pad', w);\n      st.keys[k] = w;\n    }\n    const vars = game.getVariables();\n    vars.get('pad_mira_cima').setNumber(pad && fase && ax(3) < -DEAD ? 1 : 0);\n    vars.get('pad_mira_esq').setNumber(pad && fase && ax(2) < -DEAD ? 1 : 0);\n    vars.get('pad_mira_dir').setNumber(pad && fase && ax(2) > DEAD ? 1 : 0);\n\n    // ---- cursor do controle nos menus ----\n    let vx = 0, vy = 0;\n    if (pad && !fase) {\n      const sx = ax(0), sy = ax(1);\n      if (Math.hypot(sx, sy) > STICK) { vx += sx; vy += sy; }\n      if (bt(14)) vx -= 1;\n      if (bt(15)) vx += 1;\n      if (bt(12)) vy -= 1;\n      if (bt(13)) vy += 1;\n    }\n    const dt = scene.getTimeManager().getElapsedTime() / 1000;\n    if (vx !== 0 || vy !== 0) {\n      const len = Math.hypot(vx, vy), k = len > 1 ? 1 / len : 1;\n      st.cx = Math.min(1280, Math.max(0, st.cx + vx * k * 650 * dt));\n      st.cy = Math.min(720, Math.max(0, st.cy + vy * k * 650 * dt));\n      st.ct = 0;\n      im.onMouseMove(st.cx, st.cy);\n    } else {\n      st.ct += dt;\n    }\n    const click = !!pad && !fase && bt(0);\n    if (click && !st.click) { im.onMouseMove(st.cx, st.cy); im.onMouseButtonPressed(0); st.ct = 0; }\n    else if (!click && st.click) im.onMouseButtonReleased(0);\n    st.click = click;\n    const show = !!pad && !fase && st.ct < 3;\n    if (show && !st.cursor) {\n      st.cursor = scene.createObject('cursor_pad');\n      if (st.cursor) st.cursor.setZOrder(100000);\n    }\n    if (st.cursor) {\n      st.cursor.setPosition(st.cx - 16, st.cy - 16);\n      st.cursor.hide(!show);\n    }\n  });\n}\n",
           "parameterObjects": "",
           "useStrict": true,
           "eventsSheetExpanded": false
@@ -149961,7 +151864,7 @@
       "events": [
         {
           "type": "BuiltinCommonInstructions::JsCode",
-          "inlineCode": "// Controle (gamepad) do jogador 1 e pausa, como no APK v21. Registra uma vez so e roda antes dos\n// eventos de toda cena. Este arquivo e copiado para os eventos JavaScript do game.json por\n// ferramentas/pausa_pc.py (menu, controles e eventos externos \"Player\").\n//\n// Fases (cena1, cena2, cena3, final):\n//   - botao II (pausa_botao) no canto superior direito, Esc ou P, ou Start do controle: pausa/continua;\n//   - pausado: tempo da cena parado, teclas ignoradas, tela pausa_tela com CONTINUAR e MENU PRINCIPAL.\n//     Funciona sem mouse: setas cima/baixo escolhem (destaque pausa_sel), Enter ou Espaco confirmam,\n//     Esc ou P continuam, M vai ao menu. Controle: direcional escolhe, A confirma, B vai ao menu.\n//     O clique do mouse tambem funciona;\n//   - botoes do controle viram as teclas do teclado.\n// Submenus (dificuldade, historia, equipe, controles, cenademo): Esc volta ao menu.\n// Menus: o analogico esquerdo move um cursor (cursor_pad) e o A clica.\nif (!gdjs._cyberSentinelPad2) {\n  gdjs._cyberSentinelPad2 = true;\n  gdjs._cyberSentinelPad = true; // a versao antiga (sem pausa) nao registra de novo\n  const KEYS = { Left: 37, Up: 38, Right: 39, Space: 32, f: 70, g: 71, d: 68, r: 82, q: 81, e: 69, x: 88 };\n  const FASES = ['cena1', 'cena2', 'cena3', 'final'];\n  const SUBMENUS = ['dificuldade', 'historia', 'equipe', 'controles', 'cenademo'];\n  const DEAD = 0.5, STICK = 0.25;\n  const BOTAO_PAUSA = { x: 1230, y: 50, r: 34 };\n  const CONTINUAR = { x: 490, y: 300, w: 300, h: 70 };\n  const MENU = { x: 490, y: 400, w: 300, h: 70 };\n  const st = {\n    keys: {}, click: false, cx: 640, cy: 360, ct: 99, scene: null, cursor: null,\n    pausado: false, botao: null, tela: null, sel: null, opcao: 0, esc: false, prev: {}, tec: {},\n  };\n  window.addEventListener('keydown', function (e) {\n    if (e.repeat) return;\n    if (e.key === 'Escape' || e.key === 'p' || e.key === 'P') st.esc = true;\n    else if (e.key === 'ArrowUp') st.tec.cima = true;\n    else if (e.key === 'ArrowDown') st.tec.baixo = true;\n    else if (e.key === 'Enter' || e.key === ' ') st.tec.ok = true;\n    else if (e.key === 'm' || e.key === 'M') st.tec.menu = true;\n  });\n  const dentro = (x, y, r) => x >= r.x && x <= r.x + r.w && y >= r.y && y <= r.y + r.h;\n\n  gdjs.registerRuntimeScenePreEventsCallback(function (scene) {\n    const game = scene.getGame();\n    const im = game.getInputManager();\n    const nome = scene.getName();\n    const fase = FASES.indexOf(nome) >= 0;\n    let pad = null;\n    try {\n      const list = navigator.getGamepads ? navigator.getGamepads() : [];\n      for (const p of list) { if (p && p.connected) { pad = p; break; } }\n    } catch (e) { pad = null; }\n    const bt = (i) => !!(pad && pad.buttons[i] && pad.buttons[i].pressed);\n    const ax = (i) => (pad && pad.axes[i] !== undefined ? pad.axes[i] : 0);\n    const trig = (i) => !!(pad && pad.buttons[i] && pad.buttons[i].value > DEAD);\n    const aperta = (i) => { const now = bt(i), was = !!st.prev[i]; st.prev[i] = now; return now && !was; };\n    const startJ = aperta(9), aJ = aperta(0), bJ = aperta(1), cimaJ = aperta(12), baixoJ = aperta(13);\n    const esc = st.esc, tec = st.tec;\n    st.esc = false;\n    st.tec = {};\n\n    if (st.scene !== scene) {\n      st.scene = scene; st.cursor = null; st.ct = 99;\n      st.pausado = false; st.botao = null; st.tela = null; st.sel = null;\n    }\n\n    // ---- submenus: Esc volta ao menu ----\n    if (esc && SUBMENUS.indexOf(nome) >= 0) {\n      scene.requestChange(gdjs.SceneChangeRequest.REPLACE_SCENE, 'menu');\n      return;\n    }\n\n    // ---- pausa nas fases ----\n    if (fase) {\n      if (!st.botao) {\n        st.botao = scene.createObject('pausa_botao');\n        if (st.botao) {\n          st.botao.setLayer('GUI');\n          st.botao.setPosition(BOTAO_PAUSA.x - 36, BOTAO_PAUSA.y - 36);\n          st.botao.setZOrder(100000);\n        }\n      }\n      const soltou = im.isMouseButtonReleased(0);\n      const mx = im.getCursorX(), my = im.getCursorY();\n      let alterna = esc || startJ;\n      if (!st.pausado && soltou &&\n          Math.hypot(mx - BOTAO_PAUSA.x, my - BOTAO_PAUSA.y) <= BOTAO_PAUSA.r) alterna = true;\n      if (st.pausado) {\n        if (tec.cima || cimaJ) st.opcao = 0;\n        if (tec.baixo || baixoJ) st.opcao = 1;\n        const ok = tec.ok || aJ;\n        if ((ok && st.opcao === 0) || (soltou && dentro(mx, my, CONTINUAR))) alterna = true;\n        if (tec.menu || bJ || (ok && st.opcao === 1) || (soltou && dentro(mx, my, MENU))) {\n          scene.getTimeManager().setTimeScale(1);\n          scene.requestChange(gdjs.SceneChangeRequest.REPLACE_SCENE, 'menu');\n          return;\n        }\n      }\n      if (alterna) {\n        st.pausado = !st.pausado;\n        scene.getTimeManager().setTimeScale(st.pausado ? 0 : 1);\n        if (st.pausado && !st.tela) {\n          st.tela = scene.createObject('pausa_tela');\n          if (st.tela) { st.tela.setLayer('GUI'); st.tela.setPosition(0, 0); st.tela.setZOrder(100001); }\n        }\n        if (st.pausado && !st.sel) {\n          st.sel = scene.createObject('pausa_sel');\n          if (st.sel) { st.sel.setLayer('GUI'); st.sel.setZOrder(100002); }\n        }\n        st.opcao = 0;\n        if (st.tela) st.tela.hide(!st.pausado);\n        if (st.sel) st.sel.hide(!st.pausado);\n        if (st.botao) st.botao.hide(st.pausado);\n      }\n      if (st.pausado) {\n        if (st.sel) {\n          const r = st.opcao === 0 ? CONTINUAR : MENU;\n          st.sel.setPosition(r.x - 20, r.y - 20);\n        }\n        // solta as teclas simuladas pelo controle e ignora o teclado enquanto pausado\n        for (const k in KEYS) st.keys[k] = false;\n        im._pressedKeys.clear();\n        im._justPressedKeys.clear();\n        im._releasedKeys.clear();\n        return;\n      }\n    }\n\n    // ---- controle: botoes viram teclas nas fases ----\n    const want = {};\n    if (pad && fase) {\n      want.Left = bt(14) || ax(0) < -DEAD;\n      want.Right = bt(15) || ax(0) > DEAD;\n      want.Up = bt(12) || ax(1) < -DEAD;\n      want.Space = bt(0);\n      want.f = bt(2);\n      want.g = bt(1);\n      want.d = bt(3);\n      want.r = bt(4);\n      want.q = bt(5);\n      want.e = trig(6);\n      want.x = bt(8);\n    }\n    for (const k in KEYS) {\n      const w = !!want[k];\n      if (w && !st.keys[k]) im.onKeyPressed(KEYS[k]);\n      else if (!w && st.keys[k]) im.onKeyReleased(KEYS[k]);\n      st.keys[k] = w;\n    }\n    const vars = game.getVariables();\n    vars.get('pad_mira_cima').setNumber(pad && fase && ax(3) < -DEAD ? 1 : 0);\n    vars.get('pad_mira_esq').setNumber(pad && fase && ax(2) < -DEAD ? 1 : 0);\n    vars.get('pad_mira_dir').setNumber(pad && fase && ax(2) > DEAD ? 1 : 0);\n\n    // ---- cursor do controle nos menus ----\n    let vx = 0, vy = 0;\n    if (pad && !fase) {\n      const sx = ax(0), sy = ax(1);\n      if (Math.hypot(sx, sy) > STICK) { vx += sx; vy += sy; }\n      if (bt(14)) vx -= 1;\n      if (bt(15)) vx += 1;\n      if (bt(12)) vy -= 1;\n      if (bt(13)) vy += 1;\n    }\n    const dt = scene.getTimeManager().getElapsedTime() / 1000;\n    if (vx !== 0 || vy !== 0) {\n      const len = Math.hypot(vx, vy), k = len > 1 ? 1 / len : 1;\n      st.cx = Math.min(1280, Math.max(0, st.cx + vx * k * 650 * dt));\n      st.cy = Math.min(720, Math.max(0, st.cy + vy * k * 650 * dt));\n      st.ct = 0;\n      im.onMouseMove(st.cx, st.cy);\n    } else {\n      st.ct += dt;\n    }\n    const click = !!pad && !fase && bt(0);\n    if (click && !st.click) { im.onMouseMove(st.cx, st.cy); im.onMouseButtonPressed(0); st.ct = 0; }\n    else if (!click && st.click) im.onMouseButtonReleased(0);\n    st.click = click;\n    const show = !!pad && !fase && st.ct < 3;\n    if (show && !st.cursor) {\n      st.cursor = scene.createObject('cursor_pad');\n      if (st.cursor) st.cursor.setZOrder(100000);\n    }\n    if (st.cursor) {\n      st.cursor.setPosition(st.cx - 16, st.cy - 16);\n      st.cursor.hide(!show);\n    }\n  });\n}\n",
+          "inlineCode": "// Controle (gamepad) do jogador 1 e pausa, como no APK v21. Registra uma vez so e roda antes dos\n// eventos de toda cena. Este arquivo e copiado para os eventos JavaScript do game.json por\n// ferramentas/pausa_pc.py (menu, controles e eventos externos \"Player\").\n//\n// Fases (cena1, cena2, cena3, final):\n//   - botao II (pausa_botao) no canto superior direito, Esc ou P, ou Start do controle: pausa/continua;\n//   - pausado: tempo da cena parado, teclas ignoradas, tela pausa_tela com CONTINUAR e MENU PRINCIPAL.\n//     Funciona sem mouse: setas cima/baixo escolhem (destaque pausa_sel), Enter ou Espaco confirmam,\n//     Esc ou P continuam, M vai ao menu. Controle: direcional escolhe, A confirma, B vai ao menu.\n//     O clique do mouse tambem funciona;\n//   - botoes do controle viram as teclas do teclado;\n//   - WASD funciona igual as setas (W = cima, A = esquerda, S = baixo, D = direita), tambem no\n//     menu de pausa. As duas fontes (seta, letra e controle) somam: soltar uma nao solta a tecla\n//     se a outra continua apertada. O escudo, que era D, passou para C.\n// Submenus (dificuldade, historia, equipe, controles, cenademo): Esc volta ao menu.\n// Menus: o analogico esquerdo move um cursor (cursor_pad) e o A clica.\nif (!gdjs._cyberSentinelPad2) {\n  gdjs._cyberSentinelPad2 = true;\n  gdjs._cyberSentinelPad = true; // a versao antiga (sem pausa) nao registra de novo\n  const KEYS = { Space: 32, f: 70, g: 71, c: 67, r: 82, q: 81, e: 69, x: 88 };\n  const SETAS = { Left: 37, Up: 38, Right: 39 };      // do controle, somadas ao teclado\n  const WASD = { 87: 38, 65: 37, 83: 40, 68: 39 };  // W A S D -> codigo da seta\n  const FASES = ['cena1', 'cena2', 'cena3', 'final'];\n  const SUBMENUS = ['dificuldade', 'historia', 'equipe', 'controles', 'cenademo'];\n  const DEAD = 0.5, STICK = 0.25;\n  const BOTAO_PAUSA = { x: 1230, y: 50, r: 34 };\n  const CONTINUAR = { x: 490, y: 300, w: 300, h: 70 };\n  const MENU = { x: 490, y: 400, w: 300, h: 70 };\n  const st = {\n    keys: {}, click: false, cx: 640, cy: 360, ct: 99, scene: null, cursor: null,\n    pausado: false, botao: null, tela: null, sel: null, opcao: 0, esc: false, prev: {}, tec: {},\n    im: null, fontes: {},\n  };\n  // ---- setas e WASD: cada seta do jogo fica apertada enquanto alguma fonte (seta, letra, controle)\n  // estiver apertada. Roda na captura da janela, antes do document.onkeydown do GDevelop.\n  const fonte = (seta, id, on) => {\n    const f = st.fontes[seta] || (st.fontes[seta] = {});\n    const antes = Object.keys(f).length > 0;\n    if (on) f[id] = true; else delete f[id];\n    const agora = Object.keys(f).length > 0;\n    if (agora && !antes) st.im.onKeyPressed(seta);\n    else if (!agora && antes) st.im.onKeyReleased(seta);\n  };\n  const setaTeclado = function (e, on) {\n    const k = e.keyCode;\n    const seta = WASD[k] || (k >= 37 && k <= 40 ? k : 0);\n    if (!seta || !st.im) return;\n    const foco = document.activeElement;\n    if (foco && foco !== document.body && foco.tagName !== 'CANVAS') return; // igual ao GDevelop\n    e.stopImmediatePropagation();\n    e.preventDefault();\n    if (on && !e.repeat) {\n      if (seta === 38) st.tec.cima = true;\n      if (seta === 40) st.tec.baixo = true;\n    }\n    fonte(seta, 'k' + k, on);\n  };\n  window.addEventListener('keydown', (e) => setaTeclado(e, true), true);\n  window.addEventListener('keyup', (e) => setaTeclado(e, false), true);\n  window.addEventListener('blur', () => {  // janela perdeu o foco: solta tudo o que somamos\n    for (const seta in st.fontes) {\n      if (st.im && Object.keys(st.fontes[seta]).length > 0) st.im.onKeyReleased(Number(seta));\n    }\n    st.fontes = {};\n    for (const k in SETAS) delete st.keys[k];\n  });\n  window.addEventListener('keydown', function (e) {\n    if (e.repeat) return;\n    if (e.key === 'Escape' || e.key === 'p' || e.key === 'P') st.esc = true;\n    else if (e.key === 'Enter' || e.key === ' ') st.tec.ok = true;\n    else if (e.key === 'm' || e.key === 'M') st.tec.menu = true;\n  });\n  const dentro = (x, y, r) => x >= r.x && x <= r.x + r.w && y >= r.y && y <= r.y + r.h;\n\n  gdjs.registerRuntimeScenePreEventsCallback(function (scene) {\n    const game = scene.getGame();\n    const im = game.getInputManager();\n    st.im = im;\n    const nome = scene.getName();\n    const fase = FASES.indexOf(nome) >= 0;\n    let pad = null;\n    try {\n      const list = navigator.getGamepads ? navigator.getGamepads() : [];\n      for (const p of list) { if (p && p.connected) { pad = p; break; } }\n    } catch (e) { pad = null; }\n    const bt = (i) => !!(pad && pad.buttons[i] && pad.buttons[i].pressed);\n    const ax = (i) => (pad && pad.axes[i] !== undefined ? pad.axes[i] : 0);\n    const trig = (i) => !!(pad && pad.buttons[i] && pad.buttons[i].value > DEAD);\n    const aperta = (i) => { const now = bt(i), was = !!st.prev[i]; st.prev[i] = now; return now && !was; };\n    const startJ = aperta(9), aJ = aperta(0), bJ = aperta(1), cimaJ = aperta(12), baixoJ = aperta(13);\n    const esc = st.esc, tec = st.tec;\n    st.esc = false;\n    st.tec = {};\n\n    if (st.scene !== scene) {\n      st.scene = scene; st.cursor = null; st.ct = 99;\n      st.pausado = false; st.botao = null; st.tela = null; st.sel = null;\n    }\n\n    // ---- submenus: Esc volta ao menu ----\n    if (esc && SUBMENUS.indexOf(nome) >= 0) {\n      scene.requestChange(gdjs.SceneChangeRequest.REPLACE_SCENE, 'menu');\n      return;\n    }\n\n    // ---- pausa nas fases ----\n    if (fase) {\n      if (!st.botao) {\n        st.botao = scene.createObject('pausa_botao');\n        if (st.botao) {\n          st.botao.setLayer('GUI');\n          st.botao.setPosition(BOTAO_PAUSA.x - 36, BOTAO_PAUSA.y - 36);\n          st.botao.setZOrder(100000);\n        }\n      }\n      const soltou = im.isMouseButtonReleased(0);\n      const mx = im.getCursorX(), my = im.getCursorY();\n      let alterna = esc || startJ;\n      if (!st.pausado && soltou &&\n          Math.hypot(mx - BOTAO_PAUSA.x, my - BOTAO_PAUSA.y) <= BOTAO_PAUSA.r) alterna = true;\n      if (st.pausado) {\n        if (tec.cima || cimaJ) st.opcao = 0;\n        if (tec.baixo || baixoJ) st.opcao = 1;\n        const ok = tec.ok || aJ;\n        if ((ok && st.opcao === 0) || (soltou && dentro(mx, my, CONTINUAR))) alterna = true;\n        if (tec.menu || bJ || (ok && st.opcao === 1) || (soltou && dentro(mx, my, MENU))) {\n          scene.getTimeManager().setTimeScale(1);\n          scene.requestChange(gdjs.SceneChangeRequest.REPLACE_SCENE, 'menu');\n          return;\n        }\n      }\n      if (alterna) {\n        st.pausado = !st.pausado;\n        scene.getTimeManager().setTimeScale(st.pausado ? 0 : 1);\n        if (st.pausado && !st.tela) {\n          st.tela = scene.createObject('pausa_tela');\n          if (st.tela) { st.tela.setLayer('GUI'); st.tela.setPosition(0, 0); st.tela.setZOrder(100001); }\n        }\n        if (st.pausado && !st.sel) {\n          st.sel = scene.createObject('pausa_sel');\n          if (st.sel) { st.sel.setLayer('GUI'); st.sel.setZOrder(100002); }\n        }\n        st.opcao = 0;\n        if (st.tela) st.tela.hide(!st.pausado);\n        if (st.sel) st.sel.hide(!st.pausado);\n        if (st.botao) st.botao.hide(st.pausado);\n      }\n      if (st.pausado) {\n        if (st.sel) {\n          const r = st.opcao === 0 ? CONTINUAR : MENU;\n          st.sel.setPosition(r.x - 20, r.y - 20);\n        }\n        // solta as teclas simuladas pelo controle e ignora o teclado enquanto pausado\n        st.keys = {};\n        st.fontes = {};\n        im._pressedKeys.clear();\n        im._justPressedKeys.clear();\n        im._releasedKeys.clear();\n        return;\n      }\n    }\n\n    // ---- controle: botoes viram teclas nas fases ----\n    const want = {};\n    if (pad && fase) {\n      want.Left = bt(14) || ax(0) < -DEAD;\n      want.Right = bt(15) || ax(0) > DEAD;\n      want.Up = bt(12) || ax(1) < -DEAD;\n      want.Space = bt(0);\n      want.f = bt(2);\n      want.g = bt(1);\n      want.c = bt(3);\n      want.r = bt(4);\n      want.q = bt(5);\n      want.e = trig(6);\n      want.x = bt(8);\n    }\n    for (const k in KEYS) {\n      const w = !!want[k];\n      if (w && !st.keys[k]) im.onKeyPressed(KEYS[k]);\n      else if (!w && st.keys[k]) im.onKeyReleased(KEYS[k]);\n      st.keys[k] = w;\n    }\n    for (const k in SETAS) {\n      const w = !!want[k];\n      if (w !== !!st.keys[k]) fonte(SETAS[k], 'pad', w);\n      st.keys[k] = w;\n    }\n    const vars = game.getVariables();\n    vars.get('pad_mira_cima').setNumber(pad && fase && ax(3) < -DEAD ? 1 : 0);\n    vars.get('pad_mira_esq').setNumber(pad && fase && ax(2) < -DEAD ? 1 : 0);\n    vars.get('pad_mira_dir').setNumber(pad && fase && ax(2) > DEAD ? 1 : 0);\n\n    // ---- cursor do controle nos menus ----\n    let vx = 0, vy = 0;\n    if (pad && !fase) {\n      const sx = ax(0), sy = ax(1);\n      if (Math.hypot(sx, sy) > STICK) { vx += sx; vy += sy; }\n      if (bt(14)) vx -= 1;\n      if (bt(15)) vx += 1;\n      if (bt(12)) vy -= 1;\n      if (bt(13)) vy += 1;\n    }\n    const dt = scene.getTimeManager().getElapsedTime() / 1000;\n    if (vx !== 0 || vy !== 0) {\n      const len = Math.hypot(vx, vy), k = len > 1 ? 1 / len : 1;\n      st.cx = Math.min(1280, Math.max(0, st.cx + vx * k * 650 * dt));\n      st.cy = Math.min(720, Math.max(0, st.cy + vy * k * 650 * dt));\n      st.ct = 0;\n      im.onMouseMove(st.cx, st.cy);\n    } else {\n      st.ct += dt;\n    }\n    const click = !!pad && !fase && bt(0);\n    if (click && !st.click) { im.onMouseMove(st.cx, st.cy); im.onMouseButtonPressed(0); st.ct = 0; }\n    else if (!click && st.click) im.onMouseButtonReleased(0);\n    st.click = click;\n    const show = !!pad && !fase && st.ct < 3;\n    if (show && !st.cursor) {\n      st.cursor = scene.createObject('cursor_pad');\n      if (st.cursor) st.cursor.setZOrder(100000);\n    }\n    if (st.cursor) {\n      st.cursor.setPosition(st.cx - 16, st.cy - 16);\n      st.cursor.hide(!show);\n    }\n  });\n}\n",
           "parameterObjects": "",
           "useStrict": true,
           "eventsSheetExpanded": false
@@ -155163,7 +157066,7 @@
                 "=",
                 "robo_z4.PointX(\"z4\")",
                 "=",
-                "robo_z2.PointY(\"z4\")"
+                "robo_z4.PointY(\"z4\")"
               ]
             },
             {
@@ -156748,7 +158651,7 @@
                 "value": "Delete"
               },
               "parameters": [
-                "robo_z",
+                "robo_z7",
                 ""
               ]
             },
@@ -158016,7 +159919,7 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
               "parameters": [
-                "robo_a",
+                "robo_a3",
                 "Animation",
                 "=",
                 "3"
